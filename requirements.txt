@@ -38,7 +38,6 @@ langgraph-prebuilt==1.0.5
 langgraph-sdk==0.3.1
 langsmith==0.5.0
 numexpr==2.14.1
-numpy==2.4.0
 orjson==3.11.5
 ormsgpack==1.12.1
 packaging==25.0
