@@ -8,8 +8,8 @@ load_dotenv()
 class agent_LLM(LLM):
     api_url: str = os.getenv("API_URL")
     api_key: str = os.getenv("API_KEY")
-    model_name: str = os.getenv("MODEL_NAME", "gpt-4")
-    provider: str = os.getenv("PROVIDER", "openai")
+    model_name: str = os.getenv("MODEL_NAME", "gemini-2.5")
+    provider: str = os.getenv("PROVIDER", "gemini")
 
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
@@ -51,3 +51,8 @@ class agent_LLM(LLM):
                 raise ValueError(f"{self.model_name} API request failed: {response.status_code} - {response.text}")
         # else:
         #     raise ValueError(f"Unsupported provider: {self.provider}")
+    def define_person(self, table, prompt):
+        """Define a person based on the provided table and prompt."""
+        prompt = prompt.format(table=table)
+        person = self._call(f"Answer the following prompt:\n{prompt}")
+        return person 

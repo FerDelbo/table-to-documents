@@ -28,7 +28,20 @@
 #     #     print(f"Generated document number {pos}")
 
 from generate_documents.custom_agent import agent_LLM
+from generate_documents.generator import Generator
 
+# define persona
 my_agent = agent_LLM()
-response = my_agent.invoke("Hello, how are you?")
+persona = my_agent.define_person(table='./data/database/battle-checkpoint.csv', prompt="./prompt/promp_persona.yaml")
+open('./personas/persona_battle-checkpoint.md', 'w', encoding='utf-8').write(persona)
+
+#generated document
+generator = Generator(
+	source='./data/database/battle-checkpoint.csv',
+	llm='gemini-2.5-flash',
+	destination='./pseudodocuments/',
+	prompt_path='./prompt/promp_define_persona.yaml',
+)
+
+response = generator.generate_document_md(question="battle-checkpoint-pseudodocument", persona=persona)
 print(response)
