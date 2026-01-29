@@ -9,11 +9,12 @@ import yaml
 load_dotenv()
 
 class Generator:
-    def __init__(self, source, llm, destination, prompt_path):
+    def __init__(self, table_representation, llm, destination, prompt_path, temperature=0.7):
         self.name_llm = llm
-        self.source = pd.read_csv(source)
+        self.table_representation = table_representation
         self.destination = destination
         self.api_key = os.getenv("GOOGLE_API_KEY")
+        self.temperature = temperature
 
         with open(prompt_path, "r", encoding="utf-8") as f:
             prompt_yaml = yaml.safe_load(f)
@@ -23,11 +24,9 @@ class Generator:
             f"{prompt_yaml['context']}\n\n"
         )
 
-    def generate_document_md(self, question=None, persona=None):
-        if question is None:
-            raise KeyError("A question must be provided to generate a document.")
-   
-        self.llm = GoogleGenerativeAI(model=self.name_llm, google_api_key=self.api_key)
+    def generate_document_md(self, persona=None):
+        
+        self.llm = GoogleGenerativeAI(model=self.name_llm, google_api_key=self.api_key, temperature=self.temperature)
         prompt_template = ChatPromptTemplate.from_template(self.prompt)
         chain = prompt_template | self.llm
         
@@ -35,7 +34,7 @@ class Generator:
         result = None
         for attempt in range(max_retries):
             try:
-                result = chain.invoke({"table": self.source.to_string(), "persona": persona})
+                result = chain.invoke({"table": self.table_representation, "persona": persona})
                 break  
             except Exception as e:
                 print(f"Attempt {attempt + 1} failed: {e}")
@@ -46,8 +45,8 @@ class Generator:
                 else:
                     print("Max retries reached. Raising exception.")
                     raise
-        
-        file_path = os.path.join(self.destination, f"{question}.md")
+        name_document = result.splitlines()[0]
+        file_path = os.path.join(self.destination, f"{name_document}.md")
         with open(file_path, "w", encoding="utf-8") as f:
             f.write(result)
         print(f"File {file_path} created successfully!")
