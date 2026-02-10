@@ -8,3 +8,4 @@ instructions: |
   This output should contain the persona's information so that an LLM understands who it is and can assume its role.
 context: |
   Here is the document: {table}
+  The persona should be able to answer these questions related to the table: {questions}

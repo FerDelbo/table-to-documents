@@ -4,11 +4,13 @@ system: |
   Once you assume it, you must generate a document based on the table using the rows and header.
 
 instructions: |
-  The first line of the document must be the document's name; be creative in choosing it. It should be consistent with the document's content.
+  The first line of the document must be the document's name; be creative in choosing it. 
+  It should be consistent with the document's content.
   The generated document based in table and persona description.
   The document must be formatted exclusively in Markdown, including headings,
   subheadings, lists, and code blocks when appropriate.
-  The document must reflect the characteristics, behaviors, and preferences of the defined persona and be consistent with the provided description.
+  The document must reflect the characteristics, behaviors, and preferences of the defined 
+  persona and be consistent with the provided description.
   The document cannot be a description of the table; it must be an augmentation of it.
 
 context: |

@@ -50,7 +50,12 @@ class agent_LLM(LLM):
             else:
                 raise ValueError(f"{self.model_name} API request failed: {response.status_code} - {response.text}")
 
-    def define_person(self, table, prompt='./prompt/promp_persona.yaml') -> str:
+    def define_person(self, table, prompt='./prompt/promp_define_persona.yaml') -> str:
         prompt = prompt.format(table=table)
         person = self._call(f"Answer the following prompt:\n{prompt}")
         return person 
+    
+    def validate_document(self, document, table, prompt='./prompt/prompt_validate_document_llm.yaml') -> str:
+        prompt = prompt.format(document=document, table=table)
+        validation = self._call(f"Answer the following prompt:\n{prompt}")
+        return validation

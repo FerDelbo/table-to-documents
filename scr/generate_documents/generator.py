@@ -24,8 +24,22 @@ class Generator:
             f"{prompt_yaml['context']}\n\n"
         )
 
-    def generate_document_md(self, persona=None):
-        
+    def generate_document_md(self, persona=None, questions=None, name_table=None):
+        if questions:
+            # table_questions = pd.read_csv('../../answer.csv')
+            table_questions = pd.read_csv('/home/fernando/Documentos/TCC/table-to-documents/answer.csv')
+            relevant_questions = table_questions[table_questions['table name'] == name_table]['question'].tolist()
+            with open('./prompt/prompt_pseudodocument_llm.yaml', "r", encoding="utf-8") as f:
+                prompt_yaml = yaml.safe_load(f)
+                questions_str = "\n".join(relevant_questions)
+                context_with_questions = prompt_yaml['context'].replace('{questions}', questions_str)
+                self.prompt = (
+                    f"{prompt_yaml['system']}\n\n"
+                    f"{prompt_yaml['instructions']}\n\n"
+                    f"{context_with_questions}\n\n"
+                )
+            print("Using question-based prompt template.")
+            
         self.llm = GoogleGenerativeAI(model=self.name_llm, google_api_key=self.api_key, temperature=self.temperature)
         prompt_template = ChatPromptTemplate.from_template(self.prompt)
         chain = prompt_template | self.llm
@@ -49,5 +63,5 @@ class Generator:
         file_path = os.path.join(self.destination, f"{name_document}.md")
         with open(file_path, "w", encoding="utf-8") as f:
             f.write(result)
-        print(f"File {file_path} created successfully!")
+        return file_path
         # time.sleep(60) # Pause to avoid rate limits
