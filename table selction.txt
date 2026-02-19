@@ -1,0 +1,23 @@
+Sample 1 - 50 documents
+"/home/fernando/Documentos/TCC/spider/database/store_1/data_csv/artists.csv",
+"/home/fernando/Documentos/TCC/spider/database/store_1/data_csv/playlists.csv",
+"/home/fernando/Documentos/TCC/spider/database/phone_1/data_csv/chip_model.csv",
+"/home/fernando/Documentos/TCC/spider/database/game_1/data_csv/Video_Games.csv",
+"/home/fernando/Documentos/TCC/spider/database/employee_hire_evaluation/data_csv/employee.csv",
+"/home/fernando/Documentos/TCC/spider/database/driving_school/data_csv/Addresses.csv",
+"/home/fernando/Documentos/TCC/spider/database/city_record/data_csv/city.csv",
+"/home/fernando/Documentos/TCC/spider/database/coffee_shop/data_csv/shop.csv",
+"/home/fernando/Documentos/TCC/spider/database/concert_singer/data_csv/stadium.csv",
+"/home/fernando/Documentos/TCC/spider/database/concert_singer/data_csv/singer.csv"
+
+Sample 2 - Sample 1 + 50 documents
+"/home/fernando/Documentos/TCC/spider/database/bike_1/data_csv/station.csv"
+"/home/fernando/Documentos/TCC/spider/database/wta_1/data_csv/matches.csv"
+"/home/fernando/Documentos/TCC/spider/database/train_station/data_csv/station.csv"
+"/home/fernando/Documentos/TCC/spider/database/theme_gallery/data_csv/artist.csv"
+"/home/fernando/Documentos/TCC/spider/database/school_player/data_csv/school.csv"
+""
+""
+""
+""
+""
