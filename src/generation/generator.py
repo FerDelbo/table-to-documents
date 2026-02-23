@@ -27,9 +27,9 @@ class Generator:
     def generate_document_md(self, persona=None, questions=None, name_table=None):
         if questions:
             # table_questions = pd.read_csv('../../answer.csv')
-            table_questions = pd.read_csv('/home/fernando/Documentos/TCC/table-to-documents/answer.csv')
+            table_questions = pd.read_csv('./data/answer.cav')
             relevant_questions = table_questions[table_questions['table name'] == name_table]['question'].tolist()
-            with open('./prompt/prompt_pseudodocument_llm.yaml', "r", encoding="utf-8") as f:
+            with open('./prompts/prompt_pseudodocument_llm.yaml', "r", encoding="utf-8") as f:
                 prompt_yaml = yaml.safe_load(f)
                 questions_str = "\n".join(relevant_questions)
                 context_with_questions = prompt_yaml['context'].replace('{questions}', questions_str)

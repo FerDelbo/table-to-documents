@@ -1,5 +1,5 @@
-from src.generate_documents.custom_agent import agent_LLM
-from src.generate_documents.generator import Generator
+from generation.agent import agent_LLM
+from src.generation.generator import Generator
 from src.table_representation import TableRepresentation
 import argparse
 from pathlib import Path
@@ -32,7 +32,7 @@ parser = argparse.ArgumentParser(description="Generate documents from a CSV sour
 parser.add_argument("--llm_model", default="gemini-3-flash-preview", help="Name of the LLM to use")
 parser.add_argument("--llm_name", default="gemini", help="Name of the LLM provider")
 parser.add_argument("--destination", default="./pseudodocuments/", help="Path to the destination directory")
-parser.add_argument("--prompt_path", default="./prompt/prompt_pseudodocument_not_question.yaml", help="Path to the prompt YAML file")
+parser.add_argument("--prompt_path", default="./prompts/prompt_pseudodocument_not_question.yaml", help="Path to the prompt YAML file")
 parser.add_argument("--question", action="store_true", help="Generate a question-based document")
 parser.add_argument("--table", help="Path to the CSV table for persona definition")
 parser.add_argument("--temperature", type=float, default=0.7, help="Sampling temperature for the LLM (0.0-1.0)")

@@ -1,11 +1,18 @@
 import subprocess
 import argparse
+import yaml
 
-def run_retrieval(tables):
+def load_config(config_file):
+    with open(config_file, 'r') as f:
+        return yaml.safe_load(f)
+
+
+def run_retrieval(tables, config):
+    representation = config['retrieval']['representation']
     for table in tables:
-        comand_line = f"--table {table} --representation {8}"
+        comand_line = f"--table {table} --representation {representation}"
         result = subprocess.run(
-            ['python', 'teste.py'] + comand_line.split() ,
+            ['python', 'retrieve.py'] + comand_line.split() ,
             capture_output=True,
             text=True
         )
@@ -13,15 +20,17 @@ def run_retrieval(tables):
         if result.returncode != 0:
             raise ValueError(f"Erro na execução {table}:", result.stderr)
 
-def generate_psedudocuments(tables):
-    temperature = [0.3, 0.5, 0.7, 0.8, 1.0]
-
+def generate_psedudocuments(tables, config):
+    temperature = config['document']['temperatures']
+    prompt_path = config['document']['prompt_path']
+    destination = config['document']['destination']
+    
     for table in tables:
         for temp in temperature:
             print("Start runner Generator pseudodocuments")
-            command = f"--table {table} --question --prompt_path ./prompt/prompt_pseudodocument_llm.yaml --destination ./data_lake/ --temperature {temp}"
+            command = f"--table {table} --question --prompt_path {prompt_path} --destination {destination} --temperature {temp}"
             result = subprocess.run(
-                ['python', 'main.py'] + command.split(),
+                ['python', 'generate.py'] + command.split(),
                 capture_output=True,
                 text=True
                         )
@@ -33,27 +42,18 @@ def generate_psedudocuments(tables):
 parser = argparse.ArgumentParser()
 parser.add_argument("--retrieval", action="store_true")
 parser.add_argument("--document", action="store_true")
+parser.add_argument("--config", type=str, default="./config.yaml", help="Path to the configuration file")
 
 args = parser.parse_args()
 
 retrieval = args.retrieval
 doc = args.document
-
-tables = [
-    "/home/fernando/Documentos/TCC/spider/database/store_1/data_csv/artists.csv",
-    "/home/fernando/Documentos/TCC/spider/database/store_1/data_csv/playlists.csv",
-    "/home/fernando/Documentos/TCC/spider/database/phone_1/data_csv/chip_model.csv",
-    "/home/fernando/Documentos/TCC/spider/database/game_1/data_csv/Video_Games.csv",
-    "/home/fernando/Documentos/TCC/spider/database/employee_hire_evaluation/data_csv/employee.csv",
-    "/home/fernando/Documentos/TCC/spider/database/driving_school/data_csv/Addresses.csv",
-    "/home/fernando/Documentos/TCC/spider/database/city_record/data_csv/city.csv",
-    "/home/fernando/Documentos/TCC/spider/database/coffee_shop/data_csv/shop.csv",
-    "/home/fernando/Documentos/TCC/spider/database/concert_singer/data_csv/stadium.csv",
-    "/home/fernando/Documentos/TCC/spider/database/concert_singer/data_csv/singer.csv"
-]
+conf = args.config
+config = load_config(conf)
+tables = config['tables']
 
 if doc:
-    generate_psedudocuments(tables)
+    generate_psedudocuments(tables, config)
 
 if retrieval:
-    run_retrieval(tables)
+    run_retrieval(tables, config)

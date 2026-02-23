@@ -1,0 +1,20 @@
+tables:
+  # - "/home/fernando/Documentos/TCC/spider/database/bike_1/data_csv/station_bike.csv"
+  # - "/home/fernando/Documentos/TCC/spider/database/wta_1/data_csv/matches.csv"
+  # - "/home/fernando/Documentos/TCC/spider/database/train_station/data_csv/station_train.csv"
+  # - "/home/fernando/Documentos/TCC/spider/database/theme_gallery/data_csv/artist.csv"
+  - "/home/fernando/Documentos/TCC/spider/database/school_player/data_csv/school.csv"
+  # - "/home/fernando/Documentos/TCC/spider/database/culture_company/data_csv/book_club.csv"
+  # - "/home/fernando/Documentos/TCC/spider/database/customer_complaints/data_csv/Staff.csv"
+  # - "/home/fernando/Documentos/TCC/spider/database/customer_deliveries/data_csv/Products.csv"
+  # - "/home/fernando/Documentos/TCC/spider/database/customers_and_addresses/data_csv/Addresses_customers.csv"
+  # - "/home/fernando/Documentos/TCC/spider/database/customers_and_invoices/data_csv/Customers.csv"
+
+document:
+  # temperatures: [0.3, 0.5, 0.7, 0.8, 1.0]
+  temperatures: [0.8, 1.0]
+  prompt_path: ./prompt/prompt_pseudodocument_llm.yaml
+  destination: ./data_lake/
+
+retrieval:
+  representation: 0

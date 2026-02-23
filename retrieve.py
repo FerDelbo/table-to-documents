@@ -1,5 +1,5 @@
 import pandas as pd
-from src.retrieval.retrieval_splade import Retrieval
+from retrieval.splade import Retrieval
 from src.table_representation import TableRepresentation
 import argparse
 from pathlib import Path
@@ -25,7 +25,7 @@ def save_results(sheet_path, table, representation, result_retrive, grouth_true,
 
 parser = argparse.ArgumentParser("Retrieval for documents")
 parser.add_argument("--table", help="Path to the CSV table for persona definition")
-parser.add_argument("--output", default='./results.csv')
+parser.add_argument("--output", default='./data/results.csv')
 parser.add_argument("--representation", type=int, help="""
                     Selection the representation using for table, only number.\n
                     0-linearized_column_wis\n
@@ -44,7 +44,7 @@ table = args.table
 output_table=args.output
 rep_position = args.representation
 
-df = pd.read_csv('./ground_truth.csv')
+df = pd.read_csv('./data/ground_truth.csv')
 
 corpus = df['Document'].to_list()
 # print(corpus)
