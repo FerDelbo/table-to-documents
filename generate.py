@@ -1,4 +1,4 @@
-from generation.agent import agent_LLM
+from src.generation.agent import agent_LLM
 from src.generation.generator import Generator
 from src.table_representation import TableRepresentation
 import argparse
@@ -6,10 +6,10 @@ from pathlib import Path
 import pyexcel as p
 
 def register_par_table_document(table_name, document_path):
-    book = p.get_book(file_name='./ground_truth.csv')
+    book = p.get_book(file_name='./data/ground_truth.csv')
     sheet = book[0]
     sheet.row += [table_name, document_path]
-    book.save_as('./ground_truth.csv')
+    book.save_as('./data/ground_truth.csv')
 
 def save_persona(table_name, persona, k=0):
     if k == 0:

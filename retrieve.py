@@ -1,11 +1,11 @@
 import pandas as pd
-from retrieval.splade import Retrieval
+from src.retrieval.splade import Retrieval
 from src.table_representation import TableRepresentation
 import argparse
 from pathlib import Path
 import pyexcel as p
 
-def save_results(sheet_path, table, representation, result_retrive, grouth_true, metrics, num_doc=50, k=5):
+def save_results(sheet_path, table, representation, result_retrive, grouth_true, metrics, num_doc=100, k=5):
     ids_retrive = [hit['corpus_id'] for hit in result_retrive[0][:]]
     
     table_name = Path(table).stem
@@ -65,7 +65,7 @@ else:
     representation = list(rep.values())
     name_rep = list(rep.keys())
     table_representantion = representation[rep_position]
-    print(table_representantion)
+    # print(table_representantion)
 
 model = Retrieval()
 model.set_splade()

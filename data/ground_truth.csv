@@ -1,74 +1,101 @@
 Table,Document
-artists,./data_lake/# The Grand Gallery of Sound: A Master’s Survey of the Eternal Composition.md
-artists,./data_lake/# The Sonic Tapestry: A Songwriter’s Map of Resonance and Roots.md
-artists,./data_lake/# The Architect’s Archive: A Curatorial Audit of the Artist Catalog.md
-artists,./data_lake/# The Taxonomy of Global Artistic Entities: A Structural Analysis of Registry 1-275.md
-artists,./data_lake/# The Audible Canvas: A Tonal Topography of the 275.md
-playlists,./data_lake/# Structural Analysis of the Digital Media Library: Catalog Audit and Taxonomy Assessment.md
-playlists,./data_lake/# Catalog Audit: Streamlining Discovery and Editorial Integrity.md
-playlists,"./data_lake/# Playlist Taxonomy Audit: Efficiency, Redundancy, and the Path to Discoverability.md"
-playlists,./data_lake/# Catalog Architecture Audit: Streamlining Discovery and Taxonomy Consistency.md
-playlists,./data_lake/# The Architect’s Audio Ledger: A Structural Analysis of My Curated Library.md
-chip_model,./data_lake/# Silicon Retrospective: The Architectural Evolution of the X-Series Handhelds (2002-2005).md
-chip_model,./data_lake/# The Architectural Evolution of Handheld Systems: A Longitudinal Analysis of the X-Series Ecosystem (2002–2005).md
-chip_model,./data_lake/# Silicon Evolution: A Longitudinal Analysis of X-Series Handheld Architecture (2002-2005).md
-chip_model,./data_lake/# Technical Retrospective: Architectural Scaling and Connectivity Convergence in Handheld Systems (2002-2005).md
-chip_model,./data_lake/# Longitudinal Technical Analysis of Mobile Compute Architectures: 2002–2005 Evaluation.md
-Video_Games,./data_lake/# Market Composition Report: A Preliminary Analysis of Current Software Distribution and Genre Viability.md
-Video_Games,./data_lake/# Market Diversification and Genre Archetypes: A Strategic Audit of the Video Game Ecosystem.md
-Video_Games,./data_lake/# Market Diversification and Genre Viability: A Strategic Portfolio Audit.md
-Video_Games,./data_lake/# High-Variance Taxonomy: A Quantitative Audit of Dataset 1-6.md
-Video_Games,./data_lake/# Market Diversification and High-Engagement Monetization: A Quantitative Assessment of Titles 1-06.md
-employee,./data_lake/# Strategic Workforce Distribution and Demographic Analysis: Q3 Personnel Audit.md
-employee,./data_lake/# Strategic Workforce Demographic Audit: Regional Concentrations and Age Distribution.md
-employee,./data_lake/# Workforce Benchmarking: A Pragmatic Analysis of Regional Talent Distribution.md
-employee,./data_lake/# Workforce Demographics: Preliminary Analysis of Employee Sample (N=10).md
-employee,./data_lake/# Workforce Demographic Mapping: Operational Density and Age Distribution Analysis.md
-Addresses,./data_lake/# Logistics & Service Area Audit: Routing Challenges in our Current Database.md
-Addresses,./data_lake/# Geographic Distribution and Integrity Audit: Regional Address Registry Analysis.md
-Addresses,./data_lake/# Strategic Logistical Audit: Address Data Integrity and National Distribution Analysis.md
-Addresses,./data_lake/# Geospatial Integrity Audit Report: `Addresses` Table Analysis (Records 1-15).md
-Addresses,./data_lake/# Logistical Integrity Report: Address Validation and Route Optimization Strategy.md
-city,./data_lake/# Statistical Compendium of Municipal Performance: Yangtze River Delta Administrative Cluster.md
-city,./data_lake/# Statistical Audit and Ledger Augmentation of Municipal Records: Dataset 001-013.md
-city,./data_lake/# Statistical Audit of the Yangtze River Delta Urban Registry.md
-city,./data_lake/# A Statistical Audit of the Municipal Registry: Demographic and Economic Distribution.md
-city,./data_lake/# Comprehensive Audit of Municipal Records: Demographic Distribution and Economic Output (Records 001-013).md
-shop,./data_lake/# Sizing Up the Local Grind: A Competitive Analysis of the Downtown Coffee Market.md
-shop,./data_lake/# Regional Portfolio Audit: Operational Efficiency and Geographic Density Report.md
-shop,./data_lake/# Sizing Up the Street: A Quality-First Audit of the Local Coffee Landscape.md
-shop,./data_lake/# Brewing Success: A Competitive Audit of the Downtown Coffee Landscape.md
-shop,./data_lake/# Brewing Success: A Competitive Landscape Analysis from the Counter of The Daily Grind.md
-stadium,./data_lake/# Comprehensive Analytical Review of Stadium Capacity and Attendance Metrics.md
-stadium,./data_lake/# Operational Feasibility Report: Regional Stadium Attendance vs. Structural Capacity.md
-stadium,./data_lake/# Logistical Optimization Report: Venue Efficiency and Capacity Utilization Analysis.md
-stadium,./data_lake/# Structural Analysis of Venue Capacity and Attendance Metrics.md
-stadium,./data_lake/# Market Realities vs. Venue Capacity: A Strategic Audit of the Scottish Regional Circuit.md
-singer,./data_lake/# Beyond the Charts: A Global Peer Analysis on Longevity and Market Penetration.md
-singer,./data_lake/# Resonance and Reach: A Reflection on Contemporary Artistic Landscapes.md
-singer,./data_lake/# The Global Echo: Analyzing Our Collective Discography and Market Footprint.md
-singer,./data_lake/# A Systematic Audit of the Singer Database Records: Demographic and Temporal Analysis.md
-singer,./data_lake/# Harmony in Longevity: A Veteran’s Analysis of the Global Chart Landscape.md
-station_bike,./data_lake/# Bay Area Bike-Share Infrastructure Audit: A Comprehensive Network Analysis.md
-station_bike,./data_lake/# Operational Blueprint: Comprehensive Infrastructure Audit of the UrbanRide Network.md
-station_bike,./data_lake/# System Infrastructure Audit: Geospatial and Capacity Analysis of the Regional Bike-Share Network.md
-station_bike,./data_lake/# Operations Report: Network Capacity and Infrastructure Lifecycle Analysis.md
-station_bike,./data_lake/# Regional Network Health Assessment & Operational Strategy Report.md
-matches,./data_lake/# The Data-Driven Court: An Analytical Decryption of WTA Tour Dynamics (2013-2017).md
-matches,./data_lake/# Strategic Performance Audit: WTA Elite Circa 2013-2017.md
-matches,./data_lake/# Beyond the Baseline: A Longitudinal Analysis of the WTA Elite Tier (2013–2017).md
-matches,./data_lake/# Strategic Performance Audit: Transition Dynamics and Surface-Specific ROI (2013-2017).md
-matches,./data_lake/# Quantifying the Power Shift: A Longitudinal Analysis of WTA Performance (2013-2017).md
-station_train,"./data_lake/# Network Node Analysis: Capacity, Throughput, and Operational Connectivity.md"
-station_train,./data_lake/# Network Throughput and Infrastructure Utilization Report: Fiscal Audit.md
-station_train,./data_lake/# Operational Audit: Tier-1 Station Throughput and Nodal Capacity.md
-station_train,./data_lake/# Operational Throughput Analysis: Hub Performance & Capacity Metrics.md
-station_train,./data_lake/# Node Analysis Report: Relational Throughput and Platform Efficiency for Primary Station Records.md
-artist,./data_lake/# Statistical Analysis of the Theme Gallery Artist Registry: A Demographic and Chronological Assessment.md
-artist,./data_lake/# The Geometry of Presence: A Study of the Seasoned Collective.md
-artist,./data_lake/# The Cartography of Seven Spirits: A Ledger of the Eternal Salon.md
-artist,./data_lake/# The Autumnal Masters: A Study in Maturity and Provenance.md
-artist,./data_lake/# The Geometry of Mastery: A Study of Seven Figures across the Modern Horizon.md
-school,./data_lake/# A Legacy of Excellence: A Comparative Analysis of Our Institutional Landscape.md
-school,./data_lake/# Institutional Benchmarking: An Analysis of the Independent Schools Cohort.md
-school,./data_lake/# St Aloysius' College: A Legacy of Excellence and Leadership in the Associated Schools.md
+artists,./pseudodocuments/# The Grand Gallery of Sound: A Master’s Survey of the Eternal Composition.md
+artists,./pseudodocuments/# The Sonic Tapestry: A Songwriter’s Map of Resonance and Roots.md
+artists,./pseudodocuments/# The Architect’s Archive: A Curatorial Audit of the Artist Catalog.md
+artists,./pseudodocuments/# The Taxonomy of Global Artistic Entities: A Structural Analysis of Registry 1-275.md
+artists,./pseudodocuments/# The Audible Canvas: A Tonal Topography of the 275.md
+playlists,./pseudodocuments/# Structural Analysis of the Digital Media Library: Catalog Audit and Taxonomy Assessment.md
+playlists,./pseudodocuments/# Catalog Audit: Streamlining Discovery and Editorial Integrity.md
+playlists,"./pseudodocuments/# Playlist Taxonomy Audit: Efficiency, Redundancy, and the Path to Discoverability.md"
+playlists,./pseudodocuments/# Catalog Architecture Audit: Streamlining Discovery and Taxonomy Consistency.md
+playlists,./pseudodocuments/# The Architect’s Audio Ledger: A Structural Analysis of My Curated Library.md
+chip_model,./pseudodocuments/# Silicon Retrospective: The Architectural Evolution of the X-Series Handhelds (2002-2005).md
+chip_model,./pseudodocuments/# The Architectural Evolution of Handheld Systems: A Longitudinal Analysis of the X-Series Ecosystem (2002–2005).md
+chip_model,./pseudodocuments/# Silicon Evolution: A Longitudinal Analysis of X-Series Handheld Architecture (2002-2005).md
+chip_model,./pseudodocuments/# Technical Retrospective: Architectural Scaling and Connectivity Convergence in Handheld Systems (2002-2005).md
+chip_model,./pseudodocuments/# Longitudinal Technical Analysis of Mobile Compute Architectures: 2002–2005 Evaluation.md
+Video_Games,./pseudodocuments/# Market Composition Report: A Preliminary Analysis of Current Software Distribution and Genre Viability.md
+Video_Games,./pseudodocuments/# Market Diversification and Genre Archetypes: A Strategic Audit of the Video Game Ecosystem.md
+Video_Games,./pseudodocuments/# Market Diversification and Genre Viability: A Strategic Portfolio Audit.md
+Video_Games,./pseudodocuments/# High-Variance Taxonomy: A Quantitative Audit of Dataset 1-6.md
+Video_Games,./pseudodocuments/# Market Diversification and High-Engagement Monetization: A Quantitative Assessment of Titles 1-06.md
+employee,./pseudodocuments/# Strategic Workforce Distribution and Demographic Analysis: Q3 Personnel Audit.md
+employee,./pseudodocuments/# Strategic Workforce Demographic Audit: Regional Concentrations and Age Distribution.md
+employee,./pseudodocuments/# Workforce Benchmarking: A Pragmatic Analysis of Regional Talent Distribution.md
+employee,./pseudodocuments/# Workforce Demographics: Preliminary Analysis of Employee Sample (N=10).md
+employee,./pseudodocuments/# Workforce Demographic Mapping: Operational Density and Age Distribution Analysis.md
+Addresses,./pseudodocuments/# Logistics & Service Area Audit: Routing Challenges in our Current Database.md
+Addresses,./pseudodocuments/# Geographic Distribution and Integrity Audit: Regional Address Registry Analysis.md
+Addresses,./pseudodocuments/# Strategic Logistical Audit: Address Data Integrity and National Distribution Analysis.md
+Addresses,./pseudodocuments/# Geospatial Integrity Audit Report: `Addresses` Table Analysis (Records 1-15).md
+Addresses,./pseudodocuments/# Logistical Integrity Report: Address Validation and Route Optimization Strategy.md
+city,./pseudodocuments/# Statistical Compendium of Municipal Performance: Yangtze River Delta Administrative Cluster.md
+city,./pseudodocuments/# Statistical Audit and Ledger Augmentation of Municipal Records: Dataset 001-013.md
+city,./pseudodocuments/# Statistical Audit of the Yangtze River Delta Urban Registry.md
+city,./pseudodocuments/# A Statistical Audit of the Municipal Registry: Demographic and Economic Distribution.md
+city,./pseudodocuments/# Comprehensive Audit of Municipal Records: Demographic Distribution and Economic Output (Records 001-013).md
+shop,./pseudodocuments/# Sizing Up the Local Grind: A Competitive Analysis of the Downtown Coffee Market.md
+shop,./pseudodocuments/# Regional Portfolio Audit: Operational Efficiency and Geographic Density Report.md
+shop,./pseudodocuments/# Sizing Up the Street: A Quality-First Audit of the Local Coffee Landscape.md
+shop,./pseudodocuments/# Brewing Success: A Competitive Audit of the Downtown Coffee Landscape.md
+shop,./pseudodocuments/# Brewing Success: A Competitive Landscape Analysis from the Counter of The Daily Grind.md
+stadium,./pseudodocuments/# Comprehensive Analytical Review of Stadium Capacity and Attendance Metrics.md
+stadium,./pseudodocuments/# Operational Feasibility Report: Regional Stadium Attendance vs. Structural Capacity.md
+stadium,./pseudodocuments/# Logistical Optimization Report: Venue Efficiency and Capacity Utilization Analysis.md
+stadium,./pseudodocuments/# Structural Analysis of Venue Capacity and Attendance Metrics.md
+stadium,./pseudodocuments/# Market Realities vs. Venue Capacity: A Strategic Audit of the Scottish Regional Circuit.md
+singer,./pseudodocuments/# Beyond the Charts: A Global Peer Analysis on Longevity and Market Penetration.md
+singer,./pseudodocuments/# Resonance and Reach: A Reflection on Contemporary Artistic Landscapes.md
+singer,./pseudodocuments/# The Global Echo: Analyzing Our Collective Discography and Market Footprint.md
+singer,./pseudodocuments/# A Systematic Audit of the Singer Database Records: Demographic and Temporal Analysis.md
+singer,./pseudodocuments/# Harmony in Longevity: A Veteran’s Analysis of the Global Chart Landscape.md
+station_bike,./pseudodocuments/# Bay Area Bike-Share Infrastructure Audit: A Comprehensive Network Analysis.md
+station_bike,./pseudodocuments/# Operational Blueprint: Comprehensive Infrastructure Audit of the UrbanRide Network.md
+station_bike,./pseudodocuments/# System Infrastructure Audit: Geospatial and Capacity Analysis of the Regional Bike-Share Network.md
+station_bike,./pseudodocuments/# Operations Report: Network Capacity and Infrastructure Lifecycle Analysis.md
+station_bike,./pseudodocuments/# Regional Network Health Assessment & Operational Strategy Report.md
+matches,./pseudodocuments/# The Data-Driven Court: An Analytical Decryption of WTA Tour Dynamics (2013-2017).md
+matches,./pseudodocuments/# Strategic Performance Audit: WTA Elite Circa 2013-2017.md
+matches,./pseudodocuments/# Beyond the Baseline: A Longitudinal Analysis of the WTA Elite Tier (2013–2017).md
+matches,./pseudodocuments/# Strategic Performance Audit: Transition Dynamics and Surface-Specific ROI (2013-2017).md
+matches,./pseudodocuments/# Quantifying the Power Shift: A Longitudinal Analysis of WTA Performance (2013-2017).md
+station_train,"./pseudodocuments/# Network Node Analysis: Capacity, Throughput, and Operational Connectivity.md"
+station_train,./pseudodocuments/# Network Throughput and Infrastructure Utilization Report: Fiscal Audit.md
+station_train,./pseudodocuments/# Operational Audit: Tier-1 Station Throughput and Nodal Capacity.md
+station_train,./pseudodocuments/# Operational Throughput Analysis: Hub Performance & Capacity Metrics.md
+station_train,./pseudodocuments/# Node Analysis Report: Relational Throughput and Platform Efficiency for Primary Station Records.md
+artist,./pseudodocuments/# Statistical Analysis of the Theme Gallery Artist Registry: A Demographic and Chronological Assessment.md
+artist,./pseudodocuments/# The Geometry of Presence: A Study of the Seasoned Collective.md
+artist,./pseudodocuments/# The Cartography of Seven Spirits: A Ledger of the Eternal Salon.md
+artist,./pseudodocuments/# The Autumnal Masters: A Study in Maturity and Provenance.md
+artist,./pseudodocuments/# The Geometry of Mastery: A Study of Seven Figures across the Modern Horizon.md
+school,./pseudodocuments/# A Legacy of Excellence: A Comparative Analysis of Our Institutional Landscape.md
+school,./pseudodocuments/# Institutional Benchmarking: An Analysis of the Independent Schools Cohort.md
+school,./pseudodocuments/# St Aloysius' College: A Legacy of Excellence and Leadership in the Associated Schools.md
+school,./pseudodocuments/# The Pillars of Tradition: A Collective Analysis of Our Institutional Identity.md
+school,./pseudodocuments/# Institutional Archetypes and Legacy Markers: A Socio-Educational Analysis of the 1929 Competition Cohort.md
+book_club,./pseudodocuments/# Decoding Our Roots: A UX Lens on the 1989-1990 Genre Awards.md
+book_club,./pseudodocuments/# Beyond the Spine: Analyzing the Narrative Landscapes of 1989-1990.md
+book_club,./pseudodocuments/# The Architecture of Representation: A Strategic Audit of the 1989-1990 Literary Landscape.md
+book_club,./pseudodocuments/# Narrative Bridges: A Strategic Review of LGBTQ+ Literary Recognition (1989-1990).md
+book_club,./pseudodocuments/# Curating Inclusivity: A Strategic Review of the 1989-1990 Genre Literature Landscape.md
+Staff,./pseudodocuments/# Front-Line Roster Audit: Ensuring Team Readiness and Communication Standards.md
+Staff,./pseudodocuments/# Internal Support Directory Audit: Optimizing Team Connectivity and Data Integrity.md
+Staff,./pseudodocuments/# Internal Review: Staff Directory Integrity and Communication Readiness (Batch 114-120).md
+Staff,./pseudodocuments/# Internal Roster Audit: Escalation Pathways and Data Integrity Risks.md
+Staff,./pseudodocuments/# Operational Audit: Internal Contact Directory Discrepancies and Escalation Readiness.md
+Products,./pseudodocuments/# Inventory Health Report: Batch Audit and Data Integrity Assessment.md
+Products,./pseudodocuments/# Inventory Audit & Valuation Analysis: Product Cohort 001-006.md
+Products,"./pseudodocuments/# Operational Inventory Audit: Valuation, Quality Control, and Logistical Risk Assessment.md"
+Products,./pseudodocuments/# Inventory State Analysis: Comprehensive Audit of Product Records 1-6.md
+Products,./pseudodocuments/# Catalog Audit Report: SKU Integrity and Pricing Discrepancies (IDs 1-6).md
+Addresses_customers,./pseudodocuments/# The Geometry of Growth: A Strategic Audit of Our National Residential Footprint.md
+Addresses_customers,./pseudodocuments/# Data Integrity Audit: Geographic Distribution and Delivery Reliability Analysis.md
+Addresses_customers,./pseudodocuments/# Optimizing the Last Mile: A Marketing Manager’s Audit of Customer Address Integrity.md
+Addresses_customers,./pseudodocuments/# Operational Audit: Logistics Efficiency and Geographic Data Integrity.md
+Addresses_customers,./pseudodocuments/# Regional Distribution Audit: Assessing Geographic Density and Address Reliability.md
+Customers,./pseudodocuments/# Artisan Bakes: Customer Database Audit & Outreach Readiness.md
+Customers,./pseudodocuments/# Data Integrity Audit: Customer Record Export (IDs 1-15).md
+Customers,./pseudodocuments/# A Client’s Review: Evaluating Account Integrity and Relationship Foundations.md
+Customers,./pseudodocuments/# CRM Audit & Operational Readiness: Assessing Our 15-Customer Baseline.md
+Customers,./pseudodocuments/# Operational Audit: Analysis of Customer Data Integrity and Regional Distribution.md
