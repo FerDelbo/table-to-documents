@@ -50,10 +50,11 @@ retrieval = args.retrieval
 doc = args.document
 conf = args.config
 config = load_config(conf)
-tables = config['tables']
 
 if doc:
-    generate_psedudocuments(tables, config)
+    tables_g = config['tables_generation']
+    generate_psedudocuments(tables_g, config)
 
 if retrieval:
-    run_retrieval(tables, config)
+    tables_r = config['tables_retrieval']
+    run_retrieval(tables_r, config)

@@ -1,5 +1,7 @@
 from langchain_google_genai import GoogleGenerativeAI
 from langchain_core.prompts import ChatPromptTemplate
+from langchain_mistralai import ChatMistralAI 
+from langchain_openai import ChatOpenAI
 import pandas as pd
 from dotenv import load_dotenv
 import os
@@ -9,11 +11,11 @@ import yaml
 load_dotenv()
 
 class Generator:
-    def __init__(self, table_representation, llm, destination, prompt_path, temperature=0.7):
-        self.name_llm = llm
+    def __init__(self, table_representation, destination, prompt_path, temperature=0.7):
+        # self.name_llm = llm
         self.table_representation = table_representation
         self.destination = destination
-        self.api_key = os.getenv("GOOGLE_API_KEY")
+        # self.api_key = os.getenv("GOOGLE_API_KEY")
         self.temperature = temperature
 
         with open(prompt_path, "r", encoding="utf-8") as f:
@@ -23,6 +25,16 @@ class Generator:
             f"{prompt_yaml['instructions']}\n\n"
             f"{prompt_yaml['context']}\n\n"
         )
+
+    def setGpt(self, model_llm):
+        self.llm = ChatOpenAI(model=model_llm, openai_api_key=os.getenv("OPENAI_API_KEY"), temperature=self.temperature)
+    
+    def setGemini(self, model_llm):
+        self.llm = GoogleGenerativeAI(model=model_llm, google_api_key=os.getenv("GOOGLE_API_KEY"), temperature=self.temperature)
+    
+    def setMistral(self, model_llm):
+        self.llm = ChatMistralAI(model=model_llm, mistral_api_key=os.getenv("MISTRAL_API_KEY"), temperature=self.temperature)
+    
 
     def generate_document_md(self, persona=None, questions=None, name_table=None):
         if questions:
@@ -40,7 +52,7 @@ class Generator:
                 )
             print("Using question-based prompt template.")
             
-        self.llm = GoogleGenerativeAI(model=self.name_llm, google_api_key=self.api_key, temperature=self.temperature)
+        # self.llm = GoogleGenerativeAI(model=self.name_llm, google_api_key=self.api_key, temperature=self.temperature)
         prompt_template = ChatPromptTemplate.from_template(self.prompt)
         chain = prompt_template | self.llm
         
@@ -64,4 +76,35 @@ class Generator:
         with open(file_path, "w", encoding="utf-8") as f:
             f.write(result)
         return file_path
-        # time.sleep(60) # Pause to avoid rate limits
+    
+    def generate_document_adversarial(self, name_table=None):
+        with open('./prompts/prompt_pseudodocument_adversarial_llm.yaml', "r", encoding="utf-8") as f:
+            prompt_yaml = yaml.safe_load(f)
+            self.prompt = (
+                f"{prompt_yaml['system']}\n\n"
+                f"{prompt_yaml['instructions']}\n\n"
+                f"{prompt_yaml['context']}\n\n"
+            )
+        prompt_template = ChatPromptTemplate.from_template(self.prompt)
+        chain = prompt_template | self.llm
+        
+        max_retries = 3
+        result = None
+        for attempt in range(max_retries):
+            try:
+                result = chain.invoke({"table_name": name_table})
+                break  
+            except Exception as e:
+                print(f"Attempt {attempt + 1} failed: {e}")
+                if attempt < max_retries - 1:
+                    sleep_time = 60 * (attempt + 1)
+                    print(f"Retrying in {sleep_time} seconds...")
+                    time.sleep(sleep_time)
+                else:
+                    print("Max retries reached. Raising exception.")
+                    raise
+        name_document = result.splitlines()[0]
+        file_path = os.path.join(self.destination, f"{name_document}.md")
+        with open(file_path, "w", encoding="utf-8") as f:
+            f.write(result)
+        return file_path

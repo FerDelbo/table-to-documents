@@ -69,7 +69,7 @@ else:
 
 model = Retrieval()
 model.set_splade()
-result = model.retrieval(documents=corpus, table=table_representantion, k=5)
+result = model.retrieval(documents=corpus, table=table_representantion, k=10)
 print(result)
 metrics = model.evaluation(ids.index)
 

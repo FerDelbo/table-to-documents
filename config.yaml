@@ -1,4 +1,4 @@
-tables:
+tables_retrieval:
   - "/home/fernando/Documentos/TCC/spider/database/store_1/data_csv/artists.csv"
   - "/home/fernando/Documentos/TCC/spider/database/store_1/data_csv/playlists.csv"
   - "/home/fernando/Documentos/TCC/spider/database/phone_1/data_csv/chip_model.csv"
@@ -20,6 +20,8 @@ tables:
   - "/home/fernando/Documentos/TCC/spider/database/customers_and_addresses/data_csv/Addresses_customers.csv"
   - "/home/fernando/Documentos/TCC/spider/database/customers_and_invoices/data_csv/Customers.csv"
 
+tables_generation:
+  - ""
 document:
   temperatures: [0.3, 0.5, 0.7, 0.8, 1.0]
   prompt_path: ./prompts/prompt_pseudodocument_llm.yaml

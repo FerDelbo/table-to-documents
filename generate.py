@@ -37,6 +37,7 @@ parser.add_argument("--question", action="store_true", help="Generate a question
 parser.add_argument("--table", help="Path to the CSV table for persona definition")
 parser.add_argument("--temperature", type=float, default=0.7, help="Sampling temperature for the LLM (0.0-1.0)")
 # parser.add_argument("--k", default=0, help="K generate documents the table")
+parser.add_argument("--adversarial", action="store_true", help="Generate an adversarial document")
 
 args = parser.parse_args()
 # source = args.source
@@ -48,6 +49,7 @@ question = args.question
 table = args.table
 # top_k = args.k
 temperature = args.temperature
+ardversarial = args.adversarial
 
 table_name = Path(table).stem
 
@@ -58,23 +60,20 @@ table_repr_str = table_representation.to_markdown()
 # # define persona
 my_agent = agent_LLM()
 persona = my_agent.define_person(table=table)
-# save_persona(table_name=table_name, persona=persona)
-# persona = get_persona(name="Alright, persona loaded. It's great to meet you. I'm Alex._basketball_match.md")
 
 #generated document
 generator = Generator(
 table_representation=table_repr_str,
-llm=llm,
+# llm=llm,
 destination=destination,
 prompt_path=prompt_path,
 temperature=temperature
 )
+generator.setGemini(model_llm=llm)
 
-response = generator.generate_document_md(persona=persona, questions=question, name_table=table_name)
-# response = open(f'/home/fernando/Documentos/TCC/table-to-documents/pseudodocuments/# The Power of the Road: Analyzing Elite Performance in the ACC Standings.md', 'r', encoding='utf-8').read()
-register_par_table_document(table_name=table_name, document_path=response)
-
-# validate = my_agent.validate_document(document=response, table=table)
-# print("Validation result:", validate)
-
-# register_par_table_document(table_name=table_name, document_path=response, validate=validate)
+if ardversarial:
+    response_adversarial = generator.generate_document_adversarial(name_table=table_name)
+    register_par_table_document(table_name=f"{table_name}_adversarial", document_path=response_adversarial)
+else:
+    response = generator.generate_document_md(persona=persona, questions=question, name_table=table_name)
+    register_par_table_document(table_name=table_name, document_path=response)
