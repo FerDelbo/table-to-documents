@@ -1,0 +1,73 @@
+import requests  
+from bs4 import BeautifulSoup  
+import pandas as pd  
+import io
+import os
+
+class Scraper:
+    def __init__(self, url, path_save="./data/wiki_doc/", path_table="./data/wiki_table/"):
+        self.url = url
+        self.path_save = path_save
+        self.path_table = path_table
+
+    def connect(self):
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                  "AppleWebKit/537.36 (KHTML, like Gecko) "
+                  "Chrome/120.0.0.0 Safari/537.36"
+        }
+        
+        response = requests.get(self.url, headers=headers)  
+        
+        if response.status_code == 200:
+            self.soup =  BeautifulSoup(response.text, "html.parser")  # Analisar e retornar o HTML
+            return self.soup
+        else:
+            print(f"Falha ao recuperar a página. Código de status: {response.status_code}")
+            return None  # Retorne None se a solicitação falhar
+
+    def extract_content(self):
+        paragraph = [p.get_text() for p in self.soup.find_all("p")] # tag <p>
+        title = self.soup.find("h1").get_text()  # tag <h1>
+        self.title = title
+        # content = [title] + paragraph  # Combina o título e os parágrafos
+        self.content = paragraph
+        return self.content
+    
+    def extract_table(self):
+        tables = []
+        for table in self.soup.find_all("table", {"class": "wikitable"}):
+            # Primeiro tente obter um título a partir da tag <caption>
+            caption = table.find("caption")
+            if caption and caption.get_text(strip=True):
+                name_table = caption.get_text(strip=True)
+            else:
+                prev = table.find_previous(["h1", "h2", "h3", "h4", "h5", "h6"])
+                name_table = prev.get_text(strip=True) if prev else None
+
+            table_html = str(table)
+            df = pd.read_html(io.StringIO(table_html))[0]
+
+            tables.append({"title": name_table, "df": df})
+
+        self.tables = tables
+        return self.tables
+    
+    def save_content(self):
+        with open(f"{self.path_save}{self.title}.md", "w", encoding="utf-8") as file:
+            for item in self.content:
+                file.write(item + "\n")
+    
+    def save_tables(self):
+        for item in self.tables:
+            df = item["df"]
+            tbl_title = item.get("title")
+            df.to_csv(f"{self.path_table}{tbl_title}.csv", index=False)
+
+    def run(self):
+        self.connect()
+        self.extract_content()
+        self.extract_table()
+        self.save_content()
+        self.save_tables()
+    
