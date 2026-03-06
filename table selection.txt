@@ -22,4 +22,6 @@ Sample 2 - Sample 1 + 50 documents
 "/home/fernando/Documentos/TCC/spider/database/customers_and_addresses/data_csv/Addresses_customers.csv"
 "/home/fernando/Documentos/TCC/spider/database/customers_and_invoices/data_csv/Customers.csv"
 
-Sample 3 - Sample 2 + 100 documents
+Sample 3 - Sample 2 + 100 documents adversarial (generated LLM)
+
+Sample 4 - Sample 3 + 50 documents Spider + 50 documents adversarial

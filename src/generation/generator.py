@@ -26,13 +26,13 @@ class Generator:
             f"{prompt_yaml['context']}\n\n"
         )
 
-    def setGpt(self, model_llm):
+    def set_gpt(self, model_llm):
         self.llm = ChatOpenAI(model=model_llm, openai_api_key=os.getenv("OPENAI_API_KEY"), temperature=self.temperature)
     
-    def setGemini(self, model_llm):
+    def set_gemini(self, model_llm):
         self.llm = GoogleGenerativeAI(model=model_llm, google_api_key=os.getenv("GOOGLE_API_KEY"), temperature=self.temperature)
     
-    def setMistral(self, model_llm):
+    def set_mistral(self, model_llm):
         self.llm = ChatMistralAI(model=model_llm, mistral_api_key=os.getenv("MISTRAL_API_KEY"), temperature=self.temperature)
     
 

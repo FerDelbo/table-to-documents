@@ -21,7 +21,39 @@ tables_retrieval:
   - "/home/fernando/Documentos/TCC/spider/database/customers_and_invoices/data_csv/Customers.csv"
 
 tables_generation:
-  - ""
+  - "/home/fernando/Documentos/TCC/spider/database/store_1/data_csv/artists.csv"
+  - "/home/fernando/Documentos/TCC/spider/database/store_1/data_csv/playlists.csv"
+  - "/home/fernando/Documentos/TCC/spider/database/phone_1/data_csv/chip_model.csv"
+  - "/home/fernando/Documentos/TCC/spider/database/game_1/data_csv/Video_Games.csv"
+  - "/home/fernando/Documentos/TCC/spider/database/employee_hire_evaluation/data_csv/employee.csv"
+  - "/home/fernando/Documentos/TCC/spider/database/driving_school/data_csv/Addresses.csv"
+  - "/home/fernando/Documentos/TCC/spider/database/city_record/data_csv/city.csv"
+  - "/home/fernando/Documentos/TCC/spider/database/coffee_shop/data_csv/shop.csv"
+  - "/home/fernando/Documentos/TCC/spider/database/concert_singer/data_csv/stadium.csv"
+  - "/home/fernando/Documentos/TCC/spider/database/concert_singer/data_csv/singer.csv"
+  - "/home/fernando/Documentos/TCC/spider/database/bike_1/data_csv/station_bike.csv"
+  - "/home/fernando/Documentos/TCC/spider/database/wta_1/data_csv/matches.csv"
+  - "/home/fernando/Documentos/TCC/spider/database/train_station/data_csv/station_train.csv"
+  - "/home/fernando/Documentos/TCC/spider/database/theme_gallery/data_csv/artist.csv"
+  - "/home/fernando/Documentos/TCC/spider/database/school_player/data_csv/school.csv"
+  - "/home/fernando/Documentos/TCC/spider/database/culture_company/data_csv/book_club.csv"
+  - "/home/fernando/Documentos/TCC/spider/database/customer_complaints/data_csv/Staff.csv"
+  - "/home/fernando/Documentos/TCC/spider/database/customer_deliveries/data_csv/Products.csv"
+  - "/home/fernando/Documentos/TCC/spider/database/customers_and_addresses/data_csv/Addresses_customers.csv"
+  - "/home/fernando/Documentos/TCC/spider/database/customers_and_invoices/data_csv/Customers.csv"
+
+urls:
+  - "https://en.wikipedia.org/wiki/Cristiano_Ronaldo"
+  - "https://en.wikipedia.org/wiki/Lionel_Messi"
+  - "https://en.wikipedia.org/wiki/Neymar"
+  - "https://en.wikipedia.org/wiki/Campeonato_Brasileiro_S%C3%A9rie_A"
+  - "https://en.wikipedia.org/wiki/AFA_Liga_Profesional_de_F%C3%BAtbol"
+  - "https://en.wikipedia.org/wiki/Campeonato_de_Portugal_(league)"
+  - "https://en.wikipedia.org/wiki/Portugal"
+  - "https://en.wikipedia.org/wiki/Brazil_national_football_team"
+  - "https://en.wikipedia.org/wiki/Argentina_national_football_team"
+
+
 document:
   temperatures: [0.3, 0.5, 0.7, 0.8, 1.0]
   prompt_path: ./prompts/prompt_pseudodocument_llm.yaml
@@ -29,3 +61,4 @@ document:
 
 retrieval:
   representation: 8
+

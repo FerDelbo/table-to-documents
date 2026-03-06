@@ -14,4 +14,9 @@ path_doc = args.path_article
 
 print("Iniciando o processo de scraping...")
 soup = Scraper(url=url, path_save=path_doc, path_table=path_table)
-soup.run()
+# soup.run()
+soup.connect()
+table = soup.extract_table()
+print("========",url,"=========")
+print(len(table))
+print("========================")

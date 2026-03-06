@@ -27,33 +27,47 @@ class Scraper:
             return None  # Retorne None se a solicitação falhar
 
     def extract_content(self):
-        paragraph = [p.get_text() for p in self.soup.find_all("p")] # tag <p>
-        title = self.soup.find("h1").get_text()  # tag <h1>
+        self.title = self.soup.find("h1").get_text()  # tag <h1>
+        body = self.soup.find("div", class_="mw-parser-output")
+        md_lines = [f"# {self.title}\n"]
+        for element in body.children:
+        
+            if element.name in ["h2", "h3", "h4", "h5", "h6"]:
+                 nivel = int(element.name[1])
+
+            elif element.name == "p":
+                # self.content.append(element.get_text())
+                paragraph = [p.get_text() for p in self.soup.find_all("p")] # tag <p>
         self.title = title
-        # content = [title] + paragraph  # Combina o título e os parágrafos
         self.content = paragraph
         return self.content
     
     def extract_table(self):
         tables = []
+        no_caption_count = 0
         for table in self.soup.find_all("table", {"class": "wikitable"}):
-            # Primeiro tente obter um título a partir da tag <caption>
             caption = table.find("caption")
-            if caption and caption.get_text(strip=True):
-                name_table = caption.get_text(strip=True)
+            if caption:
+                print("Caption: ", caption)
+                title = caption.get_text()
             else:
-                prev = table.find_previous(["h1", "h2", "h3", "h4", "h5", "h6"])
-                name_table = prev.get_text(strip=True) if prev else None
-
-            table_html = str(table)
-            df = pd.read_html(io.StringIO(table_html))[0]
-
-            tables.append({"title": name_table, "df": df})
-
+                heading = table.find_previous(["h1", "h2", "h3", "h4", "h5", "h6"])
+                if heading:
+                    print("Heading: ", heading)
+                    title = heading.get_text()
+                else:
+                    no_caption_count += 1
+                    print("No caption or heading found for this table. Assigning default title.")
+                    title = f"table_without_title_{no_caption_count}"
+            
+            print("Title: ", title)
+            df = pd.read_html(io.StringIO(str(table)))[0]
+            tables.append({"title": str(title), "df": df})
         self.tables = tables
         return self.tables
     
     def save_content(self):
+        os.makedirs(self.path_save, exist_ok=True)
         with open(f"{self.path_save}{self.title}.md", "w", encoding="utf-8") as file:
             for item in self.content:
                 file.write(item + "\n")
@@ -62,7 +76,7 @@ class Scraper:
         for item in self.tables:
             df = item["df"]
             tbl_title = item.get("title")
-            df.to_csv(f"{self.path_table}{tbl_title}.csv", index=False)
+            df.to_csv(f"{self.path_table}{tbl_title}{self.title}.csv", index=False)
 
     def run(self):
         self.connect()
@@ -70,4 +84,3 @@ class Scraper:
         self.extract_table()
         self.save_content()
         self.save_tables()
-    

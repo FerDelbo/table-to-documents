@@ -57,10 +57,6 @@ table_name = Path(table).stem
 table_representation = TableRepresentation(csv_path=table)
 table_repr_str = table_representation.to_markdown()
 
-# # define persona
-my_agent = agent_LLM()
-persona = my_agent.define_person(table=table)
-
 #generated document
 generator = Generator(
 table_representation=table_repr_str,
@@ -69,11 +65,15 @@ destination=destination,
 prompt_path=prompt_path,
 temperature=temperature
 )
-generator.setGemini(model_llm=llm)
+generator.set_gemini(model_llm=llm)
+
 
 if ardversarial:
     response_adversarial = generator.generate_document_adversarial(name_table=table_name)
     register_par_table_document(table_name=f"{table_name}_adversarial", document_path=response_adversarial)
 else:
+    # # define persona
+    my_agent = agent_LLM()
+    persona = my_agent.define_person(table=table)
     response = generator.generate_document_md(persona=persona, questions=question, name_table=table_name)
     register_par_table_document(table_name=table_name, document_path=response)
