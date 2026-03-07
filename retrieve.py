@@ -5,7 +5,7 @@ import argparse
 from pathlib import Path
 import pyexcel as p
 
-def save_results(sheet_path, table, representation, result_retrive, grouth_true, metrics, num_doc=100, k=5):
+def save_results(sheet_path, table, representation, result_retrive, grouth_true, metrics, num_doc=200, k=5):
     ids_retrive = [hit['corpus_id'] for hit in result_retrive[0][:]]
     
     table_name = Path(table).stem
@@ -38,11 +38,14 @@ parser.add_argument("--representation", type=int, help="""
                     7-schema_description\n
                     8-contextualized_representation\n
                     """)
+parser.add_argument("--k", default=5, help='nember the documents retrieval')
+
 args = parser.parse_args()
 
 table = args.table
 output_table=args.output
 rep_position = args.representation
+k = args.k
 
 df = pd.read_csv('./data/ground_truth.csv')
 
@@ -69,7 +72,7 @@ else:
 
 model = Retrieval()
 model.set_splade()
-result = model.retrieval(documents=corpus, table=table_representantion, k=10)
+result = model.retrieval(documents=corpus, table=table_representantion, k=k)
 print(result)
 metrics = model.evaluation(ids.index)
 

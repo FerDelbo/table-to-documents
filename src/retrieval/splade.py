@@ -1,12 +1,22 @@
 from sentence_transformers import SparseEncoder, util
+import pickle
+import hashlib
+import json
+from pathlib import Path
 
 class Retrieval:
-    def __init__(self, name='naver/splade-cocondenser-ensembledistil'):
+    def __init__(self, name='naver/splade-cocondenser-ensembledistil', cache_dir='./data/embeddings_cache'):
         self.name_model=name
         self.corpus = []
+        self.cache_dir = Path(cache_dir)
+        self.cache_dir.mkdir(parents=True, exist_ok=True)
     
     def set_splade(self):
         self.model = SparseEncoder(self.name_model)
+
+    def _get_cache_path(self, documents):
+        hash_key = hashlib.md5(json.dumps(sorted(documents)).encode()).hexdigest()
+        return self.cache_dir / f"corpus_{hash_key}.pkl"
 
     def retrieval(self, table, documents, k):
         query_embeddings = self.model.encode_query(table, convert_to_tensor=True)
@@ -14,7 +24,15 @@ class Retrieval:
         for doc in documents:
             self.corpus.append(open(doc).read())
 
-        corpus_embeddings = self.model.encode_document(self.corpus, convert_to_tensor=True)
+        cache_path = self._get_cache_path(documents)
+        if cache_path.exists():
+            # já temos os embeddings salvos
+            with open(cache_path, 'rb') as file:
+                corpus_embeddings = pickle.load(file)  
+        else:
+            corpus_embeddings = self.model.encode_document(self.corpus, convert_to_tensor=True)
+            with open(cache_path, 'wb') as f:
+                pickle.dump(corpus_embeddings, f)
         
         self.results = util.semantic_search(query_embeddings, corpus_embeddings, top_k=k)
         self.k = k
