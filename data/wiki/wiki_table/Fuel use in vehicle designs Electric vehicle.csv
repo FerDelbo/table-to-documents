@@ -1,0 +1,8 @@
+Vehicle type,Fuel used
+Combustion-only vehicle (ICE),Exclusively uses petroleum or other fuel.
+Micro hybrid electric vehicle (μHEV),"Exclusively uses petroleum or other fuel, but can shut off engine to consume less."
+"Mild hybrid electric vehicle (MHEV, BAHV)","Exclusively uses petroleum or other fuel, but has electric battery to consume less."
+Plug-in hybrid vehicle (PHEV),Uses mixture of petroleum or other fuel and electricity from power grid.
+"All-electric vehicle (BEV, AEV)",Exclusively uses electricity from power grid.
+"Fuel cell vehicle (FCV, FCEV)",Exclusively uses hydrogen or other fuel to generate electricity.
+vte,vte

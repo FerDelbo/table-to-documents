@@ -1,0 +1,181 @@
+Table,Representation,k,Expected results,Retrieval,Evalution,COS Similary,Num documents
+drivers,serialized_flat,5,"Index([0, 1, 2, 3, 22], dtype='int64')","[2, 3, 7, 22, 1]","precision: 0.8
+recall: 0.8","[[{'corpus_id': 2, 'score': 0.1921548843383789}, {'corpus_id': 3, 'score': 0.16524752974510193}, {'corpus_id': 7, 'score': 0.13699132204055786}, {'corpus_id': 22, 'score': 0.13676337897777557}, {'corpus_id': 1, 'score': 0.1330914944410324}]]",50
+circuits,serialized_flat,5,"Index([4, 5, 6, 7, 8], dtype='int64')","[4, 5, 6, 7, 9]","precision: 0.8
+recall: 0.8","[[{'corpus_id': 4, 'score': 0.14886139333248138}, {'corpus_id': 5, 'score': 0.1424211859703064}, {'corpus_id': 6, 'score': 0.12836001813411713}, {'corpus_id': 7, 'score': 0.1265653520822525}, {'corpus_id': 9, 'score': 0.10928410291671753}]]",50
+constructors,serialized_flat,5,"Index([9, 10, 11, 12, 13], dtype='int64')","[9, 11, 12, 13, 10]","precision: 1.0
+recall: 1.0","[[{'corpus_id': 9, 'score': 0.3640146553516388}, {'corpus_id': 11, 'score': 0.345634400844574}, {'corpus_id': 12, 'score': 0.33430007100105286}, {'corpus_id': 13, 'score': 0.30649247765541077}, {'corpus_id': 10, 'score': 0.2832621932029724}]]",50
+user_reviews,serialized_flat,5,"Index([14, 15, 16, 17, 18], dtype='int64')","[14, 18, 16, 17, 15]","precision: 1.0
+recall: 1.0","[[{'corpus_id': 14, 'score': 0.19776348769664764}, {'corpus_id': 18, 'score': 0.1733989119529724}, {'corpus_id': 16, 'score': 0.1446911245584488}, {'corpus_id': 17, 'score': 0.1230458989739418}, {'corpus_id': 15, 'score': 0.1175713986158371}]]",50
+customers,serialized_flat,5,"Index([19, 20, 21, 23, 24], dtype='int64')","[26, 19, 49, 43, 42]","precision: 0.2
+recall: 0.2","[[{'corpus_id': 26, 'score': 0.07848171889781952}, {'corpus_id': 19, 'score': 0.06356485188007355}, {'corpus_id': 49, 'score': 0.059226423501968384}, {'corpus_id': 43, 'score': 0.0540570393204689}, {'corpus_id': 42, 'score': 0.052301328629255295}]]",50
+rootbeerbrand,serialized_flat,5,"Index([25, 26, 27, 28, 29], dtype='int64')","[28, 26, 29, 24, 25]","precision: 0.8
+recall: 0.8","[[{'corpus_id': 28, 'score': 0.29691219329833984}, {'corpus_id': 26, 'score': 0.26497364044189453}, {'corpus_id': 29, 'score': 0.2616809606552124}, {'corpus_id': 24, 'score': 0.22774982452392578}, {'corpus_id': 25, 'score': 0.2223525196313858}]]",50
+publisher,serialized_flat,5,"Index([30, 31, 32, 33, 46], dtype='int64')","[47, 41, 34, 39, 38]","precision: 0.0
+recall: 0.0","[[{'corpus_id': 47, 'score': 0.16349691152572632}, {'corpus_id': 41, 'score': 0.1364627480506897}, {'corpus_id': 34, 'score': 0.13343429565429688}, {'corpus_id': 39, 'score': 0.11882555484771729}, {'corpus_id': 38, 'score': 0.10615848004817963}]]",50
+author,serialized_flat,5,"Index([34, 35, 36, 37, 47], dtype='int64')","[35, 34, 46, 47, 30]","precision: 0.6
+recall: 0.6","[[{'corpus_id': 35, 'score': 0.1214047446846962}, {'corpus_id': 34, 'score': 0.11532317847013474}, {'corpus_id': 46, 'score': 0.0758688747882843}, {'corpus_id': 47, 'score': 0.07521915435791016}, {'corpus_id': 30, 'score': 0.06295431405305862}]]",50
+customer,serialized_flat,5,"Index([38, 39, 40, 41, 48], dtype='int64')","[34, 35, 41, 47, 30]","precision: 0.2
+recall: 0.2","[[{'corpus_id': 34, 'score': 0.06162630766630173}, {'corpus_id': 35, 'score': 0.04904107749462128}, {'corpus_id': 41, 'score': 0.047010455280542374}, {'corpus_id': 47, 'score': 0.04196447506546974}, {'corpus_id': 30, 'score': 0.035282984375953674}]]",50
+businesses,serialized_flat,5,"Index([42, 43, 44, 45, 49], dtype='int64')","[42, 43, 49, 44, 45]","precision: 1.0
+recall: 1.0","[[{'corpus_id': 42, 'score': 0.17151033878326416}, {'corpus_id': 43, 'score': 0.1634790301322937}, {'corpus_id': 49, 'score': 0.14986032247543335}, {'corpus_id': 44, 'score': 0.14041323959827423}, {'corpus_id': 45, 'score': 0.12370260804891586}]]",50
+drivers,linearized_column_wise,5,"Index([0, 1, 2, 3, 22], dtype='int64')","[2, 3, 22, 5, 7]","precision: 0.6
+recall: 0.6","[[{'corpus_id': 2, 'score': 0.0831066146492958}, {'corpus_id': 3, 'score': 0.06047467142343521}, {'corpus_id': 22, 'score': 0.057052839547395706}, {'corpus_id': 5, 'score': 0.05078065022826195}, {'corpus_id': 7, 'score': 0.048329345881938934}]]",50
+circuits,linearized_column_wise,5,"Index([4, 5, 6, 7, 8], dtype='int64')","[4, 6, 5, 8, 0]","precision: 0.8
+recall: 0.8","[[{'corpus_id': 4, 'score': 0.1780443787574768}, {'corpus_id': 6, 'score': 0.16983649134635925}, {'corpus_id': 5, 'score': 0.1482686996459961}, {'corpus_id': 8, 'score': 0.1338854879140854}, {'corpus_id': 0, 'score': 0.11610658466815948}]]",50
+constructors,linearized_column_wise,5,"Index([9, 10, 11, 12, 13], dtype='int64')","[9, 12, 13, 11, 10]","precision: 1.0
+recall: 1.0","[[{'corpus_id': 9, 'score': 0.150782510638237}, {'corpus_id': 12, 'score': 0.14808213710784912}, {'corpus_id': 13, 'score': 0.13762404024600983}, {'corpus_id': 11, 'score': 0.13390836119651794}, {'corpus_id': 10, 'score': 0.11954326927661896}]]",50
+user_reviews,linearized_column_wise,5,"Index([14, 15, 16, 17, 18], dtype='int64')","[18, 17, 15, 16, 14]","precision: 1.0
+recall: 1.0","[[{'corpus_id': 18, 'score': 0.10509607940912247}, {'corpus_id': 17, 'score': 0.10427062213420868}, {'corpus_id': 15, 'score': 0.09539274126291275}, {'corpus_id': 16, 'score': 0.0854402482509613}, {'corpus_id': 14, 'score': 0.06813963502645493}]]",50
+customers,linearized_column_wise,5,"Index([19, 20, 21, 23, 24], dtype='int64')","[49, 2, 43, 22, 5]","precision: 0.0
+recall: 0.0","[[{'corpus_id': 49, 'score': 0.05488792806863785}, {'corpus_id': 2, 'score': 0.050373371690511703}, {'corpus_id': 43, 'score': 0.049151211977005005}, {'corpus_id': 22, 'score': 0.0372481569647789}, {'corpus_id': 5, 'score': 0.03308212012052536}]]",50
+rootbeerbrand,linearized_column_wise,5,"Index([25, 26, 27, 28, 29], dtype='int64')","[26, 25, 29, 28, 27]","precision: 1.0
+recall: 1.0","[[{'corpus_id': 26, 'score': 0.28374040126800537}, {'corpus_id': 25, 'score': 0.2704647481441498}, {'corpus_id': 29, 'score': 0.24348030984401703}, {'corpus_id': 28, 'score': 0.23665305972099304}, {'corpus_id': 27, 'score': 0.2097959965467453}]]",50
+publisher,linearized_column_wise,5,"Index([30, 31, 32, 33, 46], dtype='int64')","[34, 41, 47, 36, 31]","precision: 0.2
+recall: 0.2","[[{'corpus_id': 34, 'score': 0.07591234892606735}, {'corpus_id': 41, 'score': 0.065251924097538}, {'corpus_id': 47, 'score': 0.062374040484428406}, {'corpus_id': 36, 'score': 0.060156844556331635}, {'corpus_id': 31, 'score': 0.05947267264127731}]]",50
+author,linearized_column_wise,5,"Index([34, 35, 36, 37, 47], dtype='int64')","[34, 35, 41, 47, 46]","precision: 0.6
+recall: 0.6","[[{'corpus_id': 34, 'score': 0.09070198982954025}, {'corpus_id': 35, 'score': 0.07179971039295197}, {'corpus_id': 41, 'score': 0.06559175997972488}, {'corpus_id': 47, 'score': 0.06180495768785477}, {'corpus_id': 46, 'score': 0.05691608414053917}]]",50
+customer,linearized_column_wise,5,"Index([38, 39, 40, 41, 48], dtype='int64')","[43, 41, 34, 2, 44]","precision: 0.2
+recall: 0.2","[[{'corpus_id': 43, 'score': 0.056812502443790436}, {'corpus_id': 41, 'score': 0.0544341579079628}, {'corpus_id': 34, 'score': 0.048764653503894806}, {'corpus_id': 2, 'score': 0.04087895527482033}, {'corpus_id': 44, 'score': 0.039850350469350815}]]",50
+businesses,linearized_column_wise,5,"Index([42, 43, 44, 45, 49], dtype='int64')","[43, 2, 44, 22, 4]","precision: 0.4
+recall: 0.4","[[{'corpus_id': 43, 'score': 0.07517606019973755}, {'corpus_id': 2, 'score': 0.0636291652917862}, {'corpus_id': 44, 'score': 0.06332847476005554}, {'corpus_id': 22, 'score': 0.053013235330581665}, {'corpus_id': 4, 'score': 0.05201159417629242}]]",50
+drivers,linearized_row_wise,5,"Index([0, 1, 2, 3, 22], dtype='int64')","[2, 3, 0, 7, 1]","precision: 0.8
+recall: 0.8","[[{'corpus_id': 2, 'score': 0.20468834042549133}, {'corpus_id': 3, 'score': 0.16813808679580688}, {'corpus_id': 0, 'score': 0.1542423665523529}, {'corpus_id': 7, 'score': 0.1527661383152008}, {'corpus_id': 1, 'score': 0.1456453949213028}]]",50
+circuits,linearized_row_wise,5,"Index([4, 5, 6, 7, 8], dtype='int64')","[4, 5, 6, 7, 9]","precision: 0.8
+recall: 0.8","[[{'corpus_id': 4, 'score': 0.15932516753673553}, {'corpus_id': 5, 'score': 0.14344730973243713}, {'corpus_id': 6, 'score': 0.14028607308864594}, {'corpus_id': 7, 'score': 0.1382950097322464}, {'corpus_id': 9, 'score': 0.11233033984899521}]]",50
+constructors,linearized_row_wise,5,"Index([9, 10, 11, 12, 13], dtype='int64')","[9, 11, 12, 13, 10]","precision: 1.0
+recall: 1.0","[[{'corpus_id': 9, 'score': 0.36438319087028503}, {'corpus_id': 11, 'score': 0.34870994091033936}, {'corpus_id': 12, 'score': 0.33037516474723816}, {'corpus_id': 13, 'score': 0.3129841685295105}, {'corpus_id': 10, 'score': 0.2864256501197815}]]",50
+user_reviews,linearized_row_wise,5,"Index([14, 15, 16, 17, 18], dtype='int64')","[14, 18, 16, 17, 15]","precision: 1.0
+recall: 1.0","[[{'corpus_id': 14, 'score': 0.19273343682289124}, {'corpus_id': 18, 'score': 0.18088045716285706}, {'corpus_id': 16, 'score': 0.1367013156414032}, {'corpus_id': 17, 'score': 0.1280946284532547}, {'corpus_id': 15, 'score': 0.12352380156517029}]]",50
+customers,linearized_row_wise,5,"Index([19, 20, 21, 23, 24], dtype='int64')","[26, 19, 49, 42, 43]","precision: 0.2
+recall: 0.2","[[{'corpus_id': 26, 'score': 0.08233503997325897}, {'corpus_id': 19, 'score': 0.06622849404811859}, {'corpus_id': 49, 'score': 0.054116129875183105}, {'corpus_id': 42, 'score': 0.04816296696662903}, {'corpus_id': 43, 'score': 0.04720686376094818}]]",50
+rootbeerbrand,linearized_row_wise,5,"Index([25, 26, 27, 28, 29], dtype='int64')","[28, 29, 26, 25, 24]","precision: 0.8
+recall: 0.8","[[{'corpus_id': 28, 'score': 0.32653164863586426}, {'corpus_id': 29, 'score': 0.28124985098838806}, {'corpus_id': 26, 'score': 0.2759193480014801}, {'corpus_id': 25, 'score': 0.23021849989891052}, {'corpus_id': 24, 'score': 0.2280680239200592}]]",50
+publisher,linearized_row_wise,5,"Index([30, 31, 32, 33, 46], dtype='int64')","[47, 34, 41, 39, 35]","precision: 0.0
+recall: 0.0","[[{'corpus_id': 47, 'score': 0.1861869990825653}, {'corpus_id': 34, 'score': 0.15892267227172852}, {'corpus_id': 41, 'score': 0.1526198536157608}, {'corpus_id': 39, 'score': 0.1255623698234558}, {'corpus_id': 35, 'score': 0.12130039930343628}]]",50
+author,linearized_row_wise,5,"Index([34, 35, 36, 37, 47], dtype='int64')","[35, 34, 46, 47, 30]","precision: 0.6
+recall: 0.6","[[{'corpus_id': 35, 'score': 0.14298973977565765}, {'corpus_id': 34, 'score': 0.1340148150920868}, {'corpus_id': 46, 'score': 0.09637199342250824}, {'corpus_id': 47, 'score': 0.09018454700708389}, {'corpus_id': 30, 'score': 0.07087535411119461}]]",50
+customer,linearized_row_wise,5,"Index([38, 39, 40, 41, 48], dtype='int64')","[34, 35, 41, 47, 30]","precision: 0.2
+recall: 0.2","[[{'corpus_id': 34, 'score': 0.05447837710380554}, {'corpus_id': 35, 'score': 0.04603530094027519}, {'corpus_id': 41, 'score': 0.04418879374861717}, {'corpus_id': 47, 'score': 0.04357779026031494}, {'corpus_id': 30, 'score': 0.03731006383895874}]]",50
+businesses,linearized_row_wise,5,"Index([42, 43, 44, 45, 49], dtype='int64')","[42, 43, 49, 44, 45]","precision: 1.0
+recall: 1.0","[[{'corpus_id': 42, 'score': 0.19779179990291595}, {'corpus_id': 43, 'score': 0.1633147895336151}, {'corpus_id': 49, 'score': 0.14086538553237915}, {'corpus_id': 44, 'score': 0.12560512125492096}, {'corpus_id': 45, 'score': 0.12145228683948517}]]",50
+drivers,template_based,5,"Index([0, 1, 2, 3, 22], dtype='int64')","[2, 3, 0, 22, 7]","precision: 0.8
+recall: 0.8","[[{'corpus_id': 2, 'score': 0.21340087056159973}, {'corpus_id': 3, 'score': 0.17839153110980988}, {'corpus_id': 0, 'score': 0.15955547988414764}, {'corpus_id': 22, 'score': 0.14976458251476288}, {'corpus_id': 7, 'score': 0.14726349711418152}]]",50
+circuits,template_based,5,"Index([4, 5, 6, 7, 8], dtype='int64')","[4, 6, 5, 7, 9]","precision: 0.8
+recall: 0.8","[[{'corpus_id': 4, 'score': 0.1707298755645752}, {'corpus_id': 6, 'score': 0.15724925696849823}, {'corpus_id': 5, 'score': 0.1549987643957138}, {'corpus_id': 7, 'score': 0.14009994268417358}, {'corpus_id': 9, 'score': 0.1275695115327835}]]",50
+constructors,template_based,5,"Index([9, 10, 11, 12, 13], dtype='int64')","[9, 11, 12, 13, 10]","precision: 1.0
+recall: 1.0","[[{'corpus_id': 9, 'score': 0.3944648206233978}, {'corpus_id': 11, 'score': 0.3839113116264343}, {'corpus_id': 12, 'score': 0.37455877661705017}, {'corpus_id': 13, 'score': 0.3441947400569916}, {'corpus_id': 10, 'score': 0.31441137194633484}]]",50
+user_reviews,template_based,5,"Index([14, 15, 16, 17, 18], dtype='int64')","[14, 18, 16, 17, 15]","precision: 1.0
+recall: 1.0","[[{'corpus_id': 14, 'score': 0.19344212114810944}, {'corpus_id': 18, 'score': 0.18393179774284363}, {'corpus_id': 16, 'score': 0.13396456837654114}, {'corpus_id': 17, 'score': 0.12070785462856293}, {'corpus_id': 15, 'score': 0.11641262471675873}]]",50
+customers,template_based,5,"Index([19, 20, 21, 23, 24], dtype='int64')","[49, 43, 19, 45, 26]","precision: 0.2
+recall: 0.2","[[{'corpus_id': 49, 'score': 0.067146897315979}, {'corpus_id': 43, 'score': 0.06151778623461723}, {'corpus_id': 19, 'score': 0.051221080124378204}, {'corpus_id': 45, 'score': 0.050697918981313705}, {'corpus_id': 26, 'score': 0.05053798481822014}]]",50
+rootbeerbrand,template_based,5,"Index([25, 26, 27, 28, 29], dtype='int64')","[28, 29, 26, 25, 24]","precision: 0.8
+recall: 0.8","[[{'corpus_id': 28, 'score': 0.3257252275943756}, {'corpus_id': 29, 'score': 0.29696744680404663}, {'corpus_id': 26, 'score': 0.2833057641983032}, {'corpus_id': 25, 'score': 0.23450560867786407}, {'corpus_id': 24, 'score': 0.22064311802387238}]]",50
+publisher,template_based,5,"Index([30, 31, 32, 33, 46], dtype='int64')","[47, 34, 41, 39, 33]","precision: 0.2
+recall: 0.2","[[{'corpus_id': 47, 'score': 0.1777763068675995}, {'corpus_id': 34, 'score': 0.15196028351783752}, {'corpus_id': 41, 'score': 0.1447630673646927}, {'corpus_id': 39, 'score': 0.1330946832895279}, {'corpus_id': 33, 'score': 0.12530145049095154}]]",50
+author,template_based,5,"Index([34, 35, 36, 37, 47], dtype='int64')","[35, 34, 46, 47, 30]","precision: 0.6
+recall: 0.6","[[{'corpus_id': 35, 'score': 0.14928467571735382}, {'corpus_id': 34, 'score': 0.14340446889400482}, {'corpus_id': 46, 'score': 0.09384765475988388}, {'corpus_id': 47, 'score': 0.08952038735151291}, {'corpus_id': 30, 'score': 0.0632515624165535}]]",50
+customer,template_based,5,"Index([38, 39, 40, 41, 48], dtype='int64')","[34, 41, 35, 44, 47]","precision: 0.2
+recall: 0.2","[[{'corpus_id': 34, 'score': 0.04874470829963684}, {'corpus_id': 41, 'score': 0.04369098320603371}, {'corpus_id': 35, 'score': 0.038308896124362946}, {'corpus_id': 44, 'score': 0.033050160855054855}, {'corpus_id': 47, 'score': 0.03141162544488907}]]",50
+businesses,template_based,5,"Index([42, 43, 44, 45, 49], dtype='int64')","[42, 43, 49, 44, 45]","precision: 1.0
+recall: 1.0","[[{'corpus_id': 42, 'score': 0.20658709108829498}, {'corpus_id': 43, 'score': 0.18351149559020996}, {'corpus_id': 49, 'score': 0.16093869507312775}, {'corpus_id': 44, 'score': 0.1494888961315155}, {'corpus_id': 45, 'score': 0.1384747475385666}]]",50
+drivers,markdown,5,"Index([0, 1, 2, 3, 22], dtype='int64')","[2, 3, 0, 7, 22]","precision: 0.8
+recall: 0.8","[[{'corpus_id': 2, 'score': 0.17935609817504883}, {'corpus_id': 3, 'score': 0.1452859789133072}, {'corpus_id': 0, 'score': 0.13286057114601135}, {'corpus_id': 7, 'score': 0.12594571709632874}, {'corpus_id': 22, 'score': 0.12341124564409256}]]",50
+circuits,markdown,5,"Index([4, 5, 6, 7, 8], dtype='int64')","[4, 5, 6, 7, 9]","precision: 0.8
+recall: 0.8","[[{'corpus_id': 4, 'score': 0.1697472333908081}, {'corpus_id': 5, 'score': 0.1522502452135086}, {'corpus_id': 6, 'score': 0.14775462448596954}, {'corpus_id': 7, 'score': 0.12680567800998688}, {'corpus_id': 9, 'score': 0.11692526936531067}]]",50
+constructors,markdown,5,"Index([9, 10, 11, 12, 13], dtype='int64')","[9, 11, 12, 13, 10]","precision: 1.0
+recall: 1.0","[[{'corpus_id': 9, 'score': 0.375851571559906}, {'corpus_id': 11, 'score': 0.35511526465415955}, {'corpus_id': 12, 'score': 0.3524477481842041}, {'corpus_id': 13, 'score': 0.32150784134864807}, {'corpus_id': 10, 'score': 0.2975444197654724}]]",50
+user_reviews,markdown,5,"Index([14, 15, 16, 17, 18], dtype='int64')","[18, 14, 16, 17, 15]","precision: 1.0
+recall: 1.0","[[{'corpus_id': 18, 'score': 0.16009573638439178}, {'corpus_id': 14, 'score': 0.14242567121982574}, {'corpus_id': 16, 'score': 0.11479374021291733}, {'corpus_id': 17, 'score': 0.10160911828279495}, {'corpus_id': 15, 'score': 0.0896076112985611}]]",50
+customers,markdown,5,"Index([19, 20, 21, 23, 24], dtype='int64')","[19, 49, 26, 42, 43]","precision: 0.2
+recall: 0.2","[[{'corpus_id': 19, 'score': 0.05340610444545746}, {'corpus_id': 49, 'score': 0.0513557493686676}, {'corpus_id': 26, 'score': 0.050313711166381836}, {'corpus_id': 42, 'score': 0.04652092605829239}, {'corpus_id': 43, 'score': 0.04543466493487358}]]",50
+rootbeerbrand,markdown,5,"Index([25, 26, 27, 28, 29], dtype='int64')","[24, 28, 26, 29, 21]","precision: 0.6
+recall: 0.6","[[{'corpus_id': 24, 'score': 0.2141249030828476}, {'corpus_id': 28, 'score': 0.2084379941225052}, {'corpus_id': 26, 'score': 0.17572548985481262}, {'corpus_id': 29, 'score': 0.16089533269405365}, {'corpus_id': 21, 'score': 0.14889787137508392}]]",50
+publisher,markdown,5,"Index([30, 31, 32, 33, 46], dtype='int64')","[47, 41, 40, 33, 39]","precision: 0.2
+recall: 0.2","[[{'corpus_id': 47, 'score': 0.12437690049409866}, {'corpus_id': 41, 'score': 0.11253713816404343}, {'corpus_id': 40, 'score': 0.10305678844451904}, {'corpus_id': 33, 'score': 0.10205498337745667}, {'corpus_id': 39, 'score': 0.09861922264099121}]]",50
+author,markdown,5,"Index([34, 35, 36, 37, 47], dtype='int64')","[34, 35, 46, 47, 32]","precision: 0.6
+recall: 0.6","[[{'corpus_id': 34, 'score': 0.0868556797504425}, {'corpus_id': 35, 'score': 0.0812574177980423}, {'corpus_id': 46, 'score': 0.05980180203914642}, {'corpus_id': 47, 'score': 0.05133511871099472}, {'corpus_id': 32, 'score': 0.044256798923015594}]]",50
+customer,markdown,5,"Index([38, 39, 40, 41, 48], dtype='int64')","[34, 41, 35, 44, 47]","precision: 0.2
+recall: 0.2","[[{'corpus_id': 34, 'score': 0.031155887991189957}, {'corpus_id': 41, 'score': 0.02796970307826996}, {'corpus_id': 35, 'score': 0.027086537331342697}, {'corpus_id': 44, 'score': 0.01905081607401371}, {'corpus_id': 47, 'score': 0.018610935658216476}]]",50
+businesses,markdown,5,"Index([42, 43, 44, 45, 49], dtype='int64')","[43, 44, 22, 4, 49]","precision: 0.6
+recall: 0.6","[[{'corpus_id': 43, 'score': 0.125065878033638}, {'corpus_id': 44, 'score': 0.1150384470820427}, {'corpus_id': 22, 'score': 0.11052917689085007}, {'corpus_id': 4, 'score': 0.09495320916175842}, {'corpus_id': 49, 'score': 0.08917097747325897}]]",50
+drivers,html_like,5,"Index([0, 1, 2, 3, 22], dtype='int64')","[2, 3, 7, 22, 1]","precision: 0.8
+recall: 0.8","[[{'corpus_id': 2, 'score': 0.1991209089756012}, {'corpus_id': 3, 'score': 0.1838965266942978}, {'corpus_id': 7, 'score': 0.1605450063943863}, {'corpus_id': 22, 'score': 0.16052013635635376}, {'corpus_id': 1, 'score': 0.15974842011928558}]]",50
+circuits,html_like,5,"Index([4, 5, 6, 7, 8], dtype='int64')","[4, 7, 8, 6, 5]","precision: 1.0
+recall: 1.0","[[{'corpus_id': 4, 'score': 0.14155595004558563}, {'corpus_id': 7, 'score': 0.11092112958431244}, {'corpus_id': 8, 'score': 0.10772174596786499}, {'corpus_id': 6, 'score': 0.09702172130346298}, {'corpus_id': 5, 'score': 0.08525846153497696}]]",50
+constructors,html_like,5,"Index([9, 10, 11, 12, 13], dtype='int64')","[11, 9, 12, 13, 10]","precision: 1.0
+recall: 1.0","[[{'corpus_id': 11, 'score': 0.35505980253219604}, {'corpus_id': 9, 'score': 0.3491578996181488}, {'corpus_id': 12, 'score': 0.33875933289527893}, {'corpus_id': 13, 'score': 0.3086307942867279}, {'corpus_id': 10, 'score': 0.29796355962753296}]]",50
+user_reviews,html_like,5,"Index([14, 15, 16, 17, 18], dtype='int64')","[18, 14, 17, 16, 15]","precision: 1.0
+recall: 1.0","[[{'corpus_id': 18, 'score': 0.15242506563663483}, {'corpus_id': 14, 'score': 0.15068010985851288}, {'corpus_id': 17, 'score': 0.11464820057153702}, {'corpus_id': 16, 'score': 0.11145441234111786}, {'corpus_id': 15, 'score': 0.10873272269964218}]]",50
+customers,html_like,5,"Index([19, 20, 21, 23, 24], dtype='int64')","[49, 43, 19, 42, 26]","precision: 0.2
+recall: 0.2","[[{'corpus_id': 49, 'score': 0.0750313252210617}, {'corpus_id': 43, 'score': 0.05630579963326454}, {'corpus_id': 19, 'score': 0.05558907240629196}, {'corpus_id': 42, 'score': 0.054741960018873215}, {'corpus_id': 26, 'score': 0.05180855840444565}]]",50
+rootbeerbrand,html_like,5,"Index([25, 26, 27, 28, 29], dtype='int64')","[28, 29, 26, 25, 24]","precision: 0.8
+recall: 0.8","[[{'corpus_id': 28, 'score': 0.323890745639801}, {'corpus_id': 29, 'score': 0.29359322786331177}, {'corpus_id': 26, 'score': 0.2775232791900635}, {'corpus_id': 25, 'score': 0.21423637866973877}, {'corpus_id': 24, 'score': 0.19905537366867065}]]",50
+publisher,html_like,5,"Index([30, 31, 32, 33, 46], dtype='int64')","[34, 47, 35, 41, 46]","precision: 0.2
+recall: 0.2","[[{'corpus_id': 34, 'score': 0.14593622088432312}, {'corpus_id': 47, 'score': 0.13546746969223022}, {'corpus_id': 35, 'score': 0.11944878846406937}, {'corpus_id': 41, 'score': 0.11088037490844727}, {'corpus_id': 46, 'score': 0.11050335317850113}]]",50
+author,html_like,5,"Index([34, 35, 36, 37, 47], dtype='int64')","[35, 34, 46, 47, 30]","precision: 0.6
+recall: 0.6","[[{'corpus_id': 35, 'score': 0.09439923614263535}, {'corpus_id': 34, 'score': 0.08358292281627655}, {'corpus_id': 46, 'score': 0.07165464758872986}, {'corpus_id': 47, 'score': 0.06208517774939537}, {'corpus_id': 30, 'score': 0.048749592155218124}]]",50
+customer,html_like,5,"Index([38, 39, 40, 41, 48], dtype='int64')","[34, 35, 41, 14, 47]","precision: 0.2
+recall: 0.2","[[{'corpus_id': 34, 'score': 0.05081609636545181}, {'corpus_id': 35, 'score': 0.04295220226049423}, {'corpus_id': 41, 'score': 0.03350020945072174}, {'corpus_id': 14, 'score': 0.027182430028915405}, {'corpus_id': 47, 'score': 0.02714495174586773}]]",50
+businesses,html_like,5,"Index([42, 43, 44, 45, 49], dtype='int64')","[42, 43, 44, 49, 45]","precision: 1.0
+recall: 1.0","[[{'corpus_id': 42, 'score': 0.19371479749679565}, {'corpus_id': 43, 'score': 0.1720806360244751}, {'corpus_id': 44, 'score': 0.161953866481781}, {'corpus_id': 49, 'score': 0.15229809284210205}, {'corpus_id': 45, 'score': 0.1491149216890335}]]",50
+drivers,column_header_value_triples,5,"Index([0, 1, 2, 3, 22], dtype='int64')","[2, 22, 3, 7, 13]","precision: 0.6
+recall: 0.6","[[{'corpus_id': 2, 'score': 0.12699498236179352}, {'corpus_id': 22, 'score': 0.09494806826114655}, {'corpus_id': 3, 'score': 0.07907097786664963}, {'corpus_id': 7, 'score': 0.07152527570724487}, {'corpus_id': 13, 'score': 0.06867241859436035}]]",50
+circuits,column_header_value_triples,5,"Index([4, 5, 6, 7, 8], dtype='int64')","[22, 5, 7, 2, 9]","precision: 0.4
+recall: 0.4","[[{'corpus_id': 22, 'score': 0.08057879656553268}, {'corpus_id': 5, 'score': 0.077634297311306}, {'corpus_id': 7, 'score': 0.07483292371034622}, {'corpus_id': 2, 'score': 0.07406869530677795}, {'corpus_id': 9, 'score': 0.06345771998167038}]]",50
+constructors,column_header_value_triples,5,"Index([9, 10, 11, 12, 13], dtype='int64')","[12, 9, 13, 10, 11]","precision: 1.0
+recall: 1.0","[[{'corpus_id': 12, 'score': 0.08435897529125214}, {'corpus_id': 9, 'score': 0.07998916506767273}, {'corpus_id': 13, 'score': 0.07218078523874283}, {'corpus_id': 10, 'score': 0.07212615013122559}, {'corpus_id': 11, 'score': 0.0530722439289093}]]",50
+user_reviews,column_header_value_triples,5,"Index([14, 15, 16, 17, 18], dtype='int64')","[17, 18, 44, 15, 43]","precision: 0.6
+recall: 0.6","[[{'corpus_id': 17, 'score': 0.07214962691068649}, {'corpus_id': 18, 'score': 0.07001005858182907}, {'corpus_id': 44, 'score': 0.06444855779409409}, {'corpus_id': 15, 'score': 0.061128485947847366}, {'corpus_id': 43, 'score': 0.05567631125450134}]]",50
+customers,column_header_value_triples,5,"Index([19, 20, 21, 23, 24], dtype='int64')","[2, 41, 49, 43, 22]","precision: 0.0
+recall: 0.0","[[{'corpus_id': 2, 'score': 0.060209009796381}, {'corpus_id': 41, 'score': 0.043075140565633774}, {'corpus_id': 49, 'score': 0.04271291196346283}, {'corpus_id': 43, 'score': 0.042704224586486816}, {'corpus_id': 22, 'score': 0.04143654182553291}]]",50
+rootbeerbrand,column_header_value_triples,5,"Index([25, 26, 27, 28, 29], dtype='int64')","[25, 27, 26, 29, 21]","precision: 0.8
+recall: 0.8","[[{'corpus_id': 25, 'score': 0.20089201629161835}, {'corpus_id': 27, 'score': 0.17503586411476135}, {'corpus_id': 26, 'score': 0.13064375519752502}, {'corpus_id': 29, 'score': 0.12406642735004425}, {'corpus_id': 21, 'score': 0.09564182907342911}]]",50
+publisher,column_header_value_triples,5,"Index([30, 31, 32, 33, 46], dtype='int64')","[34, 41, 47, 36, 31]","precision: 0.2
+recall: 0.2","[[{'corpus_id': 34, 'score': 0.10606393218040466}, {'corpus_id': 41, 'score': 0.09880441427230835}, {'corpus_id': 47, 'score': 0.09240712970495224}, {'corpus_id': 36, 'score': 0.0903645008802414}, {'corpus_id': 31, 'score': 0.08333489298820496}]]",50
+author,column_header_value_triples,5,"Index([34, 35, 36, 37, 47], dtype='int64')","[34, 41, 47, 35, 46]","precision: 0.6
+recall: 0.6","[[{'corpus_id': 34, 'score': 0.14961472153663635}, {'corpus_id': 41, 'score': 0.12014403939247131}, {'corpus_id': 47, 'score': 0.11335834860801697}, {'corpus_id': 35, 'score': 0.10548616945743561}, {'corpus_id': 46, 'score': 0.09907960891723633}]]",50
+customer,column_header_value_triples,5,"Index([38, 39, 40, 41, 48], dtype='int64')","[41, 34, 22, 2, 47]","precision: 0.2
+recall: 0.2","[[{'corpus_id': 41, 'score': 0.0936778262257576}, {'corpus_id': 34, 'score': 0.06390974670648575}, {'corpus_id': 22, 'score': 0.05620289966464043}, {'corpus_id': 2, 'score': 0.05514230951666832}, {'corpus_id': 47, 'score': 0.05286107212305069}]]",50
+businesses,column_header_value_triples,5,"Index([42, 43, 44, 45, 49], dtype='int64')","[43, 44, 42, 22, 2]","precision: 0.6
+recall: 0.6","[[{'corpus_id': 43, 'score': 0.06772522628307343}, {'corpus_id': 44, 'score': 0.0675315409898758}, {'corpus_id': 42, 'score': 0.05525165796279907}, {'corpus_id': 22, 'score': 0.05368102714419365}, {'corpus_id': 2, 'score': 0.0531451515853405}]]",50
+drivers,schema_description,5,"Index([0, 1, 2, 3, 22], dtype='int64')","[2, 3, 22, 7, 1]","precision: 0.8
+recall: 0.8","[[{'corpus_id': 2, 'score': 0.2292955368757248}, {'corpus_id': 3, 'score': 0.17576918005943298}, {'corpus_id': 22, 'score': 0.15460702776908875}, {'corpus_id': 7, 'score': 0.14630268514156342}, {'corpus_id': 1, 'score': 0.14474248886108398}]]",50
+circuits,schema_description,5,"Index([4, 5, 6, 7, 8], dtype='int64')","[4, 6, 2, 7, 8]","precision: 0.8
+recall: 0.8","[[{'corpus_id': 4, 'score': 0.14069439470767975}, {'corpus_id': 6, 'score': 0.13358981907367706}, {'corpus_id': 2, 'score': 0.12698853015899658}, {'corpus_id': 7, 'score': 0.11223992705345154}, {'corpus_id': 8, 'score': 0.11139577627182007}]]",50
+constructors,schema_description,5,"Index([9, 10, 11, 12, 13], dtype='int64')","[9, 12, 11, 13, 10]","precision: 1.0
+recall: 1.0","[[{'corpus_id': 9, 'score': 0.24018965661525726}, {'corpus_id': 12, 'score': 0.2273699939250946}, {'corpus_id': 11, 'score': 0.2208123654127121}, {'corpus_id': 13, 'score': 0.2027517557144165}, {'corpus_id': 10, 'score': 0.18557153642177582}]]",50
+user_reviews,schema_description,5,"Index([14, 15, 16, 17, 18], dtype='int64')","[18, 14, 15, 45, 16]","precision: 0.8
+recall: 0.8","[[{'corpus_id': 18, 'score': 0.15558069944381714}, {'corpus_id': 14, 'score': 0.13768240809440613}, {'corpus_id': 15, 'score': 0.10205841064453125}, {'corpus_id': 45, 'score': 0.09992777556180954}, {'corpus_id': 16, 'score': 0.0985325500369072}]]",50
+customers,schema_description,5,"Index([19, 20, 21, 23, 24], dtype='int64')","[49, 34, 43, 45, 35]","precision: 0.0
+recall: 0.0","[[{'corpus_id': 49, 'score': 0.07673647999763489}, {'corpus_id': 34, 'score': 0.07626911997795105}, {'corpus_id': 43, 'score': 0.07280003279447556}, {'corpus_id': 45, 'score': 0.07065173983573914}, {'corpus_id': 35, 'score': 0.06649956852197647}]]",50
+rootbeerbrand,schema_description,5,"Index([25, 26, 27, 28, 29], dtype='int64')","[28, 29, 26, 24, 25]","precision: 0.8
+recall: 0.8","[[{'corpus_id': 28, 'score': 0.2946631908416748}, {'corpus_id': 29, 'score': 0.2541198432445526}, {'corpus_id': 26, 'score': 0.25360244512557983}, {'corpus_id': 24, 'score': 0.2077736109495163}, {'corpus_id': 25, 'score': 0.20217259228229523}]]",50
+publisher,schema_description,5,"Index([30, 31, 32, 33, 46], dtype='int64')","[34, 47, 35, 41, 31]","precision: 0.2
+recall: 0.2","[[{'corpus_id': 34, 'score': 0.19353872537612915}, {'corpus_id': 47, 'score': 0.15874578058719635}, {'corpus_id': 35, 'score': 0.15863385796546936}, {'corpus_id': 41, 'score': 0.13506074249744415}, {'corpus_id': 31, 'score': 0.12754811346530914}]]",50
+author,schema_description,5,"Index([34, 35, 36, 37, 47], dtype='int64')","[34, 35, 47, 41, 46]","precision: 0.6
+recall: 0.6","[[{'corpus_id': 34, 'score': 0.1608932614326477}, {'corpus_id': 35, 'score': 0.12467809021472931}, {'corpus_id': 47, 'score': 0.11392812430858612}, {'corpus_id': 41, 'score': 0.08401115983724594}, {'corpus_id': 46, 'score': 0.0800907090306282}]]",50
+customer,schema_description,5,"Index([38, 39, 40, 41, 48], dtype='int64')","[34, 35, 47, 41, 9]","precision: 0.2
+recall: 0.2","[[{'corpus_id': 34, 'score': 0.09804986417293549}, {'corpus_id': 35, 'score': 0.07222920656204224}, {'corpus_id': 47, 'score': 0.06757242232561111}, {'corpus_id': 41, 'score': 0.0617951899766922}, {'corpus_id': 9, 'score': 0.05275721848011017}]]",50
+businesses,schema_description,5,"Index([42, 43, 44, 45, 49], dtype='int64')","[43, 44, 42, 45, 49]","precision: 1.0
+recall: 1.0","[[{'corpus_id': 43, 'score': 0.18106834590435028}, {'corpus_id': 44, 'score': 0.1648978292942047}, {'corpus_id': 42, 'score': 0.16199955344200134}, {'corpus_id': 45, 'score': 0.14110378921031952}, {'corpus_id': 49, 'score': 0.12888705730438232}]]",50
+drivers,contextualized,5,"Index([0, 1, 2, 3, 22], dtype='int64')","[2, 3, 22, 7, 1]","precision: 0.8
+recall: 0.8","[[{'corpus_id': 2, 'score': 0.18186064064502716}, {'corpus_id': 3, 'score': 0.1597306877374649}, {'corpus_id': 22, 'score': 0.12671500444412231}, {'corpus_id': 7, 'score': 0.12592282891273499}, {'corpus_id': 1, 'score': 0.12095309793949127}]]",50
+circuits,contextualized,5,"Index([4, 5, 6, 7, 8], dtype='int64')","[4, 5, 6, 7, 9]","precision: 0.8
+recall: 0.8","[[{'corpus_id': 4, 'score': 0.13386477530002594}, {'corpus_id': 5, 'score': 0.12991470098495483}, {'corpus_id': 6, 'score': 0.12645238637924194}, {'corpus_id': 7, 'score': 0.09951047599315643}, {'corpus_id': 9, 'score': 0.08846861869096756}]]",50
+constructors,contextualized,5,"Index([9, 10, 11, 12, 13], dtype='int64')","[9, 11, 12, 13, 10]","precision: 1.0
+recall: 1.0","[[{'corpus_id': 9, 'score': 0.2650717496871948}, {'corpus_id': 11, 'score': 0.25036826729774475}, {'corpus_id': 12, 'score': 0.23524832725524902}, {'corpus_id': 13, 'score': 0.20817814767360687}, {'corpus_id': 10, 'score': 0.2053695023059845}]]",50
+user_reviews,contextualized,5,"Index([14, 15, 16, 17, 18], dtype='int64')","[14, 18, 16, 17, 15]","precision: 1.0
+recall: 1.0","[[{'corpus_id': 14, 'score': 0.13542205095291138}, {'corpus_id': 18, 'score': 0.13388265669345856}, {'corpus_id': 16, 'score': 0.09938087314367294}, {'corpus_id': 17, 'score': 0.09805338829755783}, {'corpus_id': 15, 'score': 0.09401357173919678}]]",50
+customers,contextualized,5,"Index([19, 20, 21, 23, 24], dtype='int64')","[34, 49, 26, 43, 35]","precision: 0.0
+recall: 0.0","[[{'corpus_id': 34, 'score': 0.059151068329811096}, {'corpus_id': 49, 'score': 0.05540969595313072}, {'corpus_id': 26, 'score': 0.05516394227743149}, {'corpus_id': 43, 'score': 0.05439852178096771}, {'corpus_id': 35, 'score': 0.05183619260787964}]]",50
+rootbeerbrand,contextualized,5,"Index([25, 26, 27, 28, 29], dtype='int64')","[28, 29, 26, 25, 24]","precision: 0.8
+recall: 0.8","[[{'corpus_id': 28, 'score': 0.2801920771598816}, {'corpus_id': 29, 'score': 0.27618202567100525}, {'corpus_id': 26, 'score': 0.2602579593658447}, {'corpus_id': 25, 'score': 0.2185707986354828}, {'corpus_id': 24, 'score': 0.19085700809955597}]]",50
+publisher,contextualized,5,"Index([30, 31, 32, 33, 46], dtype='int64')","[34, 41, 35, 36, 47]","precision: 0.0
+recall: 0.0","[[{'corpus_id': 34, 'score': 0.15246659517288208}, {'corpus_id': 41, 'score': 0.12293495237827301}, {'corpus_id': 35, 'score': 0.11911093443632126}, {'corpus_id': 36, 'score': 0.10541336238384247}, {'corpus_id': 47, 'score': 0.10255184024572372}]]",50
+author,contextualized,5,"Index([34, 35, 36, 37, 47], dtype='int64')","[34, 35, 41, 47, 46]","precision: 0.6
+recall: 0.6","[[{'corpus_id': 34, 'score': 0.12024074792861938}, {'corpus_id': 35, 'score': 0.08705002814531326}, {'corpus_id': 41, 'score': 0.07606904953718185}, {'corpus_id': 47, 'score': 0.06539205461740494}, {'corpus_id': 46, 'score': 0.056948915123939514}]]",50
+customer,contextualized,5,"Index([38, 39, 40, 41, 48], dtype='int64')","[34, 41, 35, 3, 47]","precision: 0.2
+recall: 0.2","[[{'corpus_id': 34, 'score': 0.07499971240758896}, {'corpus_id': 41, 'score': 0.059747397899627686}, {'corpus_id': 35, 'score': 0.054825812578201294}, {'corpus_id': 3, 'score': 0.035261351615190506}, {'corpus_id': 47, 'score': 0.03514005243778229}]]",50
+businesses,contextualized,5,"Index([42, 43, 44, 45, 49], dtype='int64')","[42, 43, 49, 44, 45]","precision: 1.0
+recall: 1.0","[[{'corpus_id': 42, 'score': 0.15965281426906586}, {'corpus_id': 43, 'score': 0.15857262909412384}, {'corpus_id': 49, 'score': 0.1441551297903061}, {'corpus_id': 44, 'score': 0.13453829288482666}, {'corpus_id': 45, 'score': 0.12489388138055801}]]",50

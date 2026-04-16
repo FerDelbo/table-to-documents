@@ -1,0 +1,4 @@
+StateProperty,Gas,Plasma
+Interactions,Short-range: Two-particle (binary) collisions are the rule.,"Long-range: Collective motion of particles is ubiquitous in plasma, resulting in various waves and other types of collective phenomena."
+Electrical conductivity,Very low: Gases are excellent insulators up to electric field strengths of tens of kilovolts per centimetre.[27],"Very high: For many purposes, the conductivity of a plasma may be treated as infinite."
+Independently acting species,"One: All gas particles behave in a similar way, largely influenced by collisions with one another and by gravity.","Two or more: Electrons and ions possess different charges and vastly different masses, so that they behave differently in many circumstances, with various types of plasma-specific waves and instabilities emerging as a result."

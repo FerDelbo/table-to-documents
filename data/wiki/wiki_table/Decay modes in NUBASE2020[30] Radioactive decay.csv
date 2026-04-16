@@ -1,0 +1,27 @@
+Mode,Name,Action,Nucleus changes
+α,alpha emission,"An alpha particle (A = 4, Z = 2) emitted from nucleus","(A − 4, Z − 2)"
+p,proton emission,A proton ejected from nucleus,"(A − 1, Z − 1)"
+2p,2-proton emission,Two protons ejected from nucleus simultaneously,"(A − 2, Z − 2)"
+n,neutron emission,A neutron ejected from nucleus,"(A − 1, Z)"
+2n,2-neutron emission,Two neutrons ejected from nucleus simultaneously,"(A − 2, Z)"
+ε,electron capture,A nucleus captures an orbiting electron and emits a neutrino; the daughter nucleus is left in an excited unstable state,"(A, Z − 1)"
+e+,positron emission,A nuclear proton converts to a neutron by emitting a positron and an electron neutrino,"(A, Z − 1)"
+β+ε + e+,positron emission,"In NUBASE2020, β+ refers to the combined rate of electron capture (ε) and positron emission (e+): β+ = ε + e+","(A, Z − 1)"
+β−,β− decay,A nucleus emits an electron and an electron antineutrino,"(A, Z + 1)"
+β−β−2β−,double β− decay,A nucleus emits two electrons and two antineutrinos,"(A, Z + 2)"
+β+β+2β+,double β+ decay,A nucleus emits two positrons and two neutrinos,"(A, Z − 2)"
+β−n,β−-delayed neutron emission,"A nucleus decays by β− emission to an excited state, which then emits a neutron","(A − 1, Z + 1)"
+β−2n,β−-delayed 2-neutron emission,"A nucleus decays by β− emission to an excited state, which then emits two neutrons","(A − 2, Z + 1)"
+β−3n,β−-delayed 3-neutron emission,"A nucleus decays by β− emission to an excited state, which then emits three neutrons","(A − 3, Z + 1)"
+β+p,β+-delayed proton emission,"A nucleus decays by β+ emission to an excited state, which then emits a proton","(A − 1, Z − 2)"
+β+2p,β+-delayed 2-proton emission,"A nucleus decays by β+ emission to an excited state, which then emits two protons","(A − 2, Z − 3)"
+β+3p,β+-delayed 3-proton emission,"A nucleus decays by β+ emission to an excited state, which then emits three protons","(A − 3, Z − 4)"
+β−α,β−-delayed alpha emission,"A nucleus decays by β− emission to an excited state, which then emits an α particle","(A − 4, Z − 1)"
+β+α,β+-delayed alpha emission,"A nucleus decays by β+ emission to an excited state, which then emits an a particle","(A − 4, Z − 3)"
+β−d,β−-delayed deuteron emission,"A nucleus decays by β− emission to an excited state, which then emits a deuteron","(A − 2, Z)"
+β−t,β−-delayed triton emission,"A nucleus decays by β− emission to an excited state, which then emits a triton","(A − 3, Z)"
+CD,cluster decay,"A nucleus emits a specific type of smaller nucleus (A1, Z1) which is larger than an alpha particle (e.g. 14C, 24Ne)","(A − A1, Z − Z1) & (A1, Z1)"
+IT,internal (isomeric) transition,A nucleus in a metastable state drops to a lower energy state by emitting a photon or ejecting an electron,"(A, Z)"
+SF,spontaneous fission,"A nucleus disintegrates into two or more smaller nuclei and other particles, all of which may vary with each decay",variable
+β+SF,β+-delayed fission,"A nucleus decays by β+ emission to an excited state, which then undergoes spontaneous fission",β+ & variable
+β−SF,β−-delayed fission,"A nucleus decays by β− emission to an excited state, which then undergoes spontaneous fission",β− & variable

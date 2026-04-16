@@ -1,0 +1,7 @@
+Prefix,Type and usage
+2SA,high-frequency p–n–p BJT
+2SB,audio-frequency p–n–p BJT
+2SC,high-frequency n–p–n BJT
+2SD,audio-frequency n–p–n BJT
+2SJ,P-channel FET (both JFET and MOSFET)
+2SK,N-channel FET (both JFET and MOSFET)

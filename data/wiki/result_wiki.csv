@@ -1,0 +1,937 @@
+Table,Representation,k,Expected results,Retrieval,Evalution,COS Similary,Num documents
+Clubs relegated from Série ACampeonato Brasileiro Série A,serialized_flat,1,"Index([0], dtype='int64')",[0],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 0, 'score': 0.13008062541484833}]]",52
+AllotropesCarbon,serialized_flat,1,"Index([4], dtype='int64')",[4],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 4, 'score': 0.35178595781326294}]]",52
+AluminiumAluminium,serialized_flat,1,"Index([22], dtype='int64')",[5],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 5, 'score': 0.21400782465934753}]]",52
+Apollo_11,serialized_flat,1,"Index([], dtype='int64')",[9],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 9, 'score': 0.3659537136554718}]]",52
+Automatic speech recognitionDeep learning,serialized_flat,1,"Index([43], dtype='int64')",[43],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 43, 'score': 0.1212632954120636}]]",52
+Bluetooth device power by class Bluetooth,serialized_flat,1,"Index([25], dtype='int64')",[25],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 25, 'score': 0.17940178513526917}]]",52
+Chlorine oxoacids and oxyanionsChlorine,serialized_flat,1,"Index([37], dtype='int64')",[37],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 37, 'score': 0.1750946193933487}]]",52
+Common purposesDam,serialized_flat,1,"Index([47], dtype='int64')",[47],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 47, 'score': 0.2317296266555786}]]",52
+Comparison of motor types Electric motor,serialized_flat,1,"Index([44], dtype='int64')",[44],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 44, 'score': 0.22057080268859863}]]",52
+"Comparison of Union and Confederacy, 1860–1864[245][246] American Civil War",serialized_flat,1,"Index([2], dtype='int64')",[2],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 2, 'score': 0.19214017689228058}]]",52
+Currently docked_berthedInternational Space Station,serialized_flat,1,"Index([8], dtype='int64')",[9],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 9, 'score': 0.13665299117565155}]]",52
+Current squadBrazil national football team,serialized_flat,1,"Index([1], dtype='int64')",[1],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 1, 'score': 0.09482206404209137}]]",52
+Decay modes in NUBASE2020[30] Radioactive decay,serialized_flat,1,"Index([32], dtype='int64')",[32],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 32, 'score': 0.2237687110900879}]]",52
+Electromagnetic radiation interaction with matter Electromagnetic spectrum,serialized_flat,1,"Index([18], dtype='int64')",[18],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 18, 'score': 0.26007649302482605}]]",52
+Electron configurationsPeriodic table,serialized_flat,1,"Index([3], dtype='int64')",[3],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 3, 'score': 0.05181638523936272}]]",52
+Elementary Particles Particle physics,serialized_flat,1,"Index([46], dtype='int64')",[46],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 46, 'score': 0.2008955180644989}]]",52
+Energetics of supernovae Supernova,serialized_flat,1,"Index([40], dtype='int64')",[40],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 40, 'score': 0.15389147400856018}]]",52
+Fuel use in vehicle designs Electric vehicle,serialized_flat,1,"Index([34], dtype='int64')",[34],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 34, 'score': 0.24777722358703613}]]",52
+Genetic testingCancer,serialized_flat,1,"Index([28], dtype='int64')",[28],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 28, 'score': 0.11672206968069077}]]",52
+Genomic diversity among viruses Virus,serialized_flat,1,"Index([14], dtype='int64')",[3],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 3, 'score': 0.06429800391197205}]]",52
+GoldGold,serialized_flat,1,"Index([20], dtype='int64')",[3],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 3, 'score': 0.07143328338861465}]]",52
+GPS message format Global Positioning System,serialized_flat,1,"Index([48], dtype='int64')",[48],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 48, 'score': 0.15977120399475098}]]",52
+HeliumHelium,serialized_flat,1,"Index([23], dtype='int64')",[3],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 3, 'score': 0.07249849289655685}]]",52
+Interactions of thermodynamic systems Thermodynamics,serialized_flat,1,"Index([31], dtype='int64')",[31],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 31, 'score': 0.08132728189229965}]]",52
+IronIron,serialized_flat,1,"Index([6], dtype='int64')",[5],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 5, 'score': 0.20660723745822906}]]",52
+JavaScript type conversions JavaScript,serialized_flat,1,"Index([41], dtype='int64')",[3],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 3, 'score': 0.058209531009197235}]]",52
+JIS transistor prefix table Transistor,serialized_flat,1,"Index([13], dtype='int64')",[13],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 13, 'score': 0.08832179009914398}]]",52
+LithiumLithium,serialized_flat,1,"Index([7], dtype='int64')",[5],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 5, 'score': 0.20116476714611053}]]",52
+Major milestones James Webb Space Telescope,serialized_flat,1,"Index([11], dtype='int64')",[11],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 11, 'score': 0.3369588553905487}]]",52
+Mass ratiosRocket,serialized_flat,1,"Index([33], dtype='int64')",[9],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 9, 'score': 0.1473686397075653}]]",52
+"Neutronicity, confinement requirement, and power densityNuclear fusion",serialized_flat,1,"Index([16], dtype='int64')",[33],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 33, 'score': 0.07789593189954758}]]",52
+Order and kineticsPhotosynthesis,serialized_flat,1,"Index([29], dtype='int64')",[29],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 29, 'score': 0.16505445539951324}]]",52
+OxoacidsPhosphorus,serialized_flat,1,"Index([38], dtype='int64')",[38],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 38, 'score': 0.15331488847732544}]]",52
+Page version statusSulfur,serialized_flat,1,"Index([39], dtype='int64')",[5],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 5, 'score': 0.22311492264270782}]]",52
+Platform informationAndroid (operating system),serialized_flat,1,"Index([42], dtype='int64')",[42],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 42, 'score': 0.08070685714483261}]]",52
+Pourbaix diagrams[110] Uranium,serialized_flat,1,"Index([5], dtype='int64')",[5],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 5, 'score': 0.17605161666870117}]]",52
+Pourbaix diagrams for copper Copper,serialized_flat,1,"Index([21], dtype='int64')",[21],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 21, 'score': 0.16732968389987946}]]",52
+Radar frequency bands Radar,serialized_flat,1,"Index([49], dtype='int64')",[49],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 49, 'score': 0.2708034813404083}]]",52
+Share of total world manufacturing output (percentage)[187] Industrial Revolution,serialized_flat,1,"Index([36], dtype='int64')",[36],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 36, 'score': 0.09562352299690247}]]",52
+SuccessorsHubble Space Telescope,serialized_flat,1,"Index([10], dtype='int64')",[10],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 10, 'score': 0.25032415986061096}]]",52
+Summary of achievementsSpaceX,serialized_flat,1,"Index([12], dtype='int64')",[12],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 12, 'score': 0.30624809861183167}]]",52
+The continuous or average power required for some uses: Laser,serialized_flat,1,"Index([19], dtype='int64')",[19],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 19, 'score': 0.15120959281921387}]]",52
+The division by age in the Inca empire from the book Daily Life in Peru Under the Last Incas page 103-104[57] Inca Empire,serialized_flat,1,"Index([50], dtype='int64')",[3],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 3, 'score': 0.04246260225772858}]]",52
+The fourth state of matterPlasma (physics),serialized_flat,1,"Index([45], dtype='int64')",[45],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 45, 'score': 0.2410770207643509}]]",52
+Twin paradoxSpecial relativity,serialized_flat,1,"Index([17], dtype='int64')",[17],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 17, 'score': 0.0649528056383133}]]",52
+TypesCell (biology),serialized_flat,1,"Index([15], dtype='int64')",[15],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 15, 'score': 0.18915164470672607}]]",52
+USB power standards USB,serialized_flat,1,"Index([24], dtype='int64')",[24],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 24, 'score': 0.16244548559188843}]]",52
+US expenditures in South Vietnam (1953–74)Direct costs only[423] Vietnam War,serialized_flat,1,"Index([51], dtype='int64')",[48],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 48, 'score': 0.0760846734046936}]]",52
+VersionsJava (programming language),serialized_flat,1,"Index([27], dtype='int64')",[27],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 27, 'score': 0.14186032116413116}]]",52
+Wi-Fi generationsvte Wi-Fi,serialized_flat,1,"Index([26], dtype='int64')",[26],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 26, 'score': 0.19295185804367065}]]",52
+Magnetic field,serialized_flat,1,"Index([30], dtype='int64')",[30],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 30, 'score': 0.14827793836593628}]]",52
+Lithium-ion battery,serialized_flat,1,"Index([35], dtype='int64')",[45],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 45, 'score': 0.04959242790937424}]]",52
+AllotropesCarbon,linearized_column_wise,1,"Index([4], dtype='int64')",[4],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 4, 'score': 0.36067402362823486}]]",52
+AluminiumAluminium,linearized_column_wise,1,"Index([22], dtype='int64')",[5],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 5, 'score': 0.24110256135463715}]]",52
+Apollo_11,linearized_column_wise,1,"Index([], dtype='int64')",[9],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 9, 'score': 0.3982986807823181}]]",52
+Automatic speech recognitionDeep learning,linearized_column_wise,1,"Index([43], dtype='int64')",[43],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 43, 'score': 0.12464121729135513}]]",52
+Bluetooth device power by class Bluetooth,linearized_column_wise,1,"Index([25], dtype='int64')",[25],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 25, 'score': 0.18876992166042328}]]",52
+Chlorine oxoacids and oxyanionsChlorine,linearized_column_wise,1,"Index([37], dtype='int64')",[37],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 37, 'score': 0.19826391339302063}]]",52
+Clubs relegated from Série ACampeonato Brasileiro Série A,linearized_column_wise,1,"Index([0], dtype='int64')",[0],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 0, 'score': 0.13093003630638123}]]",52
+Common purposesDam,linearized_column_wise,1,"Index([47], dtype='int64')",[47],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 47, 'score': 0.24723540246486664}]]",52
+Comparison of motor types Electric motor,linearized_column_wise,1,"Index([44], dtype='int64')",[44],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 44, 'score': 0.14518330991268158}]]",52
+"Comparison of Union and Confederacy, 1860–1864[245][246] American Civil War",linearized_column_wise,1,"Index([2], dtype='int64')",[2],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 2, 'score': 0.20325498282909393}]]",52
+Currently docked_berthedInternational Space Station,linearized_column_wise,1,"Index([8], dtype='int64')",[9],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 9, 'score': 0.13326790928840637}]]",52
+Current squadBrazil national football team,linearized_column_wise,1,"Index([1], dtype='int64')",[1],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 1, 'score': 0.1382233053445816}]]",52
+Decay modes in NUBASE2020[30] Radioactive decay,linearized_column_wise,1,"Index([32], dtype='int64')",[32],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 32, 'score': 0.20470024645328522}]]",52
+Electromagnetic radiation interaction with matter Electromagnetic spectrum,linearized_column_wise,1,"Index([18], dtype='int64')",[18],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 18, 'score': 0.2845638692378998}]]",52
+Electron configurationsPeriodic table,linearized_column_wise,1,"Index([3], dtype='int64')",[8],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 8, 'score': 0.058509524911642075}]]",52
+Elementary Particles Particle physics,linearized_column_wise,1,"Index([46], dtype='int64')",[46],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 46, 'score': 0.2715485692024231}]]",52
+Energetics of supernovae Supernova,linearized_column_wise,1,"Index([40], dtype='int64')",[40],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 40, 'score': 0.16740234196186066}]]",52
+Fuel use in vehicle designs Electric vehicle,linearized_column_wise,1,"Index([34], dtype='int64')",[34],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 34, 'score': 0.25694137811660767}]]",52
+Genetic testingCancer,linearized_column_wise,1,"Index([28], dtype='int64')",[28],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 28, 'score': 0.11429756879806519}]]",52
+Genomic diversity among viruses Virus,linearized_column_wise,1,"Index([14], dtype='int64')",[38],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 38, 'score': 0.06621114164590836}]]",52
+GoldGold,linearized_column_wise,1,"Index([20], dtype='int64')",[38],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 38, 'score': 0.051734767854213715}]]",52
+GPS message format Global Positioning System,linearized_column_wise,1,"Index([48], dtype='int64')",[48],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 48, 'score': 0.15705305337905884}]]",52
+HeliumHelium,linearized_column_wise,1,"Index([23], dtype='int64')",[3],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 3, 'score': 0.05655861273407936}]]",52
+Interactions of thermodynamic systems Thermodynamics,linearized_column_wise,1,"Index([31], dtype='int64')",[31],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 31, 'score': 0.09567398577928543}]]",52
+IronIron,linearized_column_wise,1,"Index([6], dtype='int64')",[5],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 5, 'score': 0.21945269405841827}]]",52
+JavaScript type conversions JavaScript,linearized_column_wise,1,"Index([41], dtype='int64')",[3],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 3, 'score': 0.05601324141025543}]]",52
+JIS transistor prefix table Transistor,linearized_column_wise,1,"Index([13], dtype='int64')",[13],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 13, 'score': 0.09735861420631409}]]",52
+Lithium-ion battery,linearized_column_wise,1,"Index([35], dtype='int64')",[45],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 45, 'score': 0.04809240251779556}]]",52
+LithiumLithium,linearized_column_wise,1,"Index([7], dtype='int64')",[5],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 5, 'score': 0.21198518574237823}]]",52
+Magnetic field,linearized_column_wise,1,"Index([30], dtype='int64')",[30],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 30, 'score': 0.13420413434505463}]]",52
+Major milestones James Webb Space Telescope,linearized_column_wise,1,"Index([11], dtype='int64')",[11],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 11, 'score': 0.3438335657119751}]]",52
+Mass ratiosRocket,linearized_column_wise,1,"Index([33], dtype='int64')",[9],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 9, 'score': 0.1394440233707428}]]",52
+"Neutronicity, confinement requirement, and power densityNuclear fusion",linearized_column_wise,1,"Index([16], dtype='int64')",[5],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 5, 'score': 0.0982559472322464}]]",52
+Order and kineticsPhotosynthesis,linearized_column_wise,1,"Index([29], dtype='int64')",[29],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 29, 'score': 0.17849968373775482}]]",52
+OxoacidsPhosphorus,linearized_column_wise,1,"Index([38], dtype='int64')",[38],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 38, 'score': 0.15347981452941895}]]",52
+Page version statusSulfur,linearized_column_wise,1,"Index([39], dtype='int64')",[5],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 5, 'score': 0.22777976095676422}]]",52
+Platform informationAndroid (operating system),linearized_column_wise,1,"Index([42], dtype='int64')",[42],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 42, 'score': 0.08012304455041885}]]",52
+Pourbaix diagrams[110] Uranium,linearized_column_wise,1,"Index([5], dtype='int64')",[5],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 5, 'score': 0.18187546730041504}]]",52
+Pourbaix diagrams for copper Copper,linearized_column_wise,1,"Index([21], dtype='int64')",[21],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 21, 'score': 0.16085368394851685}]]",52
+Radar frequency bands Radar,linearized_column_wise,1,"Index([49], dtype='int64')",[49],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 49, 'score': 0.27739185094833374}]]",52
+Share of total world manufacturing output (percentage)[187] Industrial Revolution,linearized_column_wise,1,"Index([36], dtype='int64')",[36],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 36, 'score': 0.09813598543405533}]]",52
+SuccessorsHubble Space Telescope,linearized_column_wise,1,"Index([10], dtype='int64')",[11],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 11, 'score': 0.2805558443069458}]]",52
+Summary of achievementsSpaceX,linearized_column_wise,1,"Index([12], dtype='int64')",[12],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 12, 'score': 0.2852364778518677}]]",52
+The continuous or average power required for some uses: Laser,linearized_column_wise,1,"Index([19], dtype='int64')",[19],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 19, 'score': 0.15887132287025452}]]",52
+The division by age in the Inca empire from the book Daily Life in Peru Under the Last Incas page 103-104[57] Inca Empire,linearized_column_wise,1,"Index([50], dtype='int64')",[9],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 9, 'score': 0.037351131439208984}]]",52
+The fourth state of matterPlasma (physics),linearized_column_wise,1,"Index([45], dtype='int64')",[45],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 45, 'score': 0.22441071271896362}]]",52
+Twin paradoxSpecial relativity,linearized_column_wise,1,"Index([17], dtype='int64')",[49],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 49, 'score': 0.06526198983192444}]]",52
+TypesCell (biology),linearized_column_wise,1,"Index([15], dtype='int64')",[15],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 15, 'score': 0.19263747334480286}]]",52
+USB power standards USB,linearized_column_wise,1,"Index([24], dtype='int64')",[24],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 24, 'score': 0.18762218952178955}]]",52
+US expenditures in South Vietnam (1953–74)Direct costs only[423] Vietnam War,linearized_column_wise,1,"Index([51], dtype='int64')",[48],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 48, 'score': 0.08688965439796448}]]",52
+VersionsJava (programming language),linearized_column_wise,1,"Index([27], dtype='int64')",[27],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 27, 'score': 0.1739499866962433}]]",52
+Wi-Fi generationsvte Wi-Fi,linearized_column_wise,1,"Index([26], dtype='int64')",[26],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 26, 'score': 0.2152450680732727}]]",52
+AllotropesCarbon,linearized_row_wise,1,"Index([4], dtype='int64')",[4],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 4, 'score': 0.361503541469574}]]",52
+AluminiumAluminium,linearized_row_wise,1,"Index([22], dtype='int64')",[5],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 5, 'score': 0.2273070514202118}]]",52
+Apollo_11,linearized_row_wise,1,"Index([], dtype='int64')",[9],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 9, 'score': 0.40048182010650635}]]",52
+Automatic speech recognitionDeep learning,linearized_row_wise,1,"Index([43], dtype='int64')",[43],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 43, 'score': 0.08729665726423264}]]",52
+Bluetooth device power by class Bluetooth,linearized_row_wise,1,"Index([25], dtype='int64')",[25],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 25, 'score': 0.18804161250591278}]]",52
+Chlorine oxoacids and oxyanionsChlorine,linearized_row_wise,1,"Index([37], dtype='int64')",[37],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 37, 'score': 0.18604010343551636}]]",52
+Clubs relegated from Série ACampeonato Brasileiro Série A,linearized_row_wise,1,"Index([0], dtype='int64')",[0],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 0, 'score': 0.13892346620559692}]]",52
+Common purposesDam,linearized_row_wise,1,"Index([47], dtype='int64')",[47],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 47, 'score': 0.23534533381462097}]]",52
+Comparison of motor types Electric motor,linearized_row_wise,1,"Index([44], dtype='int64')",[44],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 44, 'score': 0.23465563356876373}]]",52
+"Comparison of Union and Confederacy, 1860–1864[245][246] American Civil War",linearized_row_wise,1,"Index([2], dtype='int64')",[2],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 2, 'score': 0.2048131376504898}]]",52
+Currently docked_berthedInternational Space Station,linearized_row_wise,1,"Index([8], dtype='int64')",[9],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 9, 'score': 0.12127408385276794}]]",52
+Current squadBrazil national football team,linearized_row_wise,1,"Index([1], dtype='int64')",[1],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 1, 'score': 0.12908221781253815}]]",52
+Decay modes in NUBASE2020[30] Radioactive decay,linearized_row_wise,1,"Index([32], dtype='int64')",[32],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 32, 'score': 0.22974428534507751}]]",52
+Electromagnetic radiation interaction with matter Electromagnetic spectrum,linearized_row_wise,1,"Index([18], dtype='int64')",[18],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 18, 'score': 0.2654716968536377}]]",52
+Electron configurationsPeriodic table,linearized_row_wise,1,"Index([3], dtype='int64')",[3],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 3, 'score': 0.07856517285108566}]]",52
+Elementary Particles Particle physics,linearized_row_wise,1,"Index([46], dtype='int64')",[46],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 46, 'score': 0.2414877861738205}]]",52
+Energetics of supernovae Supernova,linearized_row_wise,1,"Index([40], dtype='int64')",[40],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 40, 'score': 0.15820281207561493}]]",52
+Fuel use in vehicle designs Electric vehicle,linearized_row_wise,1,"Index([34], dtype='int64')",[34],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 34, 'score': 0.24013225734233856}]]",52
+Genetic testingCancer,linearized_row_wise,1,"Index([28], dtype='int64')",[28],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 28, 'score': 0.1184437945485115}]]",52
+Genomic diversity among viruses Virus,linearized_row_wise,1,"Index([14], dtype='int64')",[3],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 3, 'score': 0.08146694302558899}]]",52
+GoldGold,linearized_row_wise,1,"Index([20], dtype='int64')",[3],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 3, 'score': 0.08689954876899719}]]",52
+GPS message format Global Positioning System,linearized_row_wise,1,"Index([48], dtype='int64')",[48],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 48, 'score': 0.16833175718784332}]]",52
+HeliumHelium,linearized_row_wise,1,"Index([23], dtype='int64')",[3],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 3, 'score': 0.08417786657810211}]]",52
+Interactions of thermodynamic systems Thermodynamics,linearized_row_wise,1,"Index([31], dtype='int64')",[31],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 31, 'score': 0.0847819522023201}]]",52
+IronIron,linearized_row_wise,1,"Index([6], dtype='int64')",[5],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 5, 'score': 0.17752744257450104}]]",52
+JavaScript type conversions JavaScript,linearized_row_wise,1,"Index([41], dtype='int64')",[3],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 3, 'score': 0.06811200827360153}]]",52
+JIS transistor prefix table Transistor,linearized_row_wise,1,"Index([13], dtype='int64')",[13],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 13, 'score': 0.0920800194144249}]]",52
+Lithium-ion battery,linearized_row_wise,1,"Index([35], dtype='int64')",[3],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 3, 'score': 0.05026135593652725}]]",52
+LithiumLithium,linearized_row_wise,1,"Index([7], dtype='int64')",[5],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 5, 'score': 0.2162833958864212}]]",52
+Magnetic field,linearized_row_wise,1,"Index([30], dtype='int64')",[30],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 30, 'score': 0.14385196566581726}]]",52
+Major milestones James Webb Space Telescope,linearized_row_wise,1,"Index([11], dtype='int64')",[11],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 11, 'score': 0.35571056604385376}]]",52
+Mass ratiosRocket,linearized_row_wise,1,"Index([33], dtype='int64')",[9],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 9, 'score': 0.15361922979354858}]]",52
+"Neutronicity, confinement requirement, and power densityNuclear fusion",linearized_row_wise,1,"Index([16], dtype='int64')",[5],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 5, 'score': 0.12756724655628204}]]",52
+Order and kineticsPhotosynthesis,linearized_row_wise,1,"Index([29], dtype='int64')",[29],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 29, 'score': 0.17370176315307617}]]",52
+OxoacidsPhosphorus,linearized_row_wise,1,"Index([38], dtype='int64')",[38],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 38, 'score': 0.1464616060256958}]]",52
+Page version statusSulfur,linearized_row_wise,1,"Index([39], dtype='int64')",[5],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 5, 'score': 0.1981990486383438}]]",52
+Platform informationAndroid (operating system),linearized_row_wise,1,"Index([42], dtype='int64')",[42],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 42, 'score': 0.0791870728135109}]]",52
+Pourbaix diagrams[110] Uranium,linearized_row_wise,1,"Index([5], dtype='int64')",[5],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 5, 'score': 0.21464182436466217}]]",52
+Pourbaix diagrams for copper Copper,linearized_row_wise,1,"Index([21], dtype='int64')",[21],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 21, 'score': 0.1903281807899475}]]",52
+Radar frequency bands Radar,linearized_row_wise,1,"Index([49], dtype='int64')",[49],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 49, 'score': 0.262263685464859}]]",52
+Share of total world manufacturing output (percentage)[187] Industrial Revolution,linearized_row_wise,1,"Index([36], dtype='int64')",[3],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 3, 'score': 0.0918944701552391}]]",52
+SuccessorsHubble Space Telescope,linearized_row_wise,1,"Index([10], dtype='int64')",[10],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 10, 'score': 0.26893705129623413}]]",52
+Summary of achievementsSpaceX,linearized_row_wise,1,"Index([12], dtype='int64')",[12],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 12, 'score': 0.31775882840156555}]]",52
+The continuous or average power required for some uses: Laser,linearized_row_wise,1,"Index([19], dtype='int64')",[19],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 19, 'score': 0.15269188582897186}]]",52
+The division by age in the Inca empire from the book Daily Life in Peru Under the Last Incas page 103-104[57] Inca Empire,linearized_row_wise,1,"Index([50], dtype='int64')",[3],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 3, 'score': 0.05652035400271416}]]",52
+The fourth state of matterPlasma (physics),linearized_row_wise,1,"Index([45], dtype='int64')",[45],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 45, 'score': 0.23398452997207642}]]",52
+Twin paradoxSpecial relativity,linearized_row_wise,1,"Index([17], dtype='int64')",[17],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 17, 'score': 0.059288617223501205}]]",52
+TypesCell (biology),linearized_row_wise,1,"Index([15], dtype='int64')",[15],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 15, 'score': 0.19596852362155914}]]",52
+USB power standards USB,linearized_row_wise,1,"Index([24], dtype='int64')",[24],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 24, 'score': 0.18959251046180725}]]",52
+US expenditures in South Vietnam (1953–74)Direct costs only[423] Vietnam War,linearized_row_wise,1,"Index([51], dtype='int64')",[48],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 48, 'score': 0.09115435183048248}]]",52
+VersionsJava (programming language),linearized_row_wise,1,"Index([27], dtype='int64')",[27],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 27, 'score': 0.15935593843460083}]]",52
+Wi-Fi generationsvte Wi-Fi,linearized_row_wise,1,"Index([26], dtype='int64')",[26],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 26, 'score': 0.20255057513713837}]]",52
+AllotropesCarbon,template_based,1,"Index([4], dtype='int64')",[4],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 4, 'score': 0.3520069420337677}]]",52
+AluminiumAluminium,template_based,1,"Index([22], dtype='int64')",[5],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 5, 'score': 0.2384319305419922}]]",52
+Apollo_11,template_based,1,"Index([], dtype='int64')",[9],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 9, 'score': 0.4070703089237213}]]",52
+Automatic speech recognitionDeep learning,template_based,1,"Index([43], dtype='int64')",[43],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 43, 'score': 0.1121969074010849}]]",52
+Bluetooth device power by class Bluetooth,template_based,1,"Index([25], dtype='int64')",[25],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 25, 'score': 0.20062923431396484}]]",52
+Chlorine oxoacids and oxyanionsChlorine,template_based,1,"Index([37], dtype='int64')",[37],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 37, 'score': 0.19550661742687225}]]",52
+Clubs relegated from Série ACampeonato Brasileiro Série A,template_based,1,"Index([0], dtype='int64')",[0],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 0, 'score': 0.18195587396621704}]]",52
+Common purposesDam,template_based,1,"Index([47], dtype='int64')",[47],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 47, 'score': 0.2336638867855072}]]",52
+Comparison of motor types Electric motor,template_based,1,"Index([44], dtype='int64')",[44],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 44, 'score': 0.2397061139345169}]]",52
+"Comparison of Union and Confederacy, 1860–1864[245][246] American Civil War",template_based,1,"Index([2], dtype='int64')",[2],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 2, 'score': 0.24896223843097687}]]",52
+Currently docked_berthedInternational Space Station,template_based,1,"Index([8], dtype='int64')",[9],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 9, 'score': 0.13823117315769196}]]",52
+Current squadBrazil national football team,template_based,1,"Index([1], dtype='int64')",[1],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 1, 'score': 0.113548643887043}]]",52
+Decay modes in NUBASE2020[30] Radioactive decay,template_based,1,"Index([32], dtype='int64')",[32],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 32, 'score': 0.2435920387506485}]]",52
+Electromagnetic radiation interaction with matter Electromagnetic spectrum,template_based,1,"Index([18], dtype='int64')",[18],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 18, 'score': 0.2711830735206604}]]",52
+Electron configurationsPeriodic table,template_based,1,"Index([3], dtype='int64')",[5],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 5, 'score': 0.07193566113710403}]]",52
+Elementary Particles Particle physics,template_based,1,"Index([46], dtype='int64')",[46],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 46, 'score': 0.23217566311359406}]]",52
+Energetics of supernovae Supernova,template_based,1,"Index([40], dtype='int64')",[40],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 40, 'score': 0.16763630509376526}]]",52
+Fuel use in vehicle designs Electric vehicle,template_based,1,"Index([34], dtype='int64')",[34],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 34, 'score': 0.25520798563957214}]]",52
+Genetic testingCancer,template_based,1,"Index([28], dtype='int64')",[28],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 28, 'score': 0.1324288547039032}]]",52
+Genomic diversity among viruses Virus,template_based,1,"Index([14], dtype='int64')",[38],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 38, 'score': 0.07024147361516953}]]",52
+GoldGold,template_based,1,"Index([20], dtype='int64')",[38],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 38, 'score': 0.0510343499481678}]]",52
+GPS message format Global Positioning System,template_based,1,"Index([48], dtype='int64')",[48],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 48, 'score': 0.1719050407409668}]]",52
+HeliumHelium,template_based,1,"Index([23], dtype='int64')",[38],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 38, 'score': 0.04612913355231285}]]",52
+Interactions of thermodynamic systems Thermodynamics,template_based,1,"Index([31], dtype='int64')",[31],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 31, 'score': 0.09488093852996826}]]",52
+IronIron,template_based,1,"Index([6], dtype='int64')",[5],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 5, 'score': 0.19288934767246246}]]",52
+JavaScript type conversions JavaScript,template_based,1,"Index([41], dtype='int64')",[50],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 50, 'score': 0.04565451294183731}]]",52
+JIS transistor prefix table Transistor,template_based,1,"Index([13], dtype='int64')",[13],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 13, 'score': 0.09252794831991196}]]",52
+Lithium-ion battery,template_based,1,"Index([35], dtype='int64')",[45],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 45, 'score': 0.05735998600721359}]]",52
+LithiumLithium,template_based,1,"Index([7], dtype='int64')",[5],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 5, 'score': 0.2177915871143341}]]",52
+Magnetic field,template_based,1,"Index([30], dtype='int64')",[30],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 30, 'score': 0.14391107857227325}]]",52
+Major milestones James Webb Space Telescope,template_based,1,"Index([11], dtype='int64')",[11],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 11, 'score': 0.35531309247016907}]]",52
+Mass ratiosRocket,template_based,1,"Index([33], dtype='int64')",[9],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 9, 'score': 0.14301957190036774}]]",52
+"Neutronicity, confinement requirement, and power densityNuclear fusion",template_based,1,"Index([16], dtype='int64')",[5],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 5, 'score': 0.1333061307668686}]]",52
+Order and kineticsPhotosynthesis,template_based,1,"Index([29], dtype='int64')",[29],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 29, 'score': 0.18634463846683502}]]",52
+OxoacidsPhosphorus,template_based,1,"Index([38], dtype='int64')",[38],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 38, 'score': 0.15036779642105103}]]",52
+Page version statusSulfur,template_based,1,"Index([39], dtype='int64')",[5],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 5, 'score': 0.2152312994003296}]]",52
+Platform informationAndroid (operating system),template_based,1,"Index([42], dtype='int64')",[42],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 42, 'score': 0.08368945121765137}]]",52
+Pourbaix diagrams[110] Uranium,template_based,1,"Index([5], dtype='int64')",[5],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 5, 'score': 0.20267543196678162}]]",52
+Pourbaix diagrams for copper Copper,template_based,1,"Index([21], dtype='int64')",[21],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 21, 'score': 0.1796361654996872}]]",52
+Radar frequency bands Radar,template_based,1,"Index([49], dtype='int64')",[49],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 49, 'score': 0.2695744037628174}]]",52
+Share of total world manufacturing output (percentage)[187] Industrial Revolution,template_based,1,"Index([36], dtype='int64')",[36],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 36, 'score': 0.08846335113048553}]]",52
+SuccessorsHubble Space Telescope,template_based,1,"Index([10], dtype='int64')",[11],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 11, 'score': 0.2542714774608612}]]",52
+Summary of achievementsSpaceX,template_based,1,"Index([12], dtype='int64')",[12],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 12, 'score': 0.31455856561660767}]]",52
+The continuous or average power required for some uses: Laser,template_based,1,"Index([19], dtype='int64')",[19],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 19, 'score': 0.15925544500350952}]]",52
+The division by age in the Inca empire from the book Daily Life in Peru Under the Last Incas page 103-104[57] Inca Empire,template_based,1,"Index([50], dtype='int64')",[9],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 9, 'score': 0.037845294922590256}]]",52
+The fourth state of matterPlasma (physics),template_based,1,"Index([45], dtype='int64')",[45],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 45, 'score': 0.25459861755371094}]]",52
+Twin paradoxSpecial relativity,template_based,1,"Index([17], dtype='int64')",[17],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 17, 'score': 0.06103847175836563}]]",52
+TypesCell (biology),template_based,1,"Index([15], dtype='int64')",[15],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 15, 'score': 0.203767791390419}]]",52
+USB power standards USB,template_based,1,"Index([24], dtype='int64')",[24],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 24, 'score': 0.19723393023014069}]]",52
+US expenditures in South Vietnam (1953–74)Direct costs only[423] Vietnam War,template_based,1,"Index([51], dtype='int64')",[48],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 48, 'score': 0.09376144409179688}]]",52
+VersionsJava (programming language),template_based,1,"Index([27], dtype='int64')",[27],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 27, 'score': 0.1927608996629715}]]",52
+Wi-Fi generationsvte Wi-Fi,template_based,1,"Index([26], dtype='int64')",[26],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 26, 'score': 0.21686924993991852}]]",52
+AllotropesCarbon,markdown,1,"Index([4], dtype='int64')",[4],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 4, 'score': 0.36972445249557495}]]",52
+AluminiumAluminium,markdown,1,"Index([22], dtype='int64')",[5],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 5, 'score': 0.24611902236938477}]]",52
+Apollo_11,markdown,1,"Index([], dtype='int64')",[9],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 9, 'score': 0.40990981459617615}]]",52
+Automatic speech recognitionDeep learning,markdown,1,"Index([43], dtype='int64')",[43],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 43, 'score': 0.12988057732582092}]]",52
+Bluetooth device power by class Bluetooth,markdown,1,"Index([25], dtype='int64')",[25],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 25, 'score': 0.07988011091947556}]]",52
+Chlorine oxoacids and oxyanionsChlorine,markdown,1,"Index([37], dtype='int64')",[37],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 37, 'score': 0.20317770540714264}]]",52
+Clubs relegated from Série ACampeonato Brasileiro Série A,markdown,1,"Index([0], dtype='int64')",[0],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 0, 'score': 0.16010291874408722}]]",52
+Common purposesDam,markdown,1,"Index([47], dtype='int64')",[47],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 47, 'score': 0.1628313958644867}]]",52
+Comparison of motor types Electric motor,markdown,1,"Index([44], dtype='int64')",[44],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 44, 'score': 0.1566692292690277}]]",52
+"Comparison of Union and Confederacy, 1860–1864[245][246] American Civil War",markdown,1,"Index([2], dtype='int64')",[2],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 2, 'score': 0.22498226165771484}]]",52
+Currently docked_berthedInternational Space Station,markdown,1,"Index([8], dtype='int64')",[9],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 9, 'score': 0.15227971971035004}]]",52
+Current squadBrazil national football team,markdown,1,"Index([1], dtype='int64')",[1],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 1, 'score': 0.1170838326215744}]]",52
+Decay modes in NUBASE2020[30] Radioactive decay,markdown,1,"Index([32], dtype='int64')",[32],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 32, 'score': 0.23172657191753387}]]",52
+Electromagnetic radiation interaction with matter Electromagnetic spectrum,markdown,1,"Index([18], dtype='int64')",[18],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 18, 'score': 0.27528655529022217}]]",52
+Electron configurationsPeriodic table,markdown,1,"Index([3], dtype='int64')",[8],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 8, 'score': 0.06505508720874786}]]",52
+Elementary Particles Particle physics,markdown,1,"Index([46], dtype='int64')",[46],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 46, 'score': 0.26766568422317505}]]",52
+Energetics of supernovae Supernova,markdown,1,"Index([40], dtype='int64')",[40],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 40, 'score': 0.16013219952583313}]]",52
+Fuel use in vehicle designs Electric vehicle,markdown,1,"Index([34], dtype='int64')",[34],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 34, 'score': 0.2615559995174408}]]",52
+Genetic testingCancer,markdown,1,"Index([28], dtype='int64')",[28],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 28, 'score': 0.1417965292930603}]]",52
+Genomic diversity among viruses Virus,markdown,1,"Index([14], dtype='int64')",[38],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 38, 'score': 0.059518590569496155}]]",52
+GoldGold,markdown,1,"Index([20], dtype='int64')",[38],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 38, 'score': 0.048991262912750244}]]",52
+GPS message format Global Positioning System,markdown,1,"Index([48], dtype='int64')",[48],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 48, 'score': 0.1782127171754837}]]",52
+HeliumHelium,markdown,1,"Index([23], dtype='int64')",[38],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 38, 'score': 0.042675357311964035}]]",52
+Interactions of thermodynamic systems Thermodynamics,markdown,1,"Index([31], dtype='int64')",[44],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 44, 'score': 0.10680349171161652}]]",52
+IronIron,markdown,1,"Index([6], dtype='int64')",[5],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 5, 'score': 0.24477830529212952}]]",52
+JavaScript type conversions JavaScript,markdown,1,"Index([41], dtype='int64')",[50],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 50, 'score': 0.04726184904575348}]]",52
+JIS transistor prefix table Transistor,markdown,1,"Index([13], dtype='int64')",[13],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 13, 'score': 0.11223341524600983}]]",52
+Lithium-ion battery,markdown,1,"Index([35], dtype='int64')",[45],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 45, 'score': 0.05672821030020714}]]",52
+LithiumLithium,markdown,1,"Index([7], dtype='int64')",[5],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 5, 'score': 0.2511887550354004}]]",52
+Magnetic field,markdown,1,"Index([30], dtype='int64')",[30],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 30, 'score': 0.2042517513036728}]]",52
+Major milestones James Webb Space Telescope,markdown,1,"Index([11], dtype='int64')",[11],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 11, 'score': 0.32260555028915405}]]",52
+Mass ratiosRocket,markdown,1,"Index([33], dtype='int64')",[9],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 9, 'score': 0.18139660358428955}]]",52
+"Neutronicity, confinement requirement, and power densityNuclear fusion",markdown,1,"Index([16], dtype='int64')",[5],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 5, 'score': 0.09793618321418762}]]",52
+Order and kineticsPhotosynthesis,markdown,1,"Index([29], dtype='int64')",[29],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 29, 'score': 0.1701052039861679}]]",52
+OxoacidsPhosphorus,markdown,1,"Index([38], dtype='int64')",[38],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 38, 'score': 0.1674300730228424}]]",52
+Page version statusSulfur,markdown,1,"Index([39], dtype='int64')",[5],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 5, 'score': 0.2600097060203552}]]",52
+Platform informationAndroid (operating system),markdown,1,"Index([42], dtype='int64')",[42],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 42, 'score': 0.11233249306678772}]]",52
+Pourbaix diagrams[110] Uranium,markdown,1,"Index([5], dtype='int64')",[5],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 5, 'score': 0.1984410285949707}]]",52
+Pourbaix diagrams for copper Copper,markdown,1,"Index([21], dtype='int64')",[21],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 21, 'score': 0.15700465440750122}]]",52
+Radar frequency bands Radar,markdown,1,"Index([49], dtype='int64')",[18],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 18, 'score': 0.24814677238464355}]]",52
+Share of total world manufacturing output (percentage)[187] Industrial Revolution,markdown,1,"Index([36], dtype='int64')",[36],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 36, 'score': 0.11322376877069473}]]",52
+SuccessorsHubble Space Telescope,markdown,1,"Index([10], dtype='int64')",[11],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 11, 'score': 0.23154482245445251}]]",52
+Summary of achievementsSpaceX,markdown,1,"Index([12], dtype='int64')",[12],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 12, 'score': 0.34617722034454346}]]",52
+The continuous or average power required for some uses: Laser,markdown,1,"Index([19], dtype='int64')",[19],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 19, 'score': 0.15473850071430206}]]",52
+The division by age in the Inca empire from the book Daily Life in Peru Under the Last Incas page 103-104[57] Inca Empire,markdown,1,"Index([50], dtype='int64')",[9],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 9, 'score': 0.0391269288957119}]]",52
+The fourth state of matterPlasma (physics),markdown,1,"Index([45], dtype='int64')",[45],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 45, 'score': 0.21333615481853485}]]",52
+Twin paradoxSpecial relativity,markdown,1,"Index([17], dtype='int64')",[49],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 49, 'score': 0.06651539355516434}]]",52
+TypesCell (biology),markdown,1,"Index([15], dtype='int64')",[15],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 15, 'score': 0.22697226703166962}]]",52
+USB power standards USB,markdown,1,"Index([24], dtype='int64')",[13],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 13, 'score': 0.07685145735740662}]]",52
+US expenditures in South Vietnam (1953–74)Direct costs only[423] Vietnam War,markdown,1,"Index([51], dtype='int64')",[48],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 48, 'score': 0.08794360607862473}]]",52
+VersionsJava (programming language),markdown,1,"Index([27], dtype='int64')",[27],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 27, 'score': 0.1506420224905014}]]",52
+Wi-Fi generationsvte Wi-Fi,markdown,1,"Index([26], dtype='int64')",[26],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 26, 'score': 0.18494181334972382}]]",52
+AllotropesCarbon,html_like,1,"Index([4], dtype='int64')",[4],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 4, 'score': 0.3390267491340637}]]",52
+AluminiumAluminium,html_like,1,"Index([22], dtype='int64')",[5],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 5, 'score': 0.21003475785255432}]]",52
+Apollo_11,html_like,1,"Index([], dtype='int64')",[9],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 9, 'score': 0.3577113747596741}]]",52
+Automatic speech recognitionDeep learning,html_like,1,"Index([43], dtype='int64')",[43],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 43, 'score': 0.1297483593225479}]]",52
+Bluetooth device power by class Bluetooth,html_like,1,"Index([25], dtype='int64')",[25],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 25, 'score': 0.17510217428207397}]]",52
+Chlorine oxoacids and oxyanionsChlorine,html_like,1,"Index([37], dtype='int64')",[37],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 37, 'score': 0.17600102722644806}]]",52
+Clubs relegated from Série ACampeonato Brasileiro Série A,html_like,1,"Index([0], dtype='int64')",[0],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 0, 'score': 0.10175761580467224}]]",52
+Common purposesDam,html_like,1,"Index([47], dtype='int64')",[47],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 47, 'score': 0.2164769470691681}]]",52
+Comparison of motor types Electric motor,html_like,1,"Index([44], dtype='int64')",[44],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 44, 'score': 0.22814081609249115}]]",52
+"Comparison of Union and Confederacy, 1860–1864[245][246] American Civil War",html_like,1,"Index([2], dtype='int64')",[2],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 2, 'score': 0.20782813429832458}]]",52
+Currently docked_berthedInternational Space Station,html_like,1,"Index([8], dtype='int64')",[9],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 9, 'score': 0.1530701220035553}]]",52
+Current squadBrazil national football team,html_like,1,"Index([1], dtype='int64')",[1],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 1, 'score': 0.09921243786811829}]]",52
+Decay modes in NUBASE2020[30] Radioactive decay,html_like,1,"Index([32], dtype='int64')",[32],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 32, 'score': 0.19187985360622406}]]",52
+Electromagnetic radiation interaction with matter Electromagnetic spectrum,html_like,1,"Index([18], dtype='int64')",[18],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 18, 'score': 0.2475806623697281}]]",52
+Electron configurationsPeriodic table,html_like,1,"Index([3], dtype='int64')",[3],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 3, 'score': 0.08218535035848618}]]",52
+Elementary Particles Particle physics,html_like,1,"Index([46], dtype='int64')",[46],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 46, 'score': 0.18669195473194122}]]",52
+Energetics of supernovae Supernova,html_like,1,"Index([40], dtype='int64')",[40],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 40, 'score': 0.1498011201620102}]]",52
+Fuel use in vehicle designs Electric vehicle,html_like,1,"Index([34], dtype='int64')",[34],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 34, 'score': 0.25365275144577026}]]",52
+Genetic testingCancer,html_like,1,"Index([28], dtype='int64')",[28],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 28, 'score': 0.11555927991867065}]]",52
+Genomic diversity among viruses Virus,html_like,1,"Index([14], dtype='int64')",[3],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 3, 'score': 0.07190313935279846}]]",52
+GoldGold,html_like,1,"Index([20], dtype='int64')",[3],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 3, 'score': 0.08556899428367615}]]",52
+GPS message format Global Positioning System,html_like,1,"Index([48], dtype='int64')",[48],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 48, 'score': 0.1501869410276413}]]",52
+HeliumHelium,html_like,1,"Index([23], dtype='int64')",[3],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 3, 'score': 0.08709736168384552}]]",52
+Interactions of thermodynamic systems Thermodynamics,html_like,1,"Index([31], dtype='int64')",[3],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 3, 'score': 0.07107312977313995}]]",52
+IronIron,html_like,1,"Index([6], dtype='int64')",[5],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 5, 'score': 0.16509541869163513}]]",52
+JavaScript type conversions JavaScript,html_like,1,"Index([41], dtype='int64')",[3],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 3, 'score': 0.0779426172375679}]]",52
+JIS transistor prefix table Transistor,html_like,1,"Index([13], dtype='int64')",[13],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 13, 'score': 0.09925750643014908}]]",52
+Lithium-ion battery,html_like,1,"Index([35], dtype='int64')",[3],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 3, 'score': 0.06025954335927963}]]",52
+LithiumLithium,html_like,1,"Index([7], dtype='int64')",[5],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 5, 'score': 0.20529311895370483}]]",52
+Magnetic field,html_like,1,"Index([30], dtype='int64')",[30],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 30, 'score': 0.1392756849527359}]]",52
+Major milestones James Webb Space Telescope,html_like,1,"Index([11], dtype='int64')",[11],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 11, 'score': 0.3032383918762207}]]",52
+Mass ratiosRocket,html_like,1,"Index([33], dtype='int64')",[9],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 9, 'score': 0.15927071869373322}]]",52
+"Neutronicity, confinement requirement, and power densityNuclear fusion",html_like,1,"Index([16], dtype='int64')",[3],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 3, 'score': 0.08034685254096985}]]",52
+Order and kineticsPhotosynthesis,html_like,1,"Index([29], dtype='int64')",[29],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 29, 'score': 0.1636451631784439}]]",52
+OxoacidsPhosphorus,html_like,1,"Index([38], dtype='int64')",[38],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 38, 'score': 0.12206212431192398}]]",52
+Page version statusSulfur,html_like,1,"Index([39], dtype='int64')",[5],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 5, 'score': 0.18608351051807404}]]",52
+Platform informationAndroid (operating system),html_like,1,"Index([42], dtype='int64')",[42],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 42, 'score': 0.07571416348218918}]]",52
+Pourbaix diagrams[110] Uranium,html_like,1,"Index([5], dtype='int64')",[5],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 5, 'score': 0.17726105451583862}]]",52
+Pourbaix diagrams for copper Copper,html_like,1,"Index([21], dtype='int64')",[21],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 21, 'score': 0.14912962913513184}]]",52
+Radar frequency bands Radar,html_like,1,"Index([49], dtype='int64')",[49],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 49, 'score': 0.2754870057106018}]]",52
+Share of total world manufacturing output (percentage)[187] Industrial Revolution,html_like,1,"Index([36], dtype='int64')",[3],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 3, 'score': 0.09474727511405945}]]",52
+SuccessorsHubble Space Telescope,html_like,1,"Index([10], dtype='int64')",[10],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 10, 'score': 0.24069413542747498}]]",52
+Summary of achievementsSpaceX,html_like,1,"Index([12], dtype='int64')",[12],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 12, 'score': 0.2993714511394501}]]",52
+The continuous or average power required for some uses: Laser,html_like,1,"Index([19], dtype='int64')",[19],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 19, 'score': 0.15051457285881042}]]",52
+The division by age in the Inca empire from the book Daily Life in Peru Under the Last Incas page 103-104[57] Inca Empire,html_like,1,"Index([50], dtype='int64')",[3],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 3, 'score': 0.04662679135799408}]]",52
+The fourth state of matterPlasma (physics),html_like,1,"Index([45], dtype='int64')",[45],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 45, 'score': 0.21867407858371735}]]",52
+Twin paradoxSpecial relativity,html_like,1,"Index([17], dtype='int64')",[17],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 17, 'score': 0.0856725424528122}]]",52
+TypesCell (biology),html_like,1,"Index([15], dtype='int64')",[15],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 15, 'score': 0.1860811859369278}]]",52
+USB power standards USB,html_like,1,"Index([24], dtype='int64')",[24],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 24, 'score': 0.1500304788351059}]]",52
+US expenditures in South Vietnam (1953–74)Direct costs only[423] Vietnam War,html_like,1,"Index([51], dtype='int64')",[48],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 48, 'score': 0.060617197304964066}]]",52
+VersionsJava (programming language),html_like,1,"Index([27], dtype='int64')",[27],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 27, 'score': 0.13272273540496826}]]",52
+Wi-Fi generationsvte Wi-Fi,html_like,1,"Index([26], dtype='int64')",[26],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 26, 'score': 0.18469202518463135}]]",52
+AllotropesCarbon,column_header_value_triples,1,"Index([4], dtype='int64')",[4],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 4, 'score': 0.3555692434310913}]]",52
+AluminiumAluminium,column_header_value_triples,1,"Index([22], dtype='int64')",[5],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 5, 'score': 0.22701124846935272}]]",52
+Apollo_11,column_header_value_triples,1,"Index([], dtype='int64')",[9],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 9, 'score': 0.3973833918571472}]]",52
+Automatic speech recognitionDeep learning,column_header_value_triples,1,"Index([43], dtype='int64')",[43],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 43, 'score': 0.11297281086444855}]]",52
+Bluetooth device power by class Bluetooth,column_header_value_triples,1,"Index([25], dtype='int64')",[25],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 25, 'score': 0.18869853019714355}]]",52
+Chlorine oxoacids and oxyanionsChlorine,column_header_value_triples,1,"Index([37], dtype='int64')",[37],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 37, 'score': 0.22029182314872742}]]",52
+Clubs relegated from Série ACampeonato Brasileiro Série A,column_header_value_triples,1,"Index([0], dtype='int64')",[0],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 0, 'score': 0.14674070477485657}]]",52
+Common purposesDam,column_header_value_triples,1,"Index([47], dtype='int64')",[47],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 47, 'score': 0.22194965183734894}]]",52
+Comparison of motor types Electric motor,column_header_value_triples,1,"Index([44], dtype='int64')",[44],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 44, 'score': 0.14832213521003723}]]",52
+"Comparison of Union and Confederacy, 1860–1864[245][246] American Civil War",column_header_value_triples,1,"Index([2], dtype='int64')",[2],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 2, 'score': 0.17741000652313232}]]",52
+Currently docked_berthedInternational Space Station,column_header_value_triples,1,"Index([8], dtype='int64')",[9],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 9, 'score': 0.13556323945522308}]]",52
+Current squadBrazil national football team,column_header_value_triples,1,"Index([1], dtype='int64')",[50],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 50, 'score': 0.03237342834472656}]]",52
+Decay modes in NUBASE2020[30] Radioactive decay,column_header_value_triples,1,"Index([32], dtype='int64')",[32],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 32, 'score': 0.17592601478099823}]]",52
+Electromagnetic radiation interaction with matter Electromagnetic spectrum,column_header_value_triples,1,"Index([18], dtype='int64')",[18],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 18, 'score': 0.2886216342449188}]]",52
+Electron configurationsPeriodic table,column_header_value_triples,1,"Index([3], dtype='int64')",[5],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 5, 'score': 0.07453185319900513}]]",52
+Elementary Particles Particle physics,column_header_value_triples,1,"Index([46], dtype='int64')",[46],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 46, 'score': 0.22390420734882355}]]",52
+Energetics of supernovae Supernova,column_header_value_triples,1,"Index([40], dtype='int64')",[40],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 40, 'score': 0.15260471403598785}]]",52
+Fuel use in vehicle designs Electric vehicle,column_header_value_triples,1,"Index([34], dtype='int64')",[34],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 34, 'score': 0.24682053923606873}]]",52
+Genetic testingCancer,column_header_value_triples,1,"Index([28], dtype='int64')",[28],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 28, 'score': 0.1094171553850174}]]",52
+Genomic diversity among viruses Virus,column_header_value_triples,1,"Index([14], dtype='int64')",[38],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 38, 'score': 0.06110059842467308}]]",52
+GoldGold,column_header_value_triples,1,"Index([20], dtype='int64')",[51],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 51, 'score': 0.10079872608184814}]]",52
+GPS message format Global Positioning System,column_header_value_triples,1,"Index([48], dtype='int64')",[48],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 48, 'score': 0.17330853641033173}]]",52
+HeliumHelium,column_header_value_triples,1,"Index([23], dtype='int64')",[38],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 38, 'score': 0.04871758818626404}]]",52
+Interactions of thermodynamic systems Thermodynamics,column_header_value_triples,1,"Index([31], dtype='int64')",[44],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 44, 'score': 0.08483488112688065}]]",52
+IronIron,column_header_value_triples,1,"Index([6], dtype='int64')",[5],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 5, 'score': 0.1936759352684021}]]",52
+JavaScript type conversions JavaScript,column_header_value_triples,1,"Index([41], dtype='int64')",[27],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 27, 'score': 0.0399446114897728}]]",52
+JIS transistor prefix table Transistor,column_header_value_triples,1,"Index([13], dtype='int64')",[13],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 13, 'score': 0.08335664123296738}]]",52
+Lithium-ion battery,column_header_value_triples,1,"Index([35], dtype='int64')",[45],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 45, 'score': 0.05372831970453262}]]",52
+LithiumLithium,column_header_value_triples,1,"Index([7], dtype='int64')",[5],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 5, 'score': 0.2056034654378891}]]",52
+Magnetic field,column_header_value_triples,1,"Index([30], dtype='int64')",[30],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 30, 'score': 0.12835538387298584}]]",52
+Major milestones James Webb Space Telescope,column_header_value_triples,1,"Index([11], dtype='int64')",[11],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 11, 'score': 0.3203756511211395}]]",52
+Mass ratiosRocket,column_header_value_triples,1,"Index([33], dtype='int64')",[9],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 9, 'score': 0.1457083523273468}]]",52
+"Neutronicity, confinement requirement, and power densityNuclear fusion",column_header_value_triples,1,"Index([16], dtype='int64')",[5],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 5, 'score': 0.13494832813739777}]]",52
+Order and kineticsPhotosynthesis,column_header_value_triples,1,"Index([29], dtype='int64')",[29],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 29, 'score': 0.17746298015117645}]]",52
+OxoacidsPhosphorus,column_header_value_triples,1,"Index([38], dtype='int64')",[38],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 38, 'score': 0.15192149579524994}]]",52
+Page version statusSulfur,column_header_value_triples,1,"Index([39], dtype='int64')",[5],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 5, 'score': 0.20732200145721436}]]",52
+Platform informationAndroid (operating system),column_header_value_triples,1,"Index([42], dtype='int64')",[42],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 42, 'score': 0.07818780839443207}]]",52
+Pourbaix diagrams[110] Uranium,column_header_value_triples,1,"Index([5], dtype='int64')",[5],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 5, 'score': 0.20781613886356354}]]",52
+Pourbaix diagrams for copper Copper,column_header_value_triples,1,"Index([21], dtype='int64')",[21],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 21, 'score': 0.1789368987083435}]]",52
+Radar frequency bands Radar,column_header_value_triples,1,"Index([49], dtype='int64')",[26],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 26, 'score': 0.21698667109012604}]]",52
+Share of total world manufacturing output (percentage)[187] Industrial Revolution,column_header_value_triples,1,"Index([36], dtype='int64')",[36],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 36, 'score': 0.08604125678539276}]]",52
+SuccessorsHubble Space Telescope,column_header_value_triples,1,"Index([10], dtype='int64')",[11],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 11, 'score': 0.2718544006347656}]]",52
+Summary of achievementsSpaceX,column_header_value_triples,1,"Index([12], dtype='int64')",[12],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 12, 'score': 0.2615711987018585}]]",52
+The continuous or average power required for some uses: Laser,column_header_value_triples,1,"Index([19], dtype='int64')",[19],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 19, 'score': 0.14831572771072388}]]",52
+The division by age in the Inca empire from the book Daily Life in Peru Under the Last Incas page 103-104[57] Inca Empire,column_header_value_triples,1,"Index([50], dtype='int64')",[9],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 9, 'score': 0.030749885365366936}]]",52
+The fourth state of matterPlasma (physics),column_header_value_triples,1,"Index([45], dtype='int64')",[45],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 45, 'score': 0.2168063074350357}]]",52
+Twin paradoxSpecial relativity,column_header_value_triples,1,"Index([17], dtype='int64')",[49],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 49, 'score': 0.06251192092895508}]]",52
+TypesCell (biology),column_header_value_triples,1,"Index([15], dtype='int64')",[15],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 15, 'score': 0.1953333467245102}]]",52
+USB power standards USB,column_header_value_triples,1,"Index([24], dtype='int64')",[24],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 24, 'score': 0.1877354234457016}]]",52
+US expenditures in South Vietnam (1953–74)Direct costs only[423] Vietnam War,column_header_value_triples,1,"Index([51], dtype='int64')",[48],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 48, 'score': 0.09283517301082611}]]",52
+VersionsJava (programming language),column_header_value_triples,1,"Index([27], dtype='int64')",[27],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 27, 'score': 0.1606452465057373}]]",52
+Wi-Fi generationsvte Wi-Fi,column_header_value_triples,1,"Index([26], dtype='int64')",[26],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 26, 'score': 0.21241512894630432}]]",52
+AllotropesCarbon,schema_description,1,"Index([4], dtype='int64')",[4],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 4, 'score': 0.3166062831878662}]]",52
+AluminiumAluminium,schema_description,1,"Index([22], dtype='int64')",[5],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 5, 'score': 0.20345979928970337}]]",52
+Apollo_11,schema_description,1,"Index([], dtype='int64')",[9],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 9, 'score': 0.3128967881202698}]]",52
+Automatic speech recognitionDeep learning,schema_description,1,"Index([43], dtype='int64')",[3],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 3, 'score': 0.10261594504117966}]]",52
+Bluetooth device power by class Bluetooth,schema_description,1,"Index([25], dtype='int64')",[25],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 25, 'score': 0.15296879410743713}]]",52
+Chlorine oxoacids and oxyanionsChlorine,schema_description,1,"Index([37], dtype='int64')",[37],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 37, 'score': 0.18266582489013672}]]",52
+Clubs relegated from Série ACampeonato Brasileiro Série A,schema_description,1,"Index([0], dtype='int64')",[3],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 3, 'score': 0.13369879126548767}]]",52
+Common purposesDam,schema_description,1,"Index([47], dtype='int64')",[47],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 47, 'score': 0.16059990227222443}]]",52
+Comparison of motor types Electric motor,schema_description,1,"Index([44], dtype='int64')",[44],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 44, 'score': 0.1990080028772354}]]",52
+"Comparison of Union and Confederacy, 1860–1864[245][246] American Civil War",schema_description,1,"Index([2], dtype='int64')",[2],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 2, 'score': 0.1602998971939087}]]",52
+Currently docked_berthedInternational Space Station,schema_description,1,"Index([8], dtype='int64')",[9],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 9, 'score': 0.11489352583885193}]]",52
+Current squadBrazil national football team,schema_description,1,"Index([1], dtype='int64')",[3],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 3, 'score': 0.10901997983455658}]]",52
+Decay modes in NUBASE2020[30] Radioactive decay,schema_description,1,"Index([32], dtype='int64')",[3],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 3, 'score': 0.1442508101463318}]]",52
+Electromagnetic radiation interaction with matter Electromagnetic spectrum,schema_description,1,"Index([18], dtype='int64')",[18],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 18, 'score': 0.18149301409721375}]]",52
+Electron configurationsPeriodic table,schema_description,1,"Index([3], dtype='int64')",[3],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 3, 'score': 0.13806141912937164}]]",52
+Elementary Particles Particle physics,schema_description,1,"Index([46], dtype='int64')",[46],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 46, 'score': 0.16675487160682678}]]",52
+Energetics of supernovae Supernova,schema_description,1,"Index([40], dtype='int64')",[40],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 40, 'score': 0.15391641855239868}]]",52
+Fuel use in vehicle designs Electric vehicle,schema_description,1,"Index([34], dtype='int64')",[34],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 34, 'score': 0.19112126529216766}]]",52
+Genetic testingCancer,schema_description,1,"Index([28], dtype='int64')",[3],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 3, 'score': 0.11293160170316696}]]",52
+Genomic diversity among viruses Virus,schema_description,1,"Index([14], dtype='int64')",[3],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 3, 'score': 0.13465993106365204}]]",52
+GoldGold,schema_description,1,"Index([20], dtype='int64')",[3],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 3, 'score': 0.1488599181175232}]]",52
+GPS message format Global Positioning System,schema_description,1,"Index([48], dtype='int64')",[3],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 3, 'score': 0.1251877248287201}]]",52
+HeliumHelium,schema_description,1,"Index([23], dtype='int64')",[3],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 3, 'score': 0.1500062495470047}]]",52
+Interactions of thermodynamic systems Thermodynamics,schema_description,1,"Index([31], dtype='int64')",[3],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 3, 'score': 0.1400928944349289}]]",52
+IronIron,schema_description,1,"Index([6], dtype='int64')",[5],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 5, 'score': 0.17308446764945984}]]",52
+JavaScript type conversions JavaScript,schema_description,1,"Index([41], dtype='int64')",[3],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 3, 'score': 0.1352788358926773}]]",52
+JIS transistor prefix table Transistor,schema_description,1,"Index([13], dtype='int64')",[3],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 3, 'score': 0.13658826053142548}]]",52
+Lithium-ion battery,schema_description,1,"Index([35], dtype='int64')",[3],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 3, 'score': 0.1193920373916626}]]",52
+LithiumLithium,schema_description,1,"Index([7], dtype='int64')",[5],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 5, 'score': 0.1919948160648346}]]",52
+Magnetic field,schema_description,1,"Index([30], dtype='int64')",[30],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 30, 'score': 0.1480989158153534}]]",52
+Major milestones James Webb Space Telescope,schema_description,1,"Index([11], dtype='int64')",[11],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 11, 'score': 0.24205394089221954}]]",52
+Mass ratiosRocket,schema_description,1,"Index([33], dtype='int64')",[3],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 3, 'score': 0.12363086640834808}]]",52
+"Neutronicity, confinement requirement, and power densityNuclear fusion",schema_description,1,"Index([16], dtype='int64')",[3],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 3, 'score': 0.12089137732982635}]]",52
+Order and kineticsPhotosynthesis,schema_description,1,"Index([29], dtype='int64')",[3],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 3, 'score': 0.12813876569271088}]]",52
+OxoacidsPhosphorus,schema_description,1,"Index([38], dtype='int64')",[3],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 3, 'score': 0.12724792957305908}]]",52
+Page version statusSulfur,schema_description,1,"Index([39], dtype='int64')",[5],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 5, 'score': 0.18193434178829193}]]",52
+Platform informationAndroid (operating system),schema_description,1,"Index([42], dtype='int64')",[3],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 3, 'score': 0.09742944687604904}]]",52
+Pourbaix diagrams[110] Uranium,schema_description,1,"Index([5], dtype='int64')",[5],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 5, 'score': 0.20724374055862427}]]",52
+Pourbaix diagrams for copper Copper,schema_description,1,"Index([21], dtype='int64')",[21],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 21, 'score': 0.13955062627792358}]]",52
+Radar frequency bands Radar,schema_description,1,"Index([49], dtype='int64')",[49],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 49, 'score': 0.17671936750411987}]]",52
+Share of total world manufacturing output (percentage)[187] Industrial Revolution,schema_description,1,"Index([36], dtype='int64')",[3],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 3, 'score': 0.13273538649082184}]]",52
+SuccessorsHubble Space Telescope,schema_description,1,"Index([10], dtype='int64')",[11],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 11, 'score': 0.16654998064041138}]]",52
+Summary of achievementsSpaceX,schema_description,1,"Index([12], dtype='int64')",[12],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 12, 'score': 0.2601698040962219}]]",52
+The continuous or average power required for some uses: Laser,schema_description,1,"Index([19], dtype='int64')",[3],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 3, 'score': 0.13396349549293518}]]",52
+The division by age in the Inca empire from the book Daily Life in Peru Under the Last Incas page 103-104[57] Inca Empire,schema_description,1,"Index([50], dtype='int64')",[3],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 3, 'score': 0.13754087686538696}]]",52
+The fourth state of matterPlasma (physics),schema_description,1,"Index([45], dtype='int64')",[45],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 45, 'score': 0.19946900010108948}]]",52
+Twin paradoxSpecial relativity,schema_description,1,"Index([17], dtype='int64')",[3],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 3, 'score': 0.11197478324174881}]]",52
+TypesCell (biology),schema_description,1,"Index([15], dtype='int64')",[15],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 15, 'score': 0.1674240678548813}]]",52
+USB power standards USB,schema_description,1,"Index([24], dtype='int64')",[24],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 24, 'score': 0.13037443161010742}]]",52
+US expenditures in South Vietnam (1953–74)Direct costs only[423] Vietnam War,schema_description,1,"Index([51], dtype='int64')",[3],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 3, 'score': 0.12021442502737045}]]",52
+VersionsJava (programming language),schema_description,1,"Index([27], dtype='int64')",[3],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 3, 'score': 0.14569227397441864}]]",52
+Wi-Fi generationsvte Wi-Fi,schema_description,1,"Index([26], dtype='int64')",[26],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 26, 'score': 0.1504421830177307}]]",52
+AllotropesCarbon,contextualized,1,"Index([4], dtype='int64')",[4],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 4, 'score': 0.3020627498626709}]]",52
+AluminiumAluminium,contextualized,1,"Index([22], dtype='int64')",[5],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 5, 'score': 0.15694600343704224}]]",52
+Apollo_11,contextualized,1,"Index([], dtype='int64')",[9],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 9, 'score': 0.29701653122901917}]]",52
+Automatic speech recognitionDeep learning,contextualized,1,"Index([43], dtype='int64')",[3],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 3, 'score': 0.08882365375757217}]]",52
+Bluetooth device power by class Bluetooth,contextualized,1,"Index([25], dtype='int64')",[25],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 25, 'score': 0.1375426948070526}]]",52
+Chlorine oxoacids and oxyanionsChlorine,contextualized,1,"Index([37], dtype='int64')",[3],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 3, 'score': 0.14754275977611542}]]",52
+Clubs relegated from Série ACampeonato Brasileiro Série A,contextualized,1,"Index([0], dtype='int64')",[3],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 3, 'score': 0.11676895618438721}]]",52
+Common purposesDam,contextualized,1,"Index([47], dtype='int64')",[47],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 47, 'score': 0.20590370893478394}]]",52
+Comparison of motor types Electric motor,contextualized,1,"Index([44], dtype='int64')",[44],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 44, 'score': 0.1707308143377304}]]",52
+"Comparison of Union and Confederacy, 1860–1864[245][246] American Civil War",contextualized,1,"Index([2], dtype='int64')",[2],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 2, 'score': 0.16807423532009125}]]",52
+Currently docked_berthedInternational Space Station,contextualized,1,"Index([8], dtype='int64')",[3],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 3, 'score': 0.11233464628458023}]]",52
+Current squadBrazil national football team,contextualized,1,"Index([1], dtype='int64')",[3],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 3, 'score': 0.09222592413425446}]]",52
+Decay modes in NUBASE2020[30] Radioactive decay,contextualized,1,"Index([32], dtype='int64')",[3],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 3, 'score': 0.1391892284154892}]]",52
+Electromagnetic radiation interaction with matter Electromagnetic spectrum,contextualized,1,"Index([18], dtype='int64')",[18],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 18, 'score': 0.196346253156662}]]",52
+Electron configurationsPeriodic table,contextualized,1,"Index([3], dtype='int64')",[3],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 3, 'score': 0.12370769679546356}]]",52
+Elementary Particles Particle physics,contextualized,1,"Index([46], dtype='int64')",[46],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 46, 'score': 0.17395848035812378}]]",52
+Energetics of supernovae Supernova,contextualized,1,"Index([40], dtype='int64')",[40],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 40, 'score': 0.1250707358121872}]]",52
+Fuel use in vehicle designs Electric vehicle,contextualized,1,"Index([34], dtype='int64')",[34],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 34, 'score': 0.21042610704898834}]]",52
+Genetic testingCancer,contextualized,1,"Index([28], dtype='int64')",[3],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 3, 'score': 0.11339452862739563}]]",52
+Genomic diversity among viruses Virus,contextualized,1,"Index([14], dtype='int64')",[3],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 3, 'score': 0.12310397624969482}]]",52
+GoldGold,contextualized,1,"Index([20], dtype='int64')",[3],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 3, 'score': 0.12956328690052032}]]",52
+GPS message format Global Positioning System,contextualized,1,"Index([48], dtype='int64')",[3],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 3, 'score': 0.11985588073730469}]]",52
+HeliumHelium,contextualized,1,"Index([23], dtype='int64')",[3],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 3, 'score': 0.13191795349121094}]]",52
+Interactions of thermodynamic systems Thermodynamics,contextualized,1,"Index([31], dtype='int64')",[3],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 3, 'score': 0.1234872043132782}]]",52
+IronIron,contextualized,1,"Index([6], dtype='int64')",[32],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 32, 'score': 0.15339265763759613}]]",52
+JavaScript type conversions JavaScript,contextualized,1,"Index([41], dtype='int64')",[3],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 3, 'score': 0.1339731514453888}]]",52
+JIS transistor prefix table Transistor,contextualized,1,"Index([13], dtype='int64')",[3],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 3, 'score': 0.12025685608386993}]]",52
+Lithium-ion battery,contextualized,1,"Index([35], dtype='int64')",[3],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 3, 'score': 0.11176846921443939}]]",52
+LithiumLithium,contextualized,1,"Index([7], dtype='int64')",[32],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 32, 'score': 0.1537386178970337}]]",52
+Magnetic field,contextualized,1,"Index([30], dtype='int64')",[30],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 30, 'score': 0.13339219987392426}]]",52
+Major milestones James Webb Space Telescope,contextualized,1,"Index([11], dtype='int64')",[11],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 11, 'score': 0.2753281891345978}]]",52
+Mass ratiosRocket,contextualized,1,"Index([33], dtype='int64')",[3],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 3, 'score': 0.12308567017316818}]]",52
+"Neutronicity, confinement requirement, and power densityNuclear fusion",contextualized,1,"Index([16], dtype='int64')",[3],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 3, 'score': 0.1197945773601532}]]",52
+Order and kineticsPhotosynthesis,contextualized,1,"Index([29], dtype='int64')",[29],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 29, 'score': 0.13266655802726746}]]",52
+OxoacidsPhosphorus,contextualized,1,"Index([38], dtype='int64')",[3],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 3, 'score': 0.12436602264642715}]]",52
+Page version statusSulfur,contextualized,1,"Index([39], dtype='int64')",[32],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 32, 'score': 0.16644899547100067}]]",52
+Platform informationAndroid (operating system),contextualized,1,"Index([42], dtype='int64')",[3],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 3, 'score': 0.09215106815099716}]]",52
+Pourbaix diagrams[110] Uranium,contextualized,1,"Index([5], dtype='int64')",[5],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 5, 'score': 0.1573428213596344}]]",52
+Pourbaix diagrams for copper Copper,contextualized,1,"Index([21], dtype='int64')",[3],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 3, 'score': 0.1263282150030136}]]",52
+Radar frequency bands Radar,contextualized,1,"Index([49], dtype='int64')",[49],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 49, 'score': 0.2196294218301773}]]",52
+Share of total world manufacturing output (percentage)[187] Industrial Revolution,contextualized,1,"Index([36], dtype='int64')",[3],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 3, 'score': 0.13300780951976776}]]",52
+SuccessorsHubble Space Telescope,contextualized,1,"Index([10], dtype='int64')",[10],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 10, 'score': 0.18137261271476746}]]",52
+Summary of achievementsSpaceX,contextualized,1,"Index([12], dtype='int64')",[12],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 12, 'score': 0.27547451853752136}]]",52
+The continuous or average power required for some uses: Laser,contextualized,1,"Index([19], dtype='int64')",[3],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 3, 'score': 0.12155190110206604}]]",52
+The division by age in the Inca empire from the book Daily Life in Peru Under the Last Incas page 103-104[57] Inca Empire,contextualized,1,"Index([50], dtype='int64')",[3],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 3, 'score': 0.12000928074121475}]]",52
+The fourth state of matterPlasma (physics),contextualized,1,"Index([45], dtype='int64')",[45],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 45, 'score': 0.21306777000427246}]]",52
+Twin paradoxSpecial relativity,contextualized,1,"Index([17], dtype='int64')",[3],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 3, 'score': 0.10547235608100891}]]",52
+TypesCell (biology),contextualized,1,"Index([15], dtype='int64')",[15],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 15, 'score': 0.1799241006374359}]]",52
+USB power standards USB,contextualized,1,"Index([24], dtype='int64')",[3],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 3, 'score': 0.11475315690040588}]]",52
+US expenditures in South Vietnam (1953–74)Direct costs only[423] Vietnam War,contextualized,1,"Index([51], dtype='int64')",[3],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 3, 'score': 0.11882705986499786}]]",52
+VersionsJava (programming language),contextualized,1,"Index([27], dtype='int64')",[3],"precision: 0.0
+recall: 0.0","[[{'corpus_id': 3, 'score': 0.1336953192949295}]]",52
+Wi-Fi generationsvte Wi-Fi,contextualized,1,"Index([26], dtype='int64')",[26],"precision: 1.0
+recall: 1.0","[[{'corpus_id': 26, 'score': 0.1449240893125534}]]",52

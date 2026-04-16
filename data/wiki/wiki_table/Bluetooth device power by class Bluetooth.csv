@@ -1,0 +1,7 @@
+Class | Class,Maximum permitted power | mW,Maximum permitted power | dBm,Unnamed: 3_level_0 | Unnamed: 3_level_1
+1,10–100,+10–+20,
+1.5*,2.5–10,+4–+10,
+2,1–2.5,0–+4,
+3,0.01–1,−20–0,
+* Class 1.5 included in Class 1 for BR/EDR,* Class 1.5 included in Class 1 for BR/EDR,* Class 1.5 included in Class 1 for BR/EDR,* Class 1.5 included in Class 1 for BR/EDR
+"Source: Bluetooth Core Specification revision 5.3, Volume 6, Part A, § 3, and Volume 2, Part A, § 3, Bluetooth SIG","Source: Bluetooth Core Specification revision 5.3, Volume 6, Part A, § 3, and Volume 2, Part A, § 3, Bluetooth SIG","Source: Bluetooth Core Specification revision 5.3, Volume 6, Part A, § 3, and Volume 2, Part A, § 3, Bluetooth SIG","Source: Bluetooth Core Specification revision 5.3, Volume 6, Part A, § 3, and Volume 2, Part A, § 3, Bluetooth SIG"
