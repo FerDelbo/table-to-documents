@@ -13,10 +13,11 @@ def run_scraping(config):
         result = subprocess.run(
             ['python', 'scraper.py', '--url', uri, '--threshold', str(threshold)],
             capture_output=True,
+            text=True,
         )
         print(result.stdout)
         if result.returncode != 0:
-            raise ValueError(f"Erro na execução {uri}:", result.stderr)
+            raise RuntimeError(f"Erro na execução {uri}: {result.stderr}")
 
 
 def run_retrieval(tables, config):

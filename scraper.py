@@ -15,6 +15,6 @@ threshold = args.threshold
 
 print("Iniciando o processo de scraping...")
 soup = WikiScraper(url=url, path_save=path_doc, path_table=path_table, threshold=threshold)
-soup.run()
-# soup.connect()
+# soup.run()
+soup.run_scrape()
 # print(soup.extract_content())

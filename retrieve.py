@@ -73,7 +73,7 @@ else:
     # print(table_representantion)
 
 model = Retrieval()
-model.set_splade()
+model.set_sparse()
 result = model.retrieval(documents=corpus, table=table_representantion, k=k)
 print(result)
 metrics = model.evaluation(ids.index)

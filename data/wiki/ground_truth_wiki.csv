@@ -51,3 +51,451 @@ GPS message format Global Positioning System,./data/wiki/wiki_doc/Global Positio
 Radar frequency bands Radar,./data/wiki/wiki_doc/Radar.md,https://en.wikipedia.org/wiki/Radar
 The division by age in the Inca empire from the book Daily Life in Peru Under the Last Incas page 103-104[57] Inca Empire,./data/wiki/wiki_doc/Inca Empire.md,https://en.wikipedia.org/wiki/Inca_Empire
 US expenditures in South Vietnam (1953–74)Direct costs only[423] Vietnam War,./data/wiki/wiki_doc/Vietnam War.md,https://en.wikipedia.org/wiki/Vietnam_War
+,./data/wiki/wiki_doc/Renaissance.md,https://en.wikipedia.org/wiki/Renaissance
+,./data/wiki/wiki_doc/Baroque.md,https://en.wikipedia.org/wiki/Baroque
+,./data/wiki/wiki_doc/Impressionism.md,https://en.wikipedia.org/wiki/Impressionism
+,./data/wiki/wiki_doc/Surrealism.md,https://en.wikipedia.org/wiki/Surrealism
+,./data/wiki/wiki_doc/Cubism.md,https://en.wikipedia.org/wiki/Cubism
+,./data/wiki/wiki_doc/Abstract expressionism.md,https://en.wikipedia.org/wiki/Abstract_expressionism
+,./data/wiki/wiki_doc/Gothic architecture.md,https://en.wikipedia.org/wiki/Gothic_architecture
+,./data/wiki/wiki_doc/Romanesque architecture.md,https://en.wikipedia.org/wiki/Romanesque_architecture
+,./data/wiki/wiki_doc/Art Nouveau.md,https://en.wikipedia.org/wiki/Art_Nouveau
+,./data/wiki/wiki_doc/Art Deco.md,https://en.wikipedia.org/wiki/Art_Deco
+,./data/wiki/wiki_doc/Bauhaus.md,https://en.wikipedia.org/wiki/Bauhaus
+,./data/wiki/wiki_doc/Leonardo da Vinci.md,https://en.wikipedia.org/wiki/Leonardo_da_Vinci
+,./data/wiki/wiki_doc/Michelangelo.md,https://en.wikipedia.org/wiki/Michelangelo
+,./data/wiki/wiki_doc/Rembrandt.md,https://en.wikipedia.org/wiki/Rembrandt
+,./data/wiki/wiki_doc/Vincent van Gogh.md,https://en.wikipedia.org/wiki/Vincent_van_Gogh
+,./data/wiki/wiki_doc/Pablo Picasso.md,https://en.wikipedia.org/wiki/Pablo_Picasso
+,./data/wiki/wiki_doc/Salvador Dalí.md,https://en.wikipedia.org/wiki/Salvador_Dal%C3%AD
+,./data/wiki/wiki_doc/Frida Kahlo.md,https://en.wikipedia.org/wiki/Frida_Kahlo
+,./data/wiki/wiki_doc/Andy Warhol.md,https://en.wikipedia.org/wiki/Andy_Warhol
+,./data/wiki/wiki_doc/Colosseum.md,https://en.wikipedia.org/wiki/Colosseum
+,./data/wiki/wiki_doc/Parthenon.md,https://en.wikipedia.org/wiki/Parthenon
+,./data/wiki/wiki_doc/Taj Mahal.md,https://en.wikipedia.org/wiki/Taj_Mahal
+,./data/wiki/wiki_doc/Sagrada Família.md,https://en.wikipedia.org/wiki/Sagrada_Fam%C3%ADlia
+,./data/wiki/wiki_doc/Stonehenge.md,https://en.wikipedia.org/wiki/Stonehenge
+,./data/wiki/wiki_doc/Louvre.md,https://en.wikipedia.org/wiki/Louvre
+,./data/wiki/wiki_doc/Museum of Modern Art.md,https://en.wikipedia.org/wiki/Museum_of_Modern_Art
+,./data/wiki/wiki_doc/Vatican Museums.md,https://en.wikipedia.org/wiki/Vatican_Museums
+,./data/wiki/wiki_doc/Uffizi.md,https://en.wikipedia.org/wiki/Uffizi
+,./data/wiki/wiki_doc/Neoclassicism.md,https://en.wikipedia.org/wiki/Neoclassicism
+,./data/wiki/wiki_doc/Romanticism.md,https://en.wikipedia.org/wiki/Romanticism
+,./data/wiki/wiki_doc/Jazz.md,https://en.wikipedia.org/wiki/Jazz
+,./data/wiki/wiki_doc/Blues.md,https://en.wikipedia.org/wiki/Blues
+,./data/wiki/wiki_doc/Rock music.md,https://en.wikipedia.org/wiki/Rock_music
+,./data/wiki/wiki_doc/Hip-hop.md,https://en.wikipedia.org/wiki/Hip_hop_music
+,./data/wiki/wiki_doc/Electronic music.md,https://en.wikipedia.org/wiki/Electronic_music
+,./data/wiki/wiki_doc/Classical music.md,https://en.wikipedia.org/wiki/Classical_music
+,./data/wiki/wiki_doc/Opera.md,https://en.wikipedia.org/wiki/Opera
+,./data/wiki/wiki_doc/Reggae.md,https://en.wikipedia.org/wiki/Reggae
+,./data/wiki/wiki_doc/Country music.md,https://en.wikipedia.org/wiki/Country_music
+,./data/wiki/wiki_doc/Heavy metal music.md,https://en.wikipedia.org/wiki/Heavy_metal_music
+,./data/wiki/wiki_doc/Punk rock.md,https://en.wikipedia.org/wiki/Punk_rock
+,./data/wiki/wiki_doc/Ludwig van Beethoven.md,https://en.wikipedia.org/wiki/Ludwig_van_Beethoven
+,./data/wiki/wiki_doc/Wolfgang Amadeus Mozart.md,https://en.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart
+,./data/wiki/wiki_doc/Johann Sebastian Bach.md,https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+,./data/wiki/wiki_doc/Frédéric Chopin.md,https://en.wikipedia.org/wiki/Frédéric_Chopin
+,./data/wiki/wiki_doc/Elvis Presley.md,https://en.wikipedia.org/wiki/Elvis_Presley
+,./data/wiki/wiki_doc/The Beatles.md,https://en.wikipedia.org/wiki/The_Beatles
+,./data/wiki/wiki_doc/Michael Jackson.md,https://en.wikipedia.org/wiki/Michael_Jackson
+,./data/wiki/wiki_doc/Bob Dylan.md,https://en.wikipedia.org/wiki/Bob_Dylan
+,./data/wiki/wiki_doc/David Bowie.md,https://en.wikipedia.org/wiki/David_Bowie
+,./data/wiki/wiki_doc/Guitar.md,https://en.wikipedia.org/wiki/Guitar
+,./data/wiki/wiki_doc/Piano.md,https://en.wikipedia.org/wiki/Piano
+,./data/wiki/wiki_doc/Violin.md,https://en.wikipedia.org/wiki/Violin
+,./data/wiki/wiki_doc/Drum kit.md,https://en.wikipedia.org/wiki/Drum_kit
+,./data/wiki/wiki_doc/Grammy Awards.md,https://en.wikipedia.org/wiki/Grammy_Award
+,./data/wiki/wiki_doc/Billboard charts.md,https://en.wikipedia.org/wiki/Billboard_charts
+,./data/wiki/wiki_doc/Music video.md,https://en.wikipedia.org/wiki/Music_video
+,./data/wiki/wiki_doc/Spotify.md,https://en.wikipedia.org/wiki/Spotify
+,./data/wiki/wiki_doc/Bossa nova.md,https://en.wikipedia.org/wiki/Bossa_nova
+,./data/wiki/wiki_doc/Samba.md,https://en.wikipedia.org/wiki/Samba
+,./data/wiki/wiki_doc/History of film.md,https://en.wikipedia.org/wiki/History_of_film
+,./data/wiki/wiki_doc/Academy Awards.md,https://en.wikipedia.org/wiki/Academy_Awards
+,./data/wiki/wiki_doc/Cannes Film Festival.md,https://en.wikipedia.org/wiki/Cannes_Film_Festival
+,./data/wiki/wiki_doc/Netflix.md,https://en.wikipedia.org/wiki/Netflix
+,./data/wiki/wiki_doc/Hollywood.md,https://en.wikipedia.org/wiki/Hollywood
+,./data/wiki/wiki_doc/Animation.md,https://en.wikipedia.org/wiki/Animation
+,./data/wiki/wiki_doc/Documentary film.md,https://en.wikipedia.org/wiki/Documentary_film
+,./data/wiki/wiki_doc/Science fiction film.md,https://en.wikipedia.org/wiki/Science_fiction_film
+,./data/wiki/wiki_doc/Horror film.md,https://en.wikipedia.org/wiki/Horror_film
+,./data/wiki/wiki_doc/Alfred Hitchcock.md,https://en.wikipedia.org/wiki/Alfred_Hitchcock
+,./data/wiki/wiki_doc/Stanley Kubrick.md,https://en.wikipedia.org/wiki/Stanley_Kubrick
+,./data/wiki/wiki_doc/Steven Spielberg.md,https://en.wikipedia.org/wiki/Steven_Spielberg
+,./data/wiki/wiki_doc/Charlie Chaplin.md,https://en.wikipedia.org/wiki/Charlie_Chaplin
+,./data/wiki/wiki_doc/Akira Kurosawa.md,https://en.wikipedia.org/wiki/Akira_Kurosawa
+,./data/wiki/wiki_doc/Walt Disney.md,https://en.wikipedia.org/wiki/Walt_Disney
+,./data/wiki/wiki_doc/Pixar.md,https://en.wikipedia.org/wiki/Pixar
+,./data/wiki/wiki_doc/BBC.md,https://en.wikipedia.org/wiki/BBC
+,./data/wiki/wiki_doc/YouTube.md,https://en.wikipedia.org/wiki/YouTube
+,./data/wiki/wiki_doc/Television.md,https://en.wikipedia.org/wiki/Television
+,./data/wiki/wiki_doc/Streaming media.md,https://en.wikipedia.org/wiki/Streaming_media
+,./data/wiki/wiki_doc/Box office.md,https://en.wikipedia.org/wiki/Box_office
+,./data/wiki/wiki_doc/Film score.md,https://en.wikipedia.org/wiki/Film_score
+,./data/wiki/wiki_doc/IMAX.md,https://en.wikipedia.org/wiki/IMAX
+,./data/wiki/wiki_doc/Special effect.md,https://en.wikipedia.org/wiki/Special_effects
+,./data/wiki/wiki_doc/Actor Awards.md,https://en.wikipedia.org/wiki/Screen_Actors_Guild_Award
+,./data/wiki/wiki_doc/Golden Globes.md,https://en.wikipedia.org/wiki/Golden_Globe_Award
+,./data/wiki/wiki_doc/Sundance Film Festival.md,https://en.wikipedia.org/wiki/Sundance_Film_Festival
+,./data/wiki/wiki_doc/Venice Film Festival.md,https://en.wikipedia.org/wiki/Venice_Film_Festival
+,./data/wiki/wiki_doc/British Academy of Film and Television Arts.md,https://en.wikipedia.org/wiki/BAFTA
+,./data/wiki/wiki_doc/Emmy Awards.md,https://en.wikipedia.org/wiki/Emmy_Award
+,./data/wiki/wiki_doc/Novel.md,https://en.wikipedia.org/wiki/Novel
+,./data/wiki/wiki_doc/Poetry.md,https://en.wikipedia.org/wiki/Poetry
+,./data/wiki/wiki_doc/William Shakespeare.md,https://en.wikipedia.org/wiki/William_Shakespeare
+,./data/wiki/wiki_doc/Homer.md,https://en.wikipedia.org/wiki/Homer
+,./data/wiki/wiki_doc/Dante Alighieri.md,https://en.wikipedia.org/wiki/Dante_Alighieri
+,./data/wiki/wiki_doc/Miguel de Cervantes.md,https://en.wikipedia.org/wiki/Miguel_de_Cervantes
+,./data/wiki/wiki_doc/Fyodor Dostoevsky.md,https://en.wikipedia.org/wiki/Fyodor_Dostoevsky
+,./data/wiki/wiki_doc/Leo Tolstoy.md,https://en.wikipedia.org/wiki/Leo_Tolstoy
+,./data/wiki/wiki_doc/Franz Kafka.md,https://en.wikipedia.org/wiki/Franz_Kafka
+,./data/wiki/wiki_doc/George Orwell.md,https://en.wikipedia.org/wiki/George_Orwell
+,./data/wiki/wiki_doc/Gabriel García Márquez.md,https://en.wikipedia.org/wiki/Gabriel_Garc%C3%ADa_M%C3%A1rquez
+,./data/wiki/wiki_doc/Nobel Prize in Literature.md,https://en.wikipedia.org/wiki/Nobel_Prize_in_Literature
+,./data/wiki/wiki_doc/Plato.md,https://en.wikipedia.org/wiki/Plato
+,./data/wiki/wiki_doc/Aristotle.md,https://en.wikipedia.org/wiki/Aristotle
+,./data/wiki/wiki_doc/Immanuel Kant.md,https://en.wikipedia.org/wiki/Immanuel_Kant
+,./data/wiki/wiki_doc/Friedrich Nietzsche.md,https://en.wikipedia.org/wiki/Friedrich_Nietzsche
+,./data/wiki/wiki_doc/Karl Marx.md,https://en.wikipedia.org/wiki/Karl_Marx
+,./data/wiki/wiki_doc/Sigmund Freud.md,https://en.wikipedia.org/wiki/Sigmund_Freud
+,./data/wiki/wiki_doc/Jean-Paul Sartre.md,https://en.wikipedia.org/wiki/Jean-Paul_Sartre
+,./data/wiki/wiki_doc/Existentialism.md,https://en.wikipedia.org/wiki/Existentialism
+,./data/wiki/wiki_doc/Stoicism.md,https://en.wikipedia.org/wiki/Stoicism
+,./data/wiki/wiki_doc/Age of Enlightenment.md,https://en.wikipedia.org/wiki/Age_of_Enlightenment
+,./data/wiki/wiki_doc/Utilitarianism.md,https://en.wikipedia.org/wiki/Utilitarianism
+,./data/wiki/wiki_doc/Booker Prize.md,https://en.wikipedia.org/wiki/Booker_Prize
+,./data/wiki/wiki_doc/Science fiction.md,https://en.wikipedia.org/wiki/Science_fiction
+,./data/wiki/wiki_doc/Myth.md,https://en.wikipedia.org/wiki/Mythology
+,./data/wiki/wiki_doc/Fairy tale.md,https://en.wikipedia.org/wiki/Fairy_tale
+,./data/wiki/wiki_doc/Journalism.md,https://en.wikipedia.org/wiki/Journalism
+,./data/wiki/wiki_doc/Pulitzer Prize.md,https://en.wikipedia.org/wiki/Pulitzer_Prize
+,./data/wiki/wiki_doc/Library of Congress.md,https://en.wikipedia.org/wiki/Library_of_Congress
+,./data/wiki/wiki_doc/Gross domestic product.md,https://en.wikipedia.org/wiki/Gross_domestic_product
+,./data/wiki/wiki_doc/Inflation.md,https://en.wikipedia.org/wiki/Inflation
+,./data/wiki/wiki_doc/Stock market.md,https://en.wikipedia.org/wiki/Stock_market
+,./data/wiki/wiki_doc/Cryptocurrency.md,https://en.wikipedia.org/wiki/Cryptocurrency
+,./data/wiki/wiki_doc/Bitcoin.md,https://en.wikipedia.org/wiki/Bitcoin
+,./data/wiki/wiki_doc/International Monetary Fund.md,https://en.wikipedia.org/wiki/International_Monetary_Fund
+,./data/wiki/wiki_doc/World Bank Group.md,https://en.wikipedia.org/wiki/World_Bank
+,./data/wiki/wiki_doc/World Trade Organization.md,https://en.wikipedia.org/wiki/World_Trade_Organization
+,./data/wiki/wiki_doc/Capitalism.md,https://en.wikipedia.org/wiki/Capitalism
+,./data/wiki/wiki_doc/Socialism.md,https://en.wikipedia.org/wiki/Socialism
+,./data/wiki/wiki_doc/Keynesian economics.md,https://en.wikipedia.org/wiki/Keynesian_economics
+,./data/wiki/wiki_doc/Supply and demand.md,https://en.wikipedia.org/wiki/Supply_and_demand
+,./data/wiki/wiki_doc/Free trade.md,https://en.wikipedia.org/wiki/Free_trade
+,./data/wiki/wiki_doc/Globalization.md,https://en.wikipedia.org/wiki/Globalization
+,./data/wiki/wiki_doc/Multinational corporation.md,https://en.wikipedia.org/wiki/Multinational_corporation
+,./data/wiki/wiki_doc/Amazon (company).md,https://en.wikipedia.org/wiki/Amazon_(company)
+,./data/wiki/wiki_doc/Apple Inc..md,https://en.wikipedia.org/wiki/Apple_Inc.
+,./data/wiki/wiki_doc/Microsoft.md,https://en.wikipedia.org/wiki/Microsoft
+,./data/wiki/wiki_doc/Google.md,https://en.wikipedia.org/wiki/Google
+,./data/wiki/wiki_doc/Meta Platforms.md,https://en.wikipedia.org/wiki/Meta_Platforms
+,"./data/wiki/wiki_doc/Tesla, Inc..md","https://en.wikipedia.org/wiki/Tesla,_Inc."
+,./data/wiki/wiki_doc/New York Stock Exchange.md,https://en.wikipedia.org/wiki/New_York_Stock_Exchange
+,./data/wiki/wiki_doc/Nasdaq.md,https://en.wikipedia.org/wiki/NASDAQ
+,./data/wiki/wiki_doc/Great Depression.md,https://en.wikipedia.org/wiki/Great_Depression
+,./data/wiki/wiki_doc/2008 financial crisis.md,https://en.wikipedia.org/wiki/2008_financial_crisis
+,./data/wiki/wiki_doc/Central bank.md,https://en.wikipedia.org/wiki/Central_bank
+,./data/wiki/wiki_doc/Federal Reserve.md,https://en.wikipedia.org/wiki/Federal_Reserve
+,./data/wiki/wiki_doc/European Central Bank.md,https://en.wikipedia.org/wiki/European_Central_Bank
+,./data/wiki/wiki_doc/Tax.md,https://en.wikipedia.org/wiki/Tax
+,./data/wiki/wiki_doc/Unemployment.md,https://en.wikipedia.org/wiki/Unemployment
+,./data/wiki/wiki_doc/Democracy.md,https://en.wikipedia.org/wiki/Democracy
+,./data/wiki/wiki_doc/Dictatorship.md,https://en.wikipedia.org/wiki/Dictatorship
+,./data/wiki/wiki_doc/Communism.md,https://en.wikipedia.org/wiki/Communism
+,./data/wiki/wiki_doc/Fascism.md,https://en.wikipedia.org/wiki/Fascism
+,./data/wiki/wiki_doc/Liberalism.md,https://en.wikipedia.org/wiki/Liberalism
+,./data/wiki/wiki_doc/Conservatism.md,https://en.wikipedia.org/wiki/Conservatism
+,./data/wiki/wiki_doc/United Nations.md,https://en.wikipedia.org/wiki/United_Nations
+,./data/wiki/wiki_doc/European Union.md,https://en.wikipedia.org/wiki/European_Union
+,./data/wiki/wiki_doc/NATO.md,https://en.wikipedia.org/wiki/NATO
+,./data/wiki/wiki_doc/Human rights.md,https://en.wikipedia.org/wiki/Human_rights
+,./data/wiki/wiki_doc/Constitution.md,https://en.wikipedia.org/wiki/Constitution
+,./data/wiki/wiki_doc/Parliament.md,https://en.wikipedia.org/wiki/Parliament
+,./data/wiki/wiki_doc/Geopolitics.md,https://en.wikipedia.org/wiki/Geopolitics
+,./data/wiki/wiki_doc/Diplomacy.md,https://en.wikipedia.org/wiki/Diplomacy
+,./data/wiki/wiki_doc/Imperialism.md,https://en.wikipedia.org/wiki/Imperialism
+,./data/wiki/wiki_doc/Colonialism.md,https://en.wikipedia.org/wiki/Colonialism
+,./data/wiki/wiki_doc/Nationalism.md,https://en.wikipedia.org/wiki/Nationalism
+,./data/wiki/wiki_doc/Feminism.md,https://en.wikipedia.org/wiki/Feminism
+,./data/wiki/wiki_doc/Civil rights movement.md,https://en.wikipedia.org/wiki/Civil_rights_movement
+,./data/wiki/wiki_doc/Apartheid.md,https://en.wikipedia.org/wiki/Apartheid
+,./data/wiki/wiki_doc/Abraham Lincoln.md,https://en.wikipedia.org/wiki/Abraham_Lincoln
+,./data/wiki/wiki_doc/Winston Churchill.md,https://en.wikipedia.org/wiki/Winston_Churchill
+,./data/wiki/wiki_doc/Nelson Mandela.md,https://en.wikipedia.org/wiki/Nelson_Mandela
+,./data/wiki/wiki_doc/Mahatma Gandhi.md,https://en.wikipedia.org/wiki/Mahatma_Gandhi
+,./data/wiki/wiki_doc/Franklin D. Roosevelt.md,https://en.wikipedia.org/wiki/Franklin_D._Roosevelt
+,./data/wiki/wiki_doc/Vladimir Lenin.md,https://en.wikipedia.org/wiki/Vladimir_Lenin
+,./data/wiki/wiki_doc/Mao Zedong.md,https://en.wikipedia.org/wiki/Mao_Zedong
+,./data/wiki/wiki_doc/Adolf Hitler.md,https://en.wikipedia.org/wiki/Adolf_Hitler
+,./data/wiki/wiki_doc/Joseph Stalin.md,https://en.wikipedia.org/wiki/Joseph_Stalin
+,./data/wiki/wiki_doc/Mercosur.md,https://en.wikipedia.org/wiki/MERCOSUR
+,./data/wiki/wiki_doc/China.md,https://en.wikipedia.org/wiki/China
+,./data/wiki/wiki_doc/India.md,https://en.wikipedia.org/wiki/India
+,./data/wiki/wiki_doc/United States.md,https://en.wikipedia.org/wiki/United_States
+,./data/wiki/wiki_doc/Russia.md,https://en.wikipedia.org/wiki/Russia
+,./data/wiki/wiki_doc/Germany.md,https://en.wikipedia.org/wiki/Germany
+,./data/wiki/wiki_doc/France.md,https://en.wikipedia.org/wiki/France
+,./data/wiki/wiki_doc/Japan.md,https://en.wikipedia.org/wiki/Japan
+,./data/wiki/wiki_doc/United Kingdom.md,https://en.wikipedia.org/wiki/United_Kingdom
+,./data/wiki/wiki_doc/Canada.md,https://en.wikipedia.org/wiki/Canada
+,./data/wiki/wiki_doc/Australia.md,https://en.wikipedia.org/wiki/Australia
+,./data/wiki/wiki_doc/Mexico.md,https://en.wikipedia.org/wiki/Mexico
+,./data/wiki/wiki_doc/South Africa.md,https://en.wikipedia.org/wiki/South_Africa
+,./data/wiki/wiki_doc/Nigeria.md,https://en.wikipedia.org/wiki/Nigeria
+,./data/wiki/wiki_doc/Egypt.md,https://en.wikipedia.org/wiki/Egypt
+,./data/wiki/wiki_doc/Saudi Arabia.md,https://en.wikipedia.org/wiki/Saudi_Arabia
+,./data/wiki/wiki_doc/Iran.md,https://en.wikipedia.org/wiki/Iran
+,./data/wiki/wiki_doc/Turkey.md,https://en.wikipedia.org/wiki/Turkey
+,./data/wiki/wiki_doc/Indonesia.md,https://en.wikipedia.org/wiki/Indonesia
+,./data/wiki/wiki_doc/Pakistan.md,https://en.wikipedia.org/wiki/Pakistan
+,./data/wiki/wiki_doc/Bangladesh.md,https://en.wikipedia.org/wiki/Bangladesh
+,./data/wiki/wiki_doc/Amazon rainforest.md,https://en.wikipedia.org/wiki/Amazon_rainforest
+,./data/wiki/wiki_doc/Sahara.md,https://en.wikipedia.org/wiki/Sahara
+,./data/wiki/wiki_doc/Himalayas.md,https://en.wikipedia.org/wiki/Himalayas
+,./data/wiki/wiki_doc/Amazon River.md,https://en.wikipedia.org/wiki/Amazon_River
+,./data/wiki/wiki_doc/Nile.md,https://en.wikipedia.org/wiki/Nile
+,./data/wiki/wiki_doc/Atlantic Ocean.md,https://en.wikipedia.org/wiki/Atlantic_Ocean
+,./data/wiki/wiki_doc/Pacific Ocean.md,https://en.wikipedia.org/wiki/Pacific_Ocean
+,./data/wiki/wiki_doc/Mediterranean Sea.md,https://en.wikipedia.org/wiki/Mediterranean_Sea
+,./data/wiki/wiki_doc/Arctic.md,https://en.wikipedia.org/wiki/Arctic
+,./data/wiki/wiki_doc/Antarctica.md,https://en.wikipedia.org/wiki/Antarctica
+,./data/wiki/wiki_doc/New York City.md,https://en.wikipedia.org/wiki/New_York_City
+,./data/wiki/wiki_doc/London.md,https://en.wikipedia.org/wiki/London
+,./data/wiki/wiki_doc/Tokyo.md,https://en.wikipedia.org/wiki/Tokyo
+,./data/wiki/wiki_doc/Paris.md,https://en.wikipedia.org/wiki/Paris
+,./data/wiki/wiki_doc/Beijing.md,https://en.wikipedia.org/wiki/Beijing
+,./data/wiki/wiki_doc/Mumbai.md,https://en.wikipedia.org/wiki/Mumbai
+,./data/wiki/wiki_doc/São Paulo.md,https://en.wikipedia.org/wiki/São_Paulo
+,./data/wiki/wiki_doc/Cairo.md,https://en.wikipedia.org/wiki/Cairo
+,./data/wiki/wiki_doc/Lagos.md,https://en.wikipedia.org/wiki/Lagos
+,./data/wiki/wiki_doc/Buenos Aires.md,https://en.wikipedia.org/wiki/Buenos_Aires
+,./data/wiki/wiki_doc/Olympic Games.md,https://en.wikipedia.org/wiki/Olympic_Games
+,./data/wiki/wiki_doc/Summer Olympic Games.md,https://en.wikipedia.org/wiki/Summer_Olympic_Games
+,./data/wiki/wiki_doc/Winter Olympic Games.md,https://en.wikipedia.org/wiki/Winter_Olympic_Games
+,./data/wiki/wiki_doc/Paralympic Games.md,https://en.wikipedia.org/wiki/Paralympic_Games
+,./data/wiki/wiki_doc/Basketball.md,https://en.wikipedia.org/wiki/Basketball
+,./data/wiki/wiki_doc/Tennis.md,https://en.wikipedia.org/wiki/Tennis
+,./data/wiki/wiki_doc/Swimming (sport).md,https://en.wikipedia.org/wiki/Swimming_(sport)
+,./data/wiki/wiki_doc/Sport of athletics.md,https://en.wikipedia.org/wiki/Athletics_(sport)
+,./data/wiki/wiki_doc/Gymnastics.md,https://en.wikipedia.org/wiki/Gymnastics
+,./data/wiki/wiki_doc/Cycling.md,https://en.wikipedia.org/wiki/Cycling
+,./data/wiki/wiki_doc/Tour de France.md,https://en.wikipedia.org/wiki/Tour_de_France
+,./data/wiki/wiki_doc/Formula One.md,https://en.wikipedia.org/wiki/Formula_One
+,./data/wiki/wiki_doc/Rugby union.md,https://en.wikipedia.org/wiki/Rugby_union
+,./data/wiki/wiki_doc/Cricket.md,https://en.wikipedia.org/wiki/Cricket
+,./data/wiki/wiki_doc/Baseball.md,https://en.wikipedia.org/wiki/Baseball
+,./data/wiki/wiki_doc/American football.md,https://en.wikipedia.org/wiki/American_football
+,./data/wiki/wiki_doc/Ice hockey.md,https://en.wikipedia.org/wiki/Ice_hockey
+,./data/wiki/wiki_doc/Golf.md,https://en.wikipedia.org/wiki/Golf
+,./data/wiki/wiki_doc/Boxing.md,https://en.wikipedia.org/wiki/Boxing
+,./data/wiki/wiki_doc/Mixed martial arts.md,https://en.wikipedia.org/wiki/Mixed_martial_arts
+,./data/wiki/wiki_doc/Usain Bolt.md,https://en.wikipedia.org/wiki/Usain_Bolt
+,./data/wiki/wiki_doc/Michael Phelps.md,https://en.wikipedia.org/wiki/Michael_Phelps
+,./data/wiki/wiki_doc/Serena Williams.md,https://en.wikipedia.org/wiki/Serena_Williams
+,./data/wiki/wiki_doc/Roger Federer.md,https://en.wikipedia.org/wiki/Roger_Federer
+,./data/wiki/wiki_doc/LeBron James.md,https://en.wikipedia.org/wiki/LeBron_James
+,./data/wiki/wiki_doc/Michael Jordan.md,https://en.wikipedia.org/wiki/Michael_Jordan
+,./data/wiki/wiki_doc/Muhammad Ali.md,https://en.wikipedia.org/wiki/Muhammad_Ali
+,./data/wiki/wiki_doc/Ayrton Senna.md,https://en.wikipedia.org/wiki/Ayrton_Senna
+,./data/wiki/wiki_doc/FIFA World Cup.md,https://en.wikipedia.org/wiki/FIFA_World_Cup
+,./data/wiki/wiki_doc/National Basketball Association.md,https://en.wikipedia.org/wiki/NBA
+,./data/wiki/wiki_doc/Aviation.md,https://en.wikipedia.org/wiki/Aviation
+,./data/wiki/wiki_doc/Airplane.md,https://en.wikipedia.org/wiki/Airplane
+,./data/wiki/wiki_doc/Helicopter.md,https://en.wikipedia.org/wiki/Helicopter
+,./data/wiki/wiki_doc/Boeing.md,https://en.wikipedia.org/wiki/Boeing
+,./data/wiki/wiki_doc/Airbus.md,https://en.wikipedia.org/wiki/Airbus
+,./data/wiki/wiki_doc/Airport.md,https://en.wikipedia.org/wiki/Airport
+,./data/wiki/wiki_doc/Rail transport.md,https://en.wikipedia.org/wiki/Railway
+,./data/wiki/wiki_doc/High-speed rail.md,https://en.wikipedia.org/wiki/High-speed_rail
+,./data/wiki/wiki_doc/Shinkansen.md,https://en.wikipedia.org/wiki/Shinkansen
+,./data/wiki/wiki_doc/Car.md,https://en.wikipedia.org/wiki/Automobile
+,./data/wiki/wiki_doc/Ship.md,https://en.wikipedia.org/wiki/Ship
+,./data/wiki/wiki_doc/Container ship.md,https://en.wikipedia.org/wiki/Container_ship
+,./data/wiki/wiki_doc/Submarine.md,https://en.wikipedia.org/wiki/Submarine
+,./data/wiki/wiki_doc/Aircraft carrier.md,https://en.wikipedia.org/wiki/Aircraft_carrier
+,./data/wiki/wiki_doc/Suez Canal.md,https://en.wikipedia.org/wiki/Suez_Canal
+,./data/wiki/wiki_doc/Panama Canal.md,https://en.wikipedia.org/wiki/Panama_Canal
+,./data/wiki/wiki_doc/Trans-Siberian Railway.md,https://en.wikipedia.org/wiki/Trans-Siberian_Railway
+,./data/wiki/wiki_doc/Hyperloop.md,https://en.wikipedia.org/wiki/Hyperloop
+,./data/wiki/wiki_doc/Unmanned aerial vehicle.md,https://en.wikipedia.org/wiki/Drone_(unmanned_aerial_vehicle)
+,./data/wiki/wiki_doc/Self-driving car.md,https://en.wikipedia.org/wiki/Self-driving_car
+,./data/wiki/wiki_doc/Space Shuttle.md,https://en.wikipedia.org/wiki/Space_Shuttle
+,./data/wiki/wiki_doc/Concorde.md,https://en.wikipedia.org/wiki/Concorde
+,./data/wiki/wiki_doc/Wright brothers.md,https://en.wikipedia.org/wiki/Wright_brothers
+,./data/wiki/wiki_doc/Charles Lindbergh.md,https://en.wikipedia.org/wiki/Charles_Lindbergh
+,./data/wiki/wiki_doc/Yuri Gagarin.md,https://en.wikipedia.org/wiki/Yuri_Gagarin
+,./data/wiki/wiki_doc/Neil Armstrong.md,https://en.wikipedia.org/wiki/Neil_Armstrong
+,./data/wiki/wiki_doc/International Air Transport Association.md,https://en.wikipedia.org/wiki/International_Air_Transport_Association
+,./data/wiki/wiki_doc/Air traffic control.md,https://en.wikipedia.org/wiki/Air_traffic_control
+,./data/wiki/wiki_doc/Fossil fuel.md,https://en.wikipedia.org/wiki/Fossil_fuel
+,./data/wiki/wiki_doc/Hydrogen vehicle.md,https://en.wikipedia.org/wiki/Hydrogen_vehicle
+,./data/wiki/wiki_doc/Agriculture.md,https://en.wikipedia.org/wiki/Agriculture
+,./data/wiki/wiki_doc/Rice.md,https://en.wikipedia.org/wiki/Rice
+,./data/wiki/wiki_doc/Wheat.md,https://en.wikipedia.org/wiki/Wheat
+,./data/wiki/wiki_doc/Maize.md,https://en.wikipedia.org/wiki/Maize
+,./data/wiki/wiki_doc/Soybean.md,https://en.wikipedia.org/wiki/Soybean
+,./data/wiki/wiki_doc/Coffee.md,https://en.wikipedia.org/wiki/Coffee
+,./data/wiki/wiki_doc/Tea.md,https://en.wikipedia.org/wiki/Tea
+,./data/wiki/wiki_doc/Sugar.md,https://en.wikipedia.org/wiki/Sugar
+,./data/wiki/wiki_doc/Cocoa bean.md,https://en.wikipedia.org/wiki/Cocoa_bean
+,./data/wiki/wiki_doc/Olive oil.md,https://en.wikipedia.org/wiki/Olive_oil
+,./data/wiki/wiki_doc/Wine.md,https://en.wikipedia.org/wiki/Wine
+,./data/wiki/wiki_doc/Beer.md,https://en.wikipedia.org/wiki/Beer
+,./data/wiki/wiki_doc/Bread.md,https://en.wikipedia.org/wiki/Bread
+,./data/wiki/wiki_doc/Cheese.md,https://en.wikipedia.org/wiki/Cheese
+,./data/wiki/wiki_doc/Meat.md,https://en.wikipedia.org/wiki/Meat
+,./data/wiki/wiki_doc/Veganism.md,https://en.wikipedia.org/wiki/Veganism
+,./data/wiki/wiki_doc/Food security.md,https://en.wikipedia.org/wiki/Food_security
+,./data/wiki/wiki_doc/Famine.md,https://en.wikipedia.org/wiki/Famine
+,./data/wiki/wiki_doc/Green Revolution.md,https://en.wikipedia.org/wiki/Green_Revolution
+,./data/wiki/wiki_doc/Genetically modified organism.md,https://en.wikipedia.org/wiki/Genetically_modified_organism
+,./data/wiki/wiki_doc/Organic farming.md,https://en.wikipedia.org/wiki/Organic_farming
+,./data/wiki/wiki_doc/Irrigation.md,https://en.wikipedia.org/wiki/Irrigation
+,./data/wiki/wiki_doc/Fertilizer.md,https://en.wikipedia.org/wiki/Fertilizer
+,./data/wiki/wiki_doc/Pesticide.md,https://en.wikipedia.org/wiki/Pesticide
+,./data/wiki/wiki_doc/Food and Agriculture Organization.md,https://en.wikipedia.org/wiki/Food_and_Agriculture_Organization
+,./data/wiki/wiki_doc/Human evolution.md,https://en.wikipedia.org/wiki/Human_evolution
+,./data/wiki/wiki_doc/Human.md,https://en.wikipedia.org/wiki/Homo_sapiens
+,./data/wiki/wiki_doc/Neanderthal.md,https://en.wikipedia.org/wiki/Neanderthal
+,./data/wiki/wiki_doc/Stone Age.md,https://en.wikipedia.org/wiki/Stone_Age
+,./data/wiki/wiki_doc/Bronze Age.md,https://en.wikipedia.org/wiki/Bronze_Age
+,./data/wiki/wiki_doc/Iron Age.md,https://en.wikipedia.org/wiki/Iron_Age
+,./data/wiki/wiki_doc/Prehistoric art.md,https://en.wikipedia.org/wiki/Prehistoric_art
+,./data/wiki/wiki_doc/Mesopotamia.md,https://en.wikipedia.org/wiki/Mesopotamia
+,./data/wiki/wiki_doc/Indus Valley Civilisation.md,https://en.wikipedia.org/wiki/Indus_Valley_Civilisation
+,./data/wiki/wiki_doc/Maya civilization.md,https://en.wikipedia.org/wiki/Maya_civilization
+,./data/wiki/wiki_doc/Pompeii.md,https://en.wikipedia.org/wiki/Pompeii
+,./data/wiki/wiki_doc/Troy.md,https://en.wikipedia.org/wiki/Troy
+,./data/wiki/wiki_doc/Machu Picchu.md,https://en.wikipedia.org/wiki/Machu_Picchu
+,./data/wiki/wiki_doc/Great Wall of China.md,https://en.wikipedia.org/wiki/Great_Wall_of_China
+,./data/wiki/wiki_doc/Giza pyramid complex.md,https://en.wikipedia.org/wiki/Pyramids_of_Giza
+,./data/wiki/wiki_doc/Rosetta Stone.md,https://en.wikipedia.org/wiki/Rosetta_Stone
+,./data/wiki/wiki_doc/Dead Sea Scrolls.md,https://en.wikipedia.org/wiki/Dead_Sea_Scrolls
+,./data/wiki/wiki_doc/Cultural anthropology.md,https://en.wikipedia.org/wiki/Cultural_anthropology
+,./data/wiki/wiki_doc/Linguistics.md,https://en.wikipedia.org/wiki/Linguistics
+,./data/wiki/wiki_doc/Folklore.md,https://en.wikipedia.org/wiki/Folklore
+,./data/wiki/wiki_doc/Shamanism.md,https://en.wikipedia.org/wiki/Shamanism
+,./data/wiki/wiki_doc/Nomad.md,https://en.wikipedia.org/wiki/Nomad
+,./data/wiki/wiki_doc/Migration (ecology).md,https://en.wikipedia.org/wiki/Migration_(ecology)
+,./data/wiki/wiki_doc/Indigenous peoples.md,https://en.wikipedia.org/wiki/Indigenous_peoples
+,./data/wiki/wiki_doc/Colonization.md,https://en.wikipedia.org/wiki/Colonization
+,./data/wiki/wiki_doc/Christianity.md,https://en.wikipedia.org/wiki/Christianity
+,./data/wiki/wiki_doc/Islam.md,https://en.wikipedia.org/wiki/Islam
+,./data/wiki/wiki_doc/Judaism.md,https://en.wikipedia.org/wiki/Judaism
+,./data/wiki/wiki_doc/Hinduism.md,https://en.wikipedia.org/wiki/Hinduism
+,./data/wiki/wiki_doc/Buddhism.md,https://en.wikipedia.org/wiki/Buddhism
+,./data/wiki/wiki_doc/Sikhism.md,https://en.wikipedia.org/wiki/Sikhism
+,./data/wiki/wiki_doc/Taoism.md,https://en.wikipedia.org/wiki/Taoism
+,./data/wiki/wiki_doc/Confucianism.md,https://en.wikipedia.org/wiki/Confucianism
+,./data/wiki/wiki_doc/Shinto.md,https://en.wikipedia.org/wiki/Shinto
+,./data/wiki/wiki_doc/Atheism.md,https://en.wikipedia.org/wiki/Atheism
+,./data/wiki/wiki_doc/Greek mythology.md,https://en.wikipedia.org/wiki/Greek_mythology
+,./data/wiki/wiki_doc/Roman mythology.md,https://en.wikipedia.org/wiki/Roman_mythology
+,./data/wiki/wiki_doc/Norse mythology.md,https://en.wikipedia.org/wiki/Norse_mythology
+,./data/wiki/wiki_doc/Egyptian mythology.md,https://en.wikipedia.org/wiki/Egyptian_mythology
+,./data/wiki/wiki_doc/Aztec mythology.md,https://en.wikipedia.org/wiki/Aztec_mythology
+,./data/wiki/wiki_doc/Bible.md,https://en.wikipedia.org/wiki/Bible
+,./data/wiki/wiki_doc/Quran.md,https://en.wikipedia.org/wiki/Quran
+,./data/wiki/wiki_doc/Torah.md,https://en.wikipedia.org/wiki/Torah
+,./data/wiki/wiki_doc/Vatican City.md,https://en.wikipedia.org/wiki/Vatican_City
+,./data/wiki/wiki_doc/Mecca.md,https://en.wikipedia.org/wiki/Mecca
+,./data/wiki/wiki_doc/Jerusalem.md,https://en.wikipedia.org/wiki/Jerusalem
+,./data/wiki/wiki_doc/Counter-Reformation.md,https://en.wikipedia.org/wiki/Counter-Reformation
+,./data/wiki/wiki_doc/Reformation.md,https://en.wikipedia.org/wiki/Reformation
+,./data/wiki/wiki_doc/Inquisition.md,https://en.wikipedia.org/wiki/Inquisition
+,./data/wiki/wiki_doc/Secularism.md,https://en.wikipedia.org/wiki/Secularism
+,./data/wiki/wiki_doc/English language.md,https://en.wikipedia.org/wiki/English_language
+,./data/wiki/wiki_doc/Spanish language.md,https://en.wikipedia.org/wiki/Spanish_language
+,./data/wiki/wiki_doc/Mandarin Chinese.md,https://en.wikipedia.org/wiki/Mandarin_Chinese
+,./data/wiki/wiki_doc/Arabic.md,https://en.wikipedia.org/wiki/Arabic_language
+,./data/wiki/wiki_doc/French language.md,https://en.wikipedia.org/wiki/French_language
+,./data/wiki/wiki_doc/Portuguese language.md,https://en.wikipedia.org/wiki/Portuguese_language
+,./data/wiki/wiki_doc/German language.md,https://en.wikipedia.org/wiki/German_language
+,./data/wiki/wiki_doc/Russian language.md,https://en.wikipedia.org/wiki/Russian_language
+,./data/wiki/wiki_doc/Japanese language.md,https://en.wikipedia.org/wiki/Japanese_language
+,./data/wiki/wiki_doc/Hindi.md,https://en.wikipedia.org/wiki/Hindi
+,./data/wiki/wiki_doc/Latin.md,https://en.wikipedia.org/wiki/Latin
+,./data/wiki/wiki_doc/Sign language.md,https://en.wikipedia.org/wiki/Sign_language
+,./data/wiki/wiki_doc/Writing system.md,https://en.wikipedia.org/wiki/Writing_system
+,./data/wiki/wiki_doc/Alphabet.md,https://en.wikipedia.org/wiki/Alphabet
+,./data/wiki/wiki_doc/Translation.md,https://en.wikipedia.org/wiki/Translation
+,./data/wiki/wiki_doc/Language family.md,https://en.wikipedia.org/wiki/Language_family
+,./data/wiki/wiki_doc/Constructed language.md,https://en.wikipedia.org/wiki/Constructed_language
+,./data/wiki/wiki_doc/Endangered language.md,https://en.wikipedia.org/wiki/Endangered_language
+,./data/wiki/wiki_doc/Esperanto.md,https://en.wikipedia.org/wiki/Esperanto
+,./data/wiki/wiki_doc/Multilingualism.md,https://en.wikipedia.org/wiki/Bilingualism
+,./data/wiki/wiki_doc/Prime number.md,https://en.wikipedia.org/wiki/Prime_number
+,./data/wiki/wiki_doc/Calculus.md,https://en.wikipedia.org/wiki/Calculus
+,./data/wiki/wiki_doc/Linear algebra.md,https://en.wikipedia.org/wiki/Linear_algebra
+,./data/wiki/wiki_doc/Statistics.md,https://en.wikipedia.org/wiki/Statistics
+,./data/wiki/wiki_doc/Probability.md,https://en.wikipedia.org/wiki/Probability
+,./data/wiki/wiki_doc/Graph theory.md,https://en.wikipedia.org/wiki/Graph_theory
+,./data/wiki/wiki_doc/Number theory.md,https://en.wikipedia.org/wiki/Number_theory
+,./data/wiki/wiki_doc/Geometry.md,https://en.wikipedia.org/wiki/Geometry
+,./data/wiki/wiki_doc/Topology.md,https://en.wikipedia.org/wiki/Topology
+,./data/wiki/wiki_doc/Cryptography.md,https://en.wikipedia.org/wiki/Cryptography
+,./data/wiki/wiki_doc/Algorithm.md,https://en.wikipedia.org/wiki/Algorithm
+,./data/wiki/wiki_doc/Pi.md,https://en.wikipedia.org/wiki/Pi
+,./data/wiki/wiki_doc/Fibonacci sequence.md,https://en.wikipedia.org/wiki/Fibonacci_sequence
+,./data/wiki/wiki_doc/Pythagorean theorem.md,https://en.wikipedia.org/wiki/Pythagorean_theorem
+,./data/wiki/wiki_doc/Euler's identity.md,https://en.wikipedia.org/wiki/Euler%27s_identity
+,./data/wiki/wiki_doc/Isaac Newton.md,https://en.wikipedia.org/wiki/Isaac_Newton
+,./data/wiki/wiki_doc/Albert Einstein.md,https://en.wikipedia.org/wiki/Albert_Einstein
+,./data/wiki/wiki_doc/Alan Turing.md,https://en.wikipedia.org/wiki/Alan_Turing
+,./data/wiki/wiki_doc/Carl Friedrich Gauss.md,https://en.wikipedia.org/wiki/Carl_Friedrich_Gauss
+,./data/wiki/wiki_doc/Leonhard Euler.md,https://en.wikipedia.org/wiki/Leonhard_Euler
+,./data/wiki/wiki_doc/Fields Medal.md,https://en.wikipedia.org/wiki/Fields_Medal
+,./data/wiki/wiki_doc/Abel Prize.md,https://en.wikipedia.org/wiki/Abel_Prize
+,./data/wiki/wiki_doc/Chaos theory.md,https://en.wikipedia.org/wiki/Chaos_theory
+,./data/wiki/wiki_doc/Climate change.md,https://en.wikipedia.org/wiki/Climate_change
+,./data/wiki/wiki_doc/Climate change.md,https://en.wikipedia.org/wiki/Global_warming
+,./data/wiki/wiki_doc/Greenhouse gas.md,https://en.wikipedia.org/wiki/Greenhouse_gas
+,./data/wiki/wiki_doc/Carbon dioxide.md,https://en.wikipedia.org/wiki/Carbon_dioxide
+,./data/wiki/wiki_doc/Ozone layer.md,https://en.wikipedia.org/wiki/Ozone_layer
+,./data/wiki/wiki_doc/Deforestation.md,https://en.wikipedia.org/wiki/Deforestation
+,./data/wiki/wiki_doc/Biodiversity.md,https://en.wikipedia.org/wiki/Biodiversity
+,./data/wiki/wiki_doc/Coral reef.md,https://en.wikipedia.org/wiki/Coral_reef
+,./data/wiki/wiki_doc/Endangered species.md,https://en.wikipedia.org/wiki/Endangered_species
+,./data/wiki/wiki_doc/Extinction.md,https://en.wikipedia.org/wiki/Extinction
+,./data/wiki/wiki_doc/Recycling.md,https://en.wikipedia.org/wiki/Recycling
+,./data/wiki/wiki_doc/Plastic pollution.md,https://en.wikipedia.org/wiki/Plastic_pollution
+,./data/wiki/wiki_doc/Ocean acidification.md,https://en.wikipedia.org/wiki/Ocean_acidification
+,./data/wiki/wiki_doc/Earthquake.md,https://en.wikipedia.org/wiki/Earthquake
+,./data/wiki/wiki_doc/Volcano.md,https://en.wikipedia.org/wiki/Volcano
+,./data/wiki/wiki_doc/Tsunami.md,https://en.wikipedia.org/wiki/Tsunami
+,./data/wiki/wiki_doc/Tropical cyclone.md,https://en.wikipedia.org/wiki/Hurricane
+,./data/wiki/wiki_doc/Tornado.md,https://en.wikipedia.org/wiki/Tornado
+,./data/wiki/wiki_doc/Drought.md,https://en.wikipedia.org/wiki/Drought
+,./data/wiki/wiki_doc/Wildfire.md,https://en.wikipedia.org/wiki/Wildfire
+,./data/wiki/wiki_doc/World Health Organization.md,https://en.wikipedia.org/wiki/World_Health_Organization
+,./data/wiki/wiki_doc/Epidemiology.md,https://en.wikipedia.org/wiki/Epidemiology
+,./data/wiki/wiki_doc/Pandemic.md,https://en.wikipedia.org/wiki/Pandemic
+,./data/wiki/wiki_doc/Spanish flu.md,https://en.wikipedia.org/wiki/1918_flu_pandemic
+,./data/wiki/wiki_doc/Smallpox.md,https://en.wikipedia.org/wiki/Smallpox
+,./data/wiki/wiki_doc/Polio.md,https://en.wikipedia.org/wiki/Polio
+,./data/wiki/wiki_doc/Mental health.md,https://en.wikipedia.org/wiki/Mental_health
+,./data/wiki/wiki_doc/Depression (mood).md,https://en.wikipedia.org/wiki/Depression_(mood)
+,./data/wiki/wiki_doc/Autism.md,https://en.wikipedia.org/wiki/Autism
+,./data/wiki/wiki_doc/Nutrition.md,https://en.wikipedia.org/wiki/Nutrition
+,./data/wiki/wiki_doc/International law.md,https://en.wikipedia.org/wiki/International_law
+,./data/wiki/wiki_doc/Criminal law.md,https://en.wikipedia.org/wiki/Criminal_law
+,./data/wiki/wiki_doc/International human rights law.md,https://en.wikipedia.org/wiki/Human_rights_law
+,./data/wiki/wiki_doc/International Criminal Court.md,https://en.wikipedia.org/wiki/International_Criminal_Court
+,./data/wiki/wiki_doc/Supreme Court of the United States.md,https://en.wikipedia.org/wiki/Supreme_Court_of_the_United_States
+,./data/wiki/wiki_doc/European Court of Human Rights.md,https://en.wikipedia.org/wiki/European_Court_of_Human_Rights
+,./data/wiki/wiki_doc/Capital punishment.md,https://en.wikipedia.org/wiki/Death_penalty
+,./data/wiki/wiki_doc/Prison.md,https://en.wikipedia.org/wiki/Prison
+,./data/wiki/wiki_doc/Police.md,https://en.wikipedia.org/wiki/Police
+,./data/wiki/wiki_doc/Terrorism.md,https://en.wikipedia.org/wiki/Terrorism
+,./data/wiki/wiki_doc/Cybercrime.md,https://en.wikipedia.org/wiki/Cybercrime
+,./data/wiki/wiki_doc/Money laundering.md,https://en.wikipedia.org/wiki/Money_laundering
+,./data/wiki/wiki_doc/War crime.md,https://en.wikipedia.org/wiki/War_crime
+,./data/wiki/wiki_doc/Genocide.md,https://en.wikipedia.org/wiki/Genocide
+,./data/wiki/wiki_doc/Slavery.md,https://en.wikipedia.org/wiki/Slavery
+,./data/wiki/wiki_doc/Asylum seeker.md,https://en.wikipedia.org/wiki/Asylum_seeker
+,./data/wiki/wiki_doc/Refugee.md,https://en.wikipedia.org/wiki/Refugee
+,./data/wiki/wiki_doc/Immigration.md,https://en.wikipedia.org/wiki/Immigration
+,./data/wiki/wiki_doc/Citizenship.md,https://en.wikipedia.org/wiki/Citizenship
+,./data/wiki/wiki_doc/Statelessness.md,https://en.wikipedia.org/wiki/Statelessness

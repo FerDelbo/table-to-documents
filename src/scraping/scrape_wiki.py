@@ -39,19 +39,44 @@ class WikiScraper:
         
 
     def extract_content(self):
-        text = self.soup.find("span", class_="mw-page-title-main").get_text().strip()
+        title_tag = (
+            self.soup.find("span", class_="mw-page-title-main")
+            or self.soup.find("h1", id="firstHeading")
+            or self.soup.find("title")
+        )
+        text = title_tag.get_text().strip() if title_tag else ""
+        if not text:
+            text = self.url.split("/")[-1].replace("_", " ")
+        self.title = text.replace("\n", "")
+        text = self.soup.find("span", class_="mw-page-title-main")
         if not text:
             url = self.url
             text = url.split("/")[-1].replace("_", " ")
+        else:
+            text = text.get_text().strip()
         self.title = text.replace("\n", "")
-        body = self.soup.find("main", class_="mw-body")
+
+        body = (
+            self.soup.find("main", class_="mw-body")
+            or self.soup.find("div", id="bodyContent")
+            or self.soup.find("div", class_="mw-parser-output")
+            or self.soup
+        )
 
         sections = []
         current_heading = self.title
         current_paragraphs = []
 
+        content_root = body.find("div", class_="mw-parser-output") if body is not None else None
+        if content_root is None:
+            content_root = body
 
-        for element in body.find_all(["div", "p"], recursive=True):
+        if content_root is None:
+            print("Aviso: não foi possível encontrar o corpo do artigo. Salvando apenas o título.")
+            self.content_text = f"## {self.title}\n"
+            return self.content_text
+
+        for element in content_root.find_all(["div", "p"], recursive=True):
 
             if element.name == "div" and "mw-heading" in element.get("class", []):
                 
@@ -262,5 +287,31 @@ class WikiScraper:
             self.__parser_ground_truth()
         else:
             print("[4/4] Artigo descartado -- nenhuma tabela atingiu o threshold.")
+ 
+        return self
+    
+    def run_scrape(self):
+        print(f"\n[1/3] Conectando a {self.url}")
+        self.connect()
+ 
+        print("[2/3] Extraindo conteudo...")
+        self.extract_content()
+ 
+        # print("[3/4] Extraindo e pontuando tabelas...")
+        # self.extract_table()
+ 
+        # if not self.tables:
+        #     print("[STOP] Artigo sem tabelas -- scraping interrompido.\n")
+        #     return self
+ 
+        # print(f"Total de tabelas encontradas: {len(self.tables)}")
+        
+        # self.score_all_tables()
+ 
+        # if self.selected_table and self.selected_table.get("aug_is_candidate"):
+        print("[3/3] Salvando par (documento + tabela)...")
+        self.save_content()
+        self.file_table = ""
+        self.__parser_ground_truth()
  
         return self

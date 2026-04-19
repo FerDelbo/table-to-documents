@@ -339,3 +339,63 @@ match,./pseudodocuments/# An Archival Audit of Match Records: 1992–2000 Region
 match,./pseudodocuments/# Quantitative Performance Review: Municipal Match Logistics & Outcome Analysis (1992–2000).md
 match,./pseudodocuments/# Analytical Compendium of International Match Records (1992–2000).md
 match,"./pseudodocuments/# Quantitative Impact Analysis: The ""Cuscatlán Factor"" and Early-Lead Correlation (1992-2000).md"
+addresses,./pseudodocuments/# Audit Report: Address Data Integrity Assessment and Geographic Distribution (Batch 001).md
+addresses,./pseudodocuments/# Data Integrity Audit: Structural Analysis of the `addresses` Table.md
+addresses,./pseudodocuments/# Geographic Distribution and Structural Integrity Report: Address Records 1-15.md
+addresses,./pseudodocuments/# Optimizing the Last-Mile Node: A Technical Deconstruction of the US Address Matrix.md
+addresses,./pseudodocuments/# Geospatial Data Integrity and Distribution Analysis: Record Set 001-015.md
+member,./pseudodocuments/# Through the Steam: A Regular’s Code-Review of the Loyalty Stack.md
+member,"./pseudodocuments/# A UX Audit of Our Morning ""Third Place"": Membership Dynamics and Ritual Retention.md"
+member,./pseudodocuments/# Designing the Daily Ritual: A Compositional Analysis of our Member Community.md
+member,./pseudodocuments/# Decoding the Morning Crowd: A UX Audit of Our Membership Community.md
+member,./pseudodocuments/# Debugging the Customer Workflow: An Efficiency Audit from the Gold Tier.md
+people_adversarial,./pseudodocuments/# Strategic Workforce Dynamics: A Longitudinal Analysis of the 'People' Central Repository.md
+people_adversarial,./pseudodocuments/# Workforce Synergy and Retention Dynamics: A Comprehensive Audit of the 'People' Master Registry.md
+people_adversarial,./pseudodocuments/# 2024 Global Workforce Composition and Retention Trajectory Report.md
+people_adversarial,./pseudodocuments/# Demographic Shifts and Retention Benchmarks: A 2024 People Analytics Deep Dive.md
+people_adversarial,./pseudodocuments/# Demographic and Performance Optimization Analysis: The 2024 Q3 Workforce Synthesis.md
+company_adversarial,./pseudodocuments/# Strategic Volatility and Segmented Growth: A Deep Dive into the 'Company' Database.md
+company_adversarial,./pseudodocuments/# 2024 Global Enterprise Landscape: Structural Resilience and Sector Volatility.md
+company_adversarial,./pseudodocuments/# Structural Resilience and Volatility: A 2024 Audit of the Mid-Cap Corporate Landscape.md
+company_adversarial,./pseudodocuments/# Strategic Resilience and Market Consolidation: A Quantitative Audit of the Global Corporate Registry.md
+company_adversarial,./pseudodocuments/# Strategic Volatility and Segment Convergence: An Analysis of the Global Enterprise Matrix.md
+buildings_adversarial,./pseudodocuments/# Urban Density and Structural Resilience: A Longitudinal Analysis of the 'buildings' Dataset.md
+buildings_adversarial,./pseudodocuments/# 2024 Metro Infrastructure Resilience Audit: Structural Lifecycle and Efficiency Analysis.md
+buildings_adversarial,./pseudodocuments/# Metropolitan Structural Resilience and Optimization Report (FY 2024).md
+buildings_adversarial,./pseudodocuments/# Architectural Resilience and Efficiency: A Longitudinal Analysis of the Municipal Building Portfolio.md
+buildings_adversarial,./pseudodocuments/# Metropolitan Structural Integrity and Utility Optimization: An Analysis of the Central Asset Register.md
+Companies_adversarial,./pseudodocuments/# The Global Entity Index: Structural Shifts in the 2024 Corporate Registry.md
+Companies_adversarial,./pseudodocuments/# The 2024 Global Enterprise Landscape: Pivot Points in the Mid-Market Sector.md
+Companies_adversarial,./pseudodocuments/# Strategic Resilience and Market Volatility: A Longitudinal Analysis of the 'Companies' Master Dataset.md
+Companies_adversarial,./pseudodocuments/# The 2024 Global Enterprise Landscape: Scaling Resilience and the Rise of the Neo-Conglomerate.md
+Companies_adversarial,"./pseudodocuments/# Fiscal Resilience and the ""Efficiency Pivot"": A Comprehensive Audit of the Q3 Global Enterprise Landscape.md"
+course_adversarial,./pseudodocuments/# Curriculum Optimization Strategy: Analyzing Lifecycle Efficiency within the ‘course’ Registry.md
+course_adversarial,./pseudodocuments/# Curricular Optimization Report: Analyzing Course Load and Resource Allocation (Q3-Q4 Cycle).md
+course_adversarial,./pseudodocuments/# Strategic Review of Curricular Efficiency and Enrollment Velocity (AY 2023-2024).md
+course_adversarial,./pseudodocuments/# Q3 Academic Portfolio Review: Strategic Analysis of Enrollment Elasticity and Curriculum Optimization.md
+course_adversarial,./pseudodocuments/# Curricular Optimization and Enrollment Resilience: A Comprehensive Analysis of the 2023-2024 Course Catalog.md
+teacher_adversarial,./pseudodocuments/# Academic Workforce Optimization: Strategic Analysis of Faculty Performance and Retention Metrics.md
+teacher_adversarial,./pseudodocuments/# The Human Capital Calculus: Longitudinal Analysis of Educator Trajectories (FY 2022–2024).md
+teacher_adversarial,./pseudodocuments/# Strategic Optimization of Pedagogical Capital: A Longitudinal Analysis of the `teacher` Registry.md
+teacher_adversarial,./pseudodocuments/# Optimizing Faculty Resource Allocation: A Longitudinal Analysis of the `teacher` Human Capital Dataset.md
+teacher_adversarial,./pseudodocuments/# Pedagogical Efficiency and Faculty Retention Analysis: Fiscal Year 2023-2024.md
+Student_game_adversarial,./pseudodocuments/# Cognitive Retention and Engagement Parity: A Comprehensive Analysis of the Student_game Dataset.md
+Student_game_adversarial,./pseudodocuments/# Behavioral Archetypes and Mastery Progression: A Longitudinal Analysis of the `Student_game` Interaction Layer.md
+Student_game_adversarial,./pseudodocuments/# Quantitative Analysis of Pedagogical Efficacy: The `Student_game` Interaction Matrix.md
+Student_game_adversarial,./pseudodocuments/# Quantifying Cognitive Friction and Engagement Velocity in the Student_game Environment.md
+Student_game_adversarial,./pseudodocuments/# Strategic Analysis of Cognitive Engagement Patterns in Gamified Learning Modules.md
+match_adversarial,./pseudodocuments/# The Dynamics of Synergy: A Deep-Dive Analysis of the ‘Match’ Table and Talent Alignment Vectors.md
+match_adversarial,./pseudodocuments/# Q3 Strategic Analysis: Volatility and Performance Metrics in the 2023 European Circuit.md
+match_adversarial,./pseudodocuments/# Optimization Analysis: Quarterly Match Dynamics and Algorithmic Efficiency (Q3 Report).md
+match_adversarial,./pseudodocuments/# Performance Audit: Liquidity Synchronization and Order Matching Efficiency (Q3 2023).md
+match_adversarial,./pseudodocuments/# Strategic Performance Divergence: A Quantitative Review of the `match` Repository.md
+addresses_adversarial,./pseudodocuments/# Geographic Distribution and Structural Integrity: An Analysis of the Global Addresses Repository.md
+addresses_adversarial,./pseudodocuments/# Strategic Spatial Audit: Optimizing the Global `addresses` Registry.md
+addresses_adversarial,./pseudodocuments/# Geographic Distribution and Structural Integrity: A Comprehensive Audit of Global Fulfillment Nodes.md
+addresses_adversarial,./pseudodocuments/# Geospatial Optimization and Address Integrity Report: Q3 Distribution Audit.md
+addresses_adversarial,./pseudodocuments/# Geospatial Variance and Infrastructure Readiness: An Audit of the Centralized Addresses Registry.md
+member_adversarial,./pseudodocuments/# Strategic Audit of the 'Member' Master Hierarchy: Q3-Q4 Lifecycle Analysis.md
+member_adversarial,./pseudodocuments/# H2 2023 Member Lifecycle & Engagement Audit: Strategic Optimization of the ‘Nexus’ Cohort.md
+member_adversarial,./pseudodocuments/# Strategic Analysis of the Veridian Health Alliance Membership Core: Q3 Retrospective.md
+member_adversarial,./pseudodocuments/# Strategic Analysis of the Global Membership Lifecycle: Q3-Q4 Performance Review.md
+member_adversarial,./pseudodocuments/# Strategic Audit of the Unified Member Matrix: H2 2023 Performance Analysis.md

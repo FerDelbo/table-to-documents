@@ -5,7 +5,7 @@ import argparse
 from pathlib import Path
 import pyexcel as p
 
-def register_par_table_document(table_name, document_path, file='./data/ground_truth.csv'):
+def register_par_table_document(table_name, document_path, file='./data/claimdb/ground_truth_claims.csv'):
     book = p.get_book(file_name=file)
     sheet = book[0]
     sheet.row += [table_name, document_path]
