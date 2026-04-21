@@ -5,7 +5,7 @@ df_claimdb = pd.read_csv('./data/claimdb/ground_truth_claims.csv')
 df_wiki = pd.read_csv('./data/wiki/ground_truth_wiki.csv')
 
 df_final = pd.concat([df_spider, df_claimdb, df_wiki], ignore_index=True)
-
+print(df_final.shape)
 df_final.to_csv('./data/ground_truth_total.csv', index=False)
 
 # print(df_final.head())

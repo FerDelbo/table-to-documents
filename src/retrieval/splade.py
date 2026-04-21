@@ -26,6 +26,8 @@ class Retrieval:
         
         for doc in documents:
             self.corpus.append(open(doc).read())
+        
+        print(f"Corpus size: {len(self.corpus)} documents\n")
 
         cache_path = self._get_cache_path(documents)
         if cache_path.exists():
