@@ -118,7 +118,7 @@ Edite o `.env` com suas credenciais:
 GOOGLE_API_KEY=sua_chave_aqui
 API_URL=https://generativelanguage.googleapis.com/v1beta/models/{MODEL_NAME}:generateContent?key={API_KEY}
 API_KEY=sua_chave_aqui
-MODEL_NAME=gemini-2.5-flash
+MODEL_NAME=gemini-3.0-flash
 PROVIDER=gemini
 ```
 
@@ -217,7 +217,6 @@ A classe `TableRepresentation` implementa 9 formas de converter uma tabela CSV e
 Após o retrieval, as seguintes métricas são calculadas automaticamente por tabela:
 
 - **Precision@K** — proporção de documentos recuperados que são relevantes
-- **Recall@K** — proporção de documentos relevantes que foram recuperados
 
 Os resultados são salvos na planilha `data/results.csv` com o nome da tabela, estratégia de representação utilizada, métricas, IDs recuperados e a similiradidade de cosseno. 
 
