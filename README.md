@@ -2,7 +2,7 @@
 
 > Geração de pseudo-documentos a partir de tabelas relacionais com LLM e recuperação semântica esparsa via SPLADE.
 
-Este projeto foi desenvolvido como parte de um Trabalho de Conclusão de Curso (TCC) e investiga a tarefa de **table augmentation**: dado uma tabela estruturada, o sistema gera documentos em linguagem natural que descrevem semanticamente seu conteúdo, e em seguida recupera os documentos mais relevantes para ela usando recuperação esparsa.
+Este projeto investiga a tarefa de **table-to-documents**: dado uma tabela estruturada, o sistema gera documentos em linguagem natural que descrevem semanticamente seu conteúdo, e em seguida recupera os documentos mais relevantes para ela usando recuperação esparsa.
 
 O pipeline é avaliado sobre tabelas extraídas do [Spider 1](https://yale-lily.github.io/spider), um benchmark amplamente utilizado para tarefas de *text-to-SQL*.
 
@@ -88,7 +88,7 @@ table-to-documents/
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/FerDelbo/table-to-documents.git
+git clone url
 cd table-to-documents
 ```
 
@@ -246,7 +246,5 @@ Este projeto utiliza o **Spider 1** — um benchmark de larga escala para tarefa
 ---
 
 ## 📝 Sobre
-
-Projeto desenvolvido como Trabalho de Conclusão de Curso (TCC).
 
 Dúvidas ou sugestões, abra uma [issue](https://github.com/FerDelbo/table-to-documents/issues).
